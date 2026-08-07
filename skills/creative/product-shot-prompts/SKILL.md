@@ -31,7 +31,7 @@ BOOTSTRAP: Study reference images, fill Section A with forensic numeric values, 
 4. **Keep it SHORT.** ~80-120 words. 3 clean conceptual sections, not a technical spec sheet.
 5. **Match reference image style.** Mention "styled exactly like [reference image name]" as the visual bible.
 
-## Prompt Format (Model-Style — use this instead of 11-slot template)
+## Prompt Format (Model-Style — the ONLY format to use)
 
 ```
 A photorealistic [category] campaign image of the product [STATE/POSITION description].
@@ -45,9 +45,13 @@ A photorealistic [category] campaign image of the product [STATE/POSITION descri
 
 ~80-120 words total. No product details. Only composition + lighting + mood.
 
+**Why this format:** User explicitly rejected longer technical prompts (350+ words with f-stops, mm, hex codes). Short conceptual prompts produce better results because the image model makes better creative decisions when given concepts rather than specs. "Less is more" — every word must earn its place.
+
 ## Output
 
-Prompt (80-120 words, flowing English) + Identity Lock bullets (product changes only, not details) + Style Source traceability.
+Prompt (80-120 words, flowing English, Model-Style format) + Identity Lock bullets (product changes only, not details) + Style Source traceability.
+
+No 11-slot template. No technical specs in the prompt body. Just concept + composition + lighting + mood.
 
 ## Hard Rules
 
@@ -102,16 +106,17 @@ Before the prompt, write ONE sentence in Persian explaining the creative concept
 
 ### Step 2 — Then Write the Prompt
 
-NOW fill the 11 slots, but every clause should SERVE the concept. Technical specs (slots 4-9 from Section A) are the vehicle, not the destination.
+Use the Model-Style format (3 sections, ~100 words). Every clause should SERVE the concept. Never describe product details — the image model sees the product. Only describe: product STATE/POSITION, composition, lighting, mood. Section A values (lighting, background, color grade) inform the concept but are NOT listed as specs in the prompt.
 
-### Step 3 — Offer Multiple Concepts
+### Step 3 — ONE Best Prompt (Default)
 
-When user asks for ideas ("ایده بده"), provide 3-4 DIFFERENT creative concepts, each with:
-- A distinct visual metaphor
-- A different hero reference as backbone
-- A comparison table showing how they differ
+**DEFAULT: Deliver exactly ONE best prompt.** Not three options. Not a menu. The strongest creative concept, confidently. The user trusts your judgment — prove it.
 
-**Never give the same concept with minor tweaks. Each must be genuinely different.**
+**When to give multiple:** ONLY when user explicitly asks ("ایده بده", "چند تا ایده بده", "alternatives"). Then give 2-3 genuinely different concepts with distinct visual metaphors and different reference backbones.
+
+**Reference images are ALWAYS used** unless the user explicitly says not to. Never write a prompt without anchoring it to a specific hero reference image. The reference provides the structural backbone — composition, lighting setup, spatial relationships. The prompt must MATCH the reference image's structure, not just borrow its mood.
+
+**⚠️ CRITICAL — Structure Match Test:** Before outputting, ask yourself: "If someone looked at the reference image and this prompt side by side, would the PROMPT describe the SAME composition?" If the reference has a wave form, the prompt must describe a wave form. If the reference has hands cradling, the prompt must describe hands cradling. NEVER use a reference for mood only while inventing a completely different composition.
 
 ### Example of BAD vs GOOD
 
