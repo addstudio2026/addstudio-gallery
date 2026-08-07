@@ -30,6 +30,8 @@ BOOTSTRAP: Study reference images, fill Section A with forensic numeric values, 
 3. **Focus on: composition, lighting, mood/style.** That's it. Not f-stops, not mm, not hex codes for the product.
 4. **Keep it SHORT.** ~80-120 words. 3 clean conceptual sections, not a technical spec sheet.
 5. **Match reference image style.** Mention "styled exactly like [reference image name]" as the visual bible.
+6. **Use poetic metaphors, NOT technical descriptions.** "wisps of light curl like smoke" ✅ not "ribbon of translucent material" ❌. "glowing particles drift lazily" ✅ not "scattered light elements" ❌. Image models respond to MOVEMENT and FEELING, not shapes and materials. Every visual element should have a simile or metaphor that makes it feel alive.
+7. **Don't save images until user explicitly says so.** When user sends a product image, write the prompt first. Only save if user says "ذخیره کن" or similar. The image was sent for prompt writing, not for archiving.
 
 ## Prompt Format (Model-Style — the ONLY format to use)
 
@@ -49,9 +51,9 @@ A photorealistic [category] campaign image of the product [STATE/POSITION descri
 
 ## Output
 
-Prompt (80-120 words, flowing English, Model-Style format) + Identity Lock bullets (product changes only, not details) + Style Source traceability.
+Prompt (80-120 words, flowing English, Model-Style format) + Identity Lock bullets (product changes only, not details).
 
-No 11-slot template. No technical specs in the prompt body. Just concept + composition + lighting + mood.
+No 11-slot template. No technical specs in the prompt body. No reference file names in the output. Just concept + composition + lighting + mood. The prompt must stand alone — the user feeds it directly to the image model.
 
 ## Hard Rules
 
@@ -77,6 +79,8 @@ Product fidelity absolute. Never invent label text. No props unless asked. Promp
 - Version your files: use `version: X.Y` in frontmatter. When you want to change style, create a new version and keep the old one — sometimes the previous version was better.
 - **Outlier identification**: During BOOTSTRAP, identify images that deviate from the dominant pattern (e.g., hard sporty lighting, collage format, non-warm palette). Exclude them from the locked-style derivation. Note them in the output so the user knows which references were excluded and why.
 - **⚠️ CRITICAL — Creative Director, NOT Camera Technician**: The user explicitly corrected a prompt written as camera specs with no creative concept. User said: "اصلا خوب نیست و شبیه به عکس ها نشده" (not good, doesn't look like the images). A technically correct prompt without a story/concept is worthless. See "Creative Director Mode" below.
+- **⚠️ CRITICAL — Never include reference file names in prompt output.** The reference is the agent's thinking tool, not part of the deliverable. The prompt must stand alone.
+- **⚠️ CRITICAL — Concept must serve the product.** A visually beautiful concept that has nothing to do with the product is a failure. Always ask: "What does this product DO and does this image tell THAT story?" Sunscreen → protection/morning. Serum → luxury/precious. Cleanser → freshness/clarity. Match concept to function.
 - **User may request product material/finish changes**: If user says "cream should be visible" or "liquid should be white" or "tilt the product", update Identity Lock to include those modifications. Core brand elements (logo, text, shape, colors) stay locked; user-requested material/finish/pose changes are part of the new product identity.
 
 ---
@@ -116,12 +120,19 @@ Use the Model-Style format (3 sections, ~100 words). Every clause should SERVE t
 
 **Reference images are ALWAYS used** unless the user explicitly says not to. Never write a prompt without anchoring it to a specific hero reference image. The reference provides the structural backbone — composition, lighting setup, spatial relationships. The prompt must MATCH the reference image's structure, not just borrow its mood.
 
+**⚠️ CRITICAL — Reference files are YOUR tool, not the deliverable.** Never include reference image file names (e.g., "19-lowe-advanced-lotion-wave.jpg") in the prompt output. The user corrected this explicitly. The reference shapes your thinking; the prompt stands alone. If the user asks for the source, then provide it.
+
 **⚠️ CRITICAL — Structure Match Test:** Before outputting, ask yourself: "If someone looked at the reference image and this prompt side by side, would the PROMPT describe the SAME composition?" If the reference has a wave form, the prompt must describe a wave form. If the reference has hands cradling, the prompt must describe hands cradling. NEVER use a reference for mood only while inventing a completely different composition.
+
+**⚠️ CRITICAL — Product-Concept Alignment Test:** Before outputting, ask: "What IS this product, and does this image SERVE it?" A concept that is visually beautiful but irrelevant to the product is a failure. The golden liquid pool was rejected for a sunscreen-on-oily-skin because honey-like viscosity has nothing to do with lightweight mineral protection. Every concept must answer: What does this product DO for the user? How does the visual tell THAT story? Sunscreen → morning ritual, protection, light. Serum → luxury ritual, preciousness. Cleanser → freshness, clarity. Match the concept to the product's function and the user's need.
 
 ### Example of BAD vs GOOD
 
 **BAD (camera technician):**
 > "A vertical product photo with 85mm lens at f/2.8, key light upper-left at 45 degrees, soft fill from right, gradient background #FDF5E6 to #E2C4A3..."
 
-**GOOD (creative director):**
-> "A photorealistic luxury skincare campaign of a white sunscreen tube standing like a monolithic guardian against a warm orange studio, two geometric terracotta blocks behind it creating architectural depth, soft directional light from upper-left catching the tube's left edge in crisp gold while the rest remains in controlled shadow, the white plastic contrasts sharply against the saturated orange surroundings making it the undeniable focal point, every design element follows Swiss Grid precision guiding the eye from product shape to brand to SPF rating in three seconds, the result must feel iconic like a real D&AD awarded campaign..."
+**BAD (correct concept, wrong language):**
+> "...a translucent ribbon of soft warm light curls around the product..." — technical, mechanical, dead.
+
+**GOOD (creative director + poetic language):**
+> "A photorealistic luxury skincare campaign image of the product floating weightlessly at a slight tilt in a soft pale sage-green environment, thin wisps of warm white light curl around the product like smoke caught in a gentle breeze, glowing particles drift lazily through the air catching the light as they pass, a narrow focused beam of warm white light strikes the tube from above at a slight angle creating a crisp luminous highlight along its surface..."
