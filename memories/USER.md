@@ -1,0 +1,5 @@
+User works in product photography prompt engineering. Building reference image libraries for brand style bootstrapping (PRODUCT_SHOT_SKILL system with locked style memory).
+§
+User communicates in Persian, expects Persian notes but English prompts. Direct feedback style. Auto-save images without waiting. Rich detailed tags (color, placement, lighting, composition, mood, emoji). Reference images MUST be used as style anchors — not generic descriptions. Products must remain 100% unchanged. KEY LESSON: Image prompts = CONCEPT + FEELING + PRODUCT CONSTRAINTS, not pixel-level tech specs. Shorter beats longer (100-word poetic beat 350-word technical). Think Creative Director (D&AD/Cannes level), not camera manual. Poster-addstudio-v01 skill: do not edit.
+§
+User: Hosein Mirhoseini. Persian (Farsi) speaker, prompts in English. Product photography / creative director for skincare/beauty brands. Owns brand 'Lá farterr' (mineral sunscreen SPF 40+). Workspace: /data/workspace/addstudio-v01/. Uses Telegram.
