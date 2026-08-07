@@ -31,7 +31,7 @@ BOOTSTRAP: Study reference images, fill Section A with forensic numeric values, 
 4. **Keep it SHORT.** ~80-120 words. 3 clean conceptual sections, not a technical spec sheet.
 5. **Match reference image style.** Mention "styled exactly like [reference image name]" as the visual bible.
 6. **Use poetic metaphors, NOT technical descriptions.** "wisps of light curl like smoke" ✅ not "ribbon of translucent material" ❌. "glowing particles drift lazily" ✅ not "scattered light elements" ❌. Image models respond to MOVEMENT and FEELING, not shapes and materials. Every visual element should have a simile or metaphor that makes it feel alive.
-7. **Don't save images until user explicitly says so.** When user sends a product image, write the prompt first. Only save if user says "ذخیره کن" or similar. The image was sent for prompt writing, not for archiving.
+7. **Don't save images until user explicitly says so.** When user sends a product image for prompt writing, write the prompt first. Only save if user says "ذخیره کن" or similar. HOWEVER: REFERENCE images (from other brands, for style bootstrapping) ARE auto-saved immediately — the user sends many and expects auto-save. DISTINCTION: product images = wait for command. Reference images = save now.
 
 ## Prompt Format (Model-Style — the ONLY format to use)
 
@@ -93,11 +93,12 @@ The 11-slot template provides the TECHNICAL foundation. But a prompt without a c
 
 ### Step 0 — Think Like a Creative Director
 
-1. **What is the PRODUCT'S STORY?** Not "what is it" but "what does it MEAN to the user?" (e.g., sunscreen = protection, serum = luxury ritual, cleanser = fresh start)
-2. **What VISUAL METAPHOR communicates that story?** (e.g., shield in sunlight, monument in light, wave of cream, hands cradling something precious)
-3. **What will the viewer FEEL in 3 seconds?** (trust, aspiration, calm, power, tenderness)
-4. **What is the SINGLE FOCAL POINT?** (product = hero, always)
-5. **Pick a REFERENCE IMAGE** from hero references that best matches the product CATEGORY (tube → Clarins-style, bottle → MI×IT-style, dropper → La Roche-Posay-style) and use its composition as structural backbone.
+1. **Pick a REFERENCE IMAGE** from hero references that best matches the product CATEGORY (tube → Clarins-style, bottle → MI×IT-style, dropper → La Roche-Posay-style).
+2. **SHOW the reference to the user first** — send the image, wait for approval. Do NOT write the prompt until the user confirms the reference.
+3. **What is the PRODUCT'S STORY?** Not "what is it" but "what does it MEAN to the user?" (e.g., sunscreen = protection, serum = luxury ritual, cleanser = fresh start)
+4. **What VISUAL METAPHOR communicates that story?** (e.g., shield in sunlight, monument in light, wave of cream, hands cradling something precious)
+5. **What will the viewer FEEL in 3 seconds?** (trust, aspiration, calm, power, tenderness)
+6. **What is the SINGLE FOCAL POINT?** (product = hero, always)
 
 ### Step 1 — Write the Concept Line
 

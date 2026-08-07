@@ -1,11 +1,16 @@
 # Reference Image Collection & Tagging Format
 
-## Step 1: Auto-save immediately
+## Step 1: Save behavior (depends on image type)
 
-When the user sends a reference image:
+### REFERENCE images (from other brands, for style bootstrapping):
 1. Save to the project folder with sequential naming: `01-brand-product.jpg`, `02-brand-product.jpg`, etc.
 2. Reply in ONE message: "ذخیره شد ✅" + the rich tag below.
-3. Do NOT wait for explicit instruction. The user will send many images and expects auto-save.
+3. Do NOT wait for explicit instruction. The user sends many and expects auto-save.
+
+### PRODUCT images (user's own products, for prompt writing):
+1. Do NOT save until user explicitly says "ذخیره کن" or similar.
+2. Write the prompt first. Only save if user requests it.
+3. The image was sent for prompt writing, not for archiving.
 
 ## Step 2: Rich tagging (all 9 axes mandatory)
 
