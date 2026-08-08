@@ -74,3 +74,13 @@ Typography must feel intentionally crafted. Perfect hierarchy. Perfect font pair
 Every object must justify its existence. Remove anything that weakens communication. Use fewer but stronger visual elements. Guide the viewer's eye naturally. The main message must be understood within three seconds. If a completely different concept creates a stronger result, choose the different concept.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ QUALITY STANDARD ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 The final image must not resemble an AI-generated poster. It must look like a real campaign created by an elite creative agency. Aim for the quality level of the world's best work seen on Behance, Awwwards, D&AD, Pentawards, Communication Arts, Adobe MAX, Cannes Lions, and top international branding studios. The final result should feel iconic, commercially believable, emotionally powerful, visually unforgettable, and portfolio-worthy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ PRODUCT PHOTOGRAPHY RULES ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+When writing product photography prompts:
+
+1. **NEVER describe product details (colors, text, materials, shape, label) in the prompt text.** The product image is already provided to the image model. Just say "the product". The model sees the image.
+2. **BUT always describe product STATE/POSITION.** Whether it's floating, tilted, standing, lying, suspended, cradled, leaning — this IS composition and must be in the prompt.
+3. **Focus on: composition, lighting, mood/style.** That's it.
+4. **Keep it SHORT.** ~80-120 words. 3 clean conceptual sections, not a technical spec sheet.
+5. **Use poetic metaphors, NOT technical descriptions.** "wisps of light curl like smoke" ✅ not "ribbon of translucent material" ❌.
+6. **Product fidelity absolute.** Identity Lock = just "product remains 100% unchanged". No listing of colors, fonts, or label elements.

@@ -23,6 +23,18 @@ If fields are empty, refuse to generate and tell user to run BOOTSTRAP first.
 
 BOOTSTRAP: Study reference images, fill Section A with forensic numeric values, output updated file, stop. GENERATE: Write prompt using the model-style format below. VARIANTS: Change only product position/placement. CRITIQUE: Score 0-10 per axis, revise if below 7.
 
+## ⚠️ CRITICAL — Workflow Checkpoint (MUST do before ANY action)
+
+**Before doing anything else in a session, ALWAYS:**
+1. **Load this skill** (product-shot-prompts) with `skill_view`
+2. **Load `poster-addstudio-v01`** if generating prompts
+3. **Check `references/reference-tagging-format.md`** for latest tagging format
+4. **THEN start working**
+
+User explicitly corrected: "اسکیل واست نوشتم که احمق" — do NOT skip skill loading. The skill contains corrections and workflows that prevent repeated mistakes.
+
+---
+
 ## ⚠️ CRITICAL — Prompt Writing Rules (learned from user corrections)
 
 1. **NEVER describe product details in the prompt text.** The product image is already provided to the image model. Just say "the product" or "the uploaded product". Colors, text, materials, shape — all invisible to the prompt. The model sees the image.
@@ -51,7 +63,16 @@ A photorealistic [category] campaign image of the product [STATE/POSITION descri
 
 ## Output
 
-Prompt (80-120 words, flowing English, Model-Style format) + Identity Lock bullets (product changes only, not details).
+Prompt (80-120 words, flowing English, Model-Style format) + Identity Lock.
+
+**Identity Lock format (MANDATORY):**
+```
+## Identity Lock
+- Product remains 100% unchanged, no modifications to shape, color, label, or branding
+- Preserve label artwork exactly as in the reference image, do not regenerate or re-typeset any text
+```
+
+**NEVER list product details in Identity Lock.** No colors, no fonts, no label elements, no materials. The user explicitly corrected this. The image model sees the product — it doesn't need you to describe it.
 
 No 11-slot template. No technical specs in the prompt body. No reference file names in the output. Just concept + composition + lighting + mood. The prompt must stand alone — the user feeds it directly to the image model.
 
@@ -59,21 +80,48 @@ No 11-slot template. No technical specs in the prompt body. No reference file na
 
 Product fidelity absolute. Never invent label text. No props unless asked. Prompt in English always. No hedging. Under 220 words.
 
-## Reference Image Collection Protocol
+## Reference Image Collection Protocol (v2.0)
 
-1. **Auto-save on receipt**: Save each image immediately to the project folder (e.g. `/data/workspace/<project>/`) with a sequential numbered filename. Do NOT wait for the user to say "save" — they will get frustrated if you pause.
-2. **Tag on save**: After saving, reply with the tag in the rich format below. Confirm save + tag in one message.
-3. **Rich tagging required**: See `references/reference-tagging-format.md` for the required 9 axes. User explicitly corrected brief tags — color palette, product placement, lighting, background, composition, mood, and poster concept must all be described. Brief one-line tags are NOT acceptable.
+**File naming:** `R{NNN}_{category}_{brand-or-unknown}_{layout}.jpg` — `R{NNN}` is the unique key, never changes.
 
-### Tag reply format
+### Save behavior
+- **REFERENCE** (brand style bootstrapping) → auto-save + tag in the same message.
+- **PRODUCT** (user's own product) → **do NOT save**. Write prompt first. Only save if user explicitly says "ذخیره کن" or similar.
+- **Ambiguous?** Ask one short question. Do not auto-save.
+
+### Dual output (mandatory)
+Every image gets TWO outputs:
+
+**A) One-liner for quick scanning:**
 ```
-ذخیره شد ✅
-
-- `#NN` — Brand Product | rich description here 🔖
+- `R027` — SYNSKIN Acnes Toner | matte white tube, cool teal gradient, floating 15° tilt, water bubbles, soft diffused key + cold rim, 9:16 story, "clinical / aquatic-fresh" 🔵
 ```
+
+**B) YAML block (agent source of truth):** See `references/reference-tagging-format.md` for the full 11-section YAML format with all 18 required fields.
+
+### After save
+Update both `INDEX.md` (one-liner table) and `references.yaml` (YAML blocks). If not updated, save is incomplete.
+
+### Retrieval (for product prompts)
+When user sends their own product image:
+1. Extract: category, container_type, container_material, dominant colors, opacity, label busyness
+2. Match against index (container_type 30%, category 20%, fits 20%, color 15%, difficulty 10%, mood 5%)
+3. Return top 3 references with id, thumbnail, why-it-fits
+4. Take chosen prompt_seed → fill placeholders → adapt to product's palette → output final prompt
+
+### Acceptance criteria
+A tag is REJECTED if:
+- Any `required` field is empty or `TBD`
+- `props` present but `prop_placement` missing
+- `concept_idea` < 8 words
+- `prompt_seed` has no placeholders (= generic)
+- Brand guessed without evidence → must be `unknown`
+
+**18 required fields:** category, container_type, palette_product, palette_scene, color_temperature, placement, camera_angle, product_scale, props, lighting_quality, key_direction, shadow_type, background_type, surface, layout_archetype, negative_space, mood, concept_idea, prompt_seed
 
 ## Pitfalls
 
+- **⚠️ ALWAYS load this skill FIRST.** Before doing any product photography work, call `skill_view(name='product-shot-prompts')` and `skill_view(name='poster-addstudio-v01')`. The user explicitly said: "اسکیل واست نوشتم که احمق" — skipping skill loading causes repeated mistakes that are already solved in the skill files.
 - Always keep `locked: true`. Once bootstrap is done, Section A is immutable.
 - 5 well-matched references beat 20 inconsistent ones. If bootstrap must average between two conflicting lighting setups, the result will be lifeless.
 - Version your files: use `version: X.Y` in frontmatter. When you want to change style, create a new version and keep the old one — sometimes the previous version was better.
@@ -82,6 +130,9 @@ Product fidelity absolute. Never invent label text. No props unless asked. Promp
 - **⚠️ CRITICAL — Never include reference file names in prompt output.** The reference is the agent's thinking tool, not part of the deliverable. The prompt must stand alone.
 - **⚠️ CRITICAL — Concept must serve the product.** A visually beautiful concept that has nothing to do with the product is a failure. Always ask: "What does this product DO and does this image tell THAT story?" Sunscreen → protection/morning. Serum → luxury/precious. Cleanser → freshness/clarity. Match concept to function.
 - **User may request product material/finish changes**: If user says "cream should be visible" or "liquid should be white" or "tilt the product", update Identity Lock to include those modifications. Core brand elements (logo, text, shape, colors) stay locked; user-requested material/finish/pose changes are part of the new product identity.
+- **⚠️ CRITICAL — Tags MUST be written to disk, not just shown in chat.** Every tag (one-liner + YAML block) must be saved to `references.yaml` and `INDEX.md`. Showing tags in chat without saving to disk is an INCOMPLETE save. User explicitly corrected this: "اینو به عنوان یکی از اصلی ترین کارهات باید سیو‌کنی". If disk write fails, the save didn't happen.
+- **⚠️ CRITICAL — Batch images = individual tags.** When user sends multiple images at once, each image gets its OWN full YAML tag (one-liner + complete YAML block). Never batch them together or skip individual tagging. User explicitly corrected: "ببین باید همه رو تگ گذاری کنی جدا جدا".
+- **⚠️ CRITICAL — Visual analysis must be FORENSIC.** When tagging references, describe EVERY visible element: props, VFX, textures, surface details. Missing a prop (e.g., gel shapes behind a bottle) means the tag is wrong and the user will correct you. User corrected R020: "پشتش ژل هست!" — I had written `props: [none]` when gel blobs were clearly visible. If you can see it, tag it.
 
 ---
 
