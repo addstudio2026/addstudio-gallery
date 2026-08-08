@@ -1,85 +1,74 @@
 id: R006
-file: R006_skincare_unknown_lifestyle-in-use.jpg
+file: R006_skincare_handcreamglow_lifestyle-in-use.jpg
 
-# --- 1. PRODUCT IDENTITY ---
 brand: unknown
 product_name: Hand Cream Glow Me
 category: skincare
 subcategory: hand_cream
 container_type: tube
 container_material: matte_plastic
-label_style: brown_typographic_monogram
+label_style: brown_typographic
 
-# --- 2. COLOR ---
-palette_product: ["#F5F0EB off-white", "#8B6B52 warm brown text"]
-palette_scene: ["#F3D9C6 warm beige", "#D4A889 skin tone"]
+palette_product: ["#F5F5F5 off-white", "#D2B48C tan brown text", "#FFFFFF white cream"]
+palette_scene: ["#FDF5E6 old lace", "#FADADD pale pink"]
 color_temperature: warm
 contrast: low
 saturation: muted
-accent_color: warm_brown
+accent_color: peach_beige
 
-# --- 3. PLACEMENT & CAMERA ---
-placement: held_in_hand
-camera_angle: eye_level
+placement: in_use_application
+camera_angle: high_angle_closeup
 product_scale: closeup
-depth_of_field: shallow
+depth_of_field: very_shallow
 product_count: 1
 
-# --- 4. PROPS & VFX ---
 props: [human_hands, cream_texture]
-prop_placement: "upper hand squeezing tube, lower hand receiving cream on back"
-vfx: [none]
+prop_placement: "one hand holding the tube, dispensing thick white cream onto the back of the other hand"
+vfx: [soft_glow, skin_texture_detail]
 human_presence: hand
 
-# --- 5. LIGHTING ---
-lighting_quality: soft_diffused
-key_direction: front
+lighting_quality: soft_diffused_natural
+key_direction: front_side_45
 rim_light: none
 fill: high
-shadow_type: soft_short
-light_temperature_k: 3800
+shadow_type: soft_invisible
+light_temperature_k: 4000
 
-# --- 6. BACKGROUND & SURFACE ---
-background_type: solid
-background_color: warm_beige
+background_type: seamless_solid
+background_color: warm_peach_beige
 gradient_direction: n/a
 surface: none
 reflection: none
 
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: lifestyle_in_use
-crop: medium_tight
-negative_space: top
+crop: tight_closeup
+negative_space: around
 symmetry: asymmetrical
 aspect_ratio: "4:5"
 
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
 
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
-post_processing: clean
-mood: "intimate, clean, luxury application"
+post_processing: clean_soft
+mood: "intimate, clean, luxurious, gentle"
 season_occasion: none
 
-# --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Cream being dispensed onto skin — product in action, tactile luxury moment."
-fits_product_types: [hand_cream, body_cream, lotion]
-fits_container: [tube]
-swap_difficulty: easy
-strength: "real usage moment + texture showcase"
-avoid_if: "bottles, droppers, non-squeezable containers"
+concept_idea: "Capturing the tactile moment of cream application — emphasizing texture, skin-care ritual, and soft luxury."
+fits_product_types: [hand_cream, body_lotion, skin_balm]
+fits_container: [tube, jar]
+swap_difficulty: medium
+strength: "tactile texture + human touch + warm neutral palette"
+avoid_if: "clinical white backgrounds, harsh lighting, non-human focus"
 
-# --- 11. PROMPT SEED ---
 prompt_seed: >
-  A photorealistic lifestyle skincare image of {PRODUCT} being squeezed by
-  one hand onto the back of another hand, thick white cream pooling on skin.
-  Warm beige solid background, soft even lighting from left, shallow depth
-  of field, ultra-realistic skin texture, natural nails, intimate application
-  moment, warm 3800K, 4:5 vertical.
-negative_prompt: "harsh shadows, artificial skin, cluttered background, text, watermark"
+  Intimate high-angle closeup of a matte off-white squeeze tube dispensing a 
+  thick, glossy white cream onto the back of a soft-textured hand. 
+  Soft diffused front-side lighting, warm peach-beige seamless background. 
+  Extreme shallow depth of field, focus on the cream texture and skin pores. 
+  Clean luxury aesthetic, warm 4000K lighting, 4:5 vertical.
+negative_prompt: "harsh shadows, clinical blue tones, dark mood, cluttered, watermark, artificial skin"
 
 emoji: 🤲
-notes_fa: "کرم روی پوست دست — لحظه استفاده واقعی و حس لوکس."
+notes_fa: "لحظه استفاده از کرم روی دست — تاکید بر بافت کرم و حس لمس لوکس و نرم."
