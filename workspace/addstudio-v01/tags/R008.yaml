@@ -1,4 +1,74 @@
 id: R008
 file: R008_skincare_moreandcore_hero-center-prop.jpg
 
-#
+brand: more&core
+product_name: SPF50+ Sunstick + Serum
+category: skincare
+subcategory: sunscreen
+container_type: stick
+container_material: glossy_plastic
+label_style: orange_typographic
+
+palette_product: ["#FFFFFF white", "#F57C20 bright orange", "#C68A4B amber glass"]
+palette_scene: ["#E8723A tennis orange", "#FFFFFF white lines"]
+color_temperature: warm
+contrast: high
+saturation: vivid
+accent_color: tangerine_orange
+
+placement: upright_centered_with_props
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 2
+
+props: [tennis_ball, sports_equipment, clean_lines]
+prop_placement: "product placed alongside a tennis ball and structured white lines, creating a sporty aesthetic"
+vfx: [specular_highlights, sharp_reflections]
+human_presence: none
+
+lighting_quality: bright_studio_commercial
+key_direction: top_front
+rim_light: subtle_warm
+fill: high
+shadow_type: soft_defined
+light_temperature_k: 5000
+
+background_type: seamless_surface
+background_color: tennis_orange
+gradient_direction: top_to_bottom
+surface: matte_orange_court
+reflection: soft_diffused
+
+layout_archetype: hero_center_with_props
+crop: medium
+negative_space: around
+symmetry: asymmetrical_balanced
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: clean_commercial
+mood: "energetic, sporty, fresh, protective"
+season_occasion: summer_sports
+
+concept_idea: "Blending skincare with a sports/tennis theme — emphasizing high protection and energy through a vibrant orange court aesthetic."
+fits_product_types: [sunscreen, sunstick, sports_care]
+fits_container: [stick, tube]
+swap_difficulty: medium
+strength: "sporty conceptual props + high-saturation orange palette"
+avoid_if: "dark moods, clinical white backgrounds, luxury-minimalist vibes"
+
+prompt_seed: >
+  High-energy studio product photograph of {PRODUCT} placed on a vibrant 
+  tangerine-orange tennis court surface with crisp white court lines. 
+  Accompanied by a clean tennis ball prop. Bright commercial studio lighting, 
+  sharp specular highlights on the glossy plastic, shallow depth of field. 
+  Saturated orange and white color palette, fresh sporty mood, 5000K light, 4:5 vertical.
+negative_prompt: "dark colors, gloomy, luxury hotel vibe, blurry, low contrast, cluttered, watermark"
+
+emoji: 🎾
+notes_fa: "تم ورزشی/تنیس با رنگ نارنجی شدید — تاکید بر محافظت در برابر آفتاب و انرژی."
