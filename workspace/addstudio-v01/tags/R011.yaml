@@ -1,0 +1,73 @@
+id: R011
+file: R011_skincare_skin1004_diagonal-dynamic.jpg
+
+brand: SKIN1004
+product_name: Madagascar Centella Ampoule
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: clear_glass
+label_style: minimal_white_typographic
+
+palette_product: ["#C68A4B amber liquid", "#FFFFFF white label", "#FFFFFF white cap"]
+palette_scene: ["#3A2518 dark brown", "#F3D9C6 warm peach"]
+color_temperature: warm
+contrast: high
+saturation: medium
+accent_color: amber_gold
+
+placement: diagonal_dynamic
+camera_angle: low_angle_tilted
+product_scale: medium
+depth_of_field: shallow
+product_count: 2
+
+props: [none]
+prop_placement: n/a
+vfx: [specular_highlights, light_refraction]
+human_presence: none
+
+lighting_quality: cinematic_hard_soft_mix
+key_direction: side_lighting
+rim_light: strong_gold
+fill: low
+shadow_type: deep_defined
+light_temperature_k: 3200
+
+background_type: seamless_gradient
+background_color: warm_dark_brown
+gradient_direction: center_to_edges
+surface: reflective_dark_glass
+reflection: strong_mirror_reflection
+
+layout_archetype: diagonal_dynamic
+crop: medium
+negative_space: top_right
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: cinematic_grading
+mood: "editorial, premium, mysterious, bold"
+season_occasion: none
+
+concept_idea: "Diagonal dynamic placement with strong rim lighting and mirror reflections — conveying a high-end editorial beauty campaign feel."
+fits_product_types: [serum, ampoule, high_end_oil]
+fits_container: [glass_bottle, dropper_bottle]
+swap_difficulty: medium
+strength: "diagonal composition + strong rim light + mirror reflection"
+avoid_if: "flat layouts, bright airy backgrounds"
+
+prompt_seed: >
+  Cinematic studio photograph of {PRODUCT} placed diagonally on a dark reflective mirror surface. 
+  Strong golden rim lighting from the side, creating sharp outlines and deep shadows. 
+  Dark brown seamless gradient background, high contrast, shallow depth of field. 
+  Hyper-realistic glass reflections, luxury editorial mood, 3200K warm lighting, 4:5 vertical.
+negative_prompt: "flat lighting, bright white background, low contrast, blurry product, text, watermark"
+
+emoji: 🌿
+notes_fa: "چیدمان مورب و دینامیک با نور ریم‌لایت شدید و بازتاب آینه‌ای — حس ادیتوریال لوکس."

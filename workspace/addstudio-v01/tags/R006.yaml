@@ -1,0 +1,74 @@
+id: R006
+file: R006_skincare_handcreamglow_lifestyle-in-use.jpg
+
+brand: unknown
+product_name: Hand Cream Glow Me
+category: skincare
+subcategory: hand_cream
+container_type: tube
+container_material: matte_plastic
+label_style: brown_typographic
+
+palette_product: ["#F5F5F5 off-white", "#D2B48C tan brown text", "#FFFFFF white cream"]
+palette_scene: ["#FDF5E6 old lace", "#FADADD pale pink"]
+color_temperature: warm
+contrast: low
+saturation: muted
+accent_color: peach_beige
+
+placement: in_use_application
+camera_angle: high_angle_closeup
+product_scale: closeup
+depth_of_field: very_shallow
+product_count: 1
+
+props: [human_hands, cream_texture]
+prop_placement: "one hand holding the tube, dispensing thick white cream onto the back of the other hand"
+vfx: [soft_glow, skin_texture_detail]
+human_presence: hand
+
+lighting_quality: soft_diffused_natural
+key_direction: front_side_45
+rim_light: none
+fill: high
+shadow_type: soft_invisible
+light_temperature_k: 4000
+
+background_type: seamless_solid
+background_color: warm_peach_beige
+gradient_direction: n/a
+surface: none
+reflection: none
+
+layout_archetype: lifestyle_in_use
+crop: tight_closeup
+negative_space: around
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: clean_soft
+mood: "intimate, clean, luxurious, gentle"
+season_occasion: none
+
+concept_idea: "Capturing the tactile moment of cream application — emphasizing texture, skin-care ritual, and soft luxury."
+fits_product_types: [hand_cream, body_lotion, skin_balm]
+fits_container: [tube, jar]
+swap_difficulty: medium
+strength: "tactile texture + human touch + warm neutral palette"
+avoid_if: "clinical white backgrounds, harsh lighting, non-human focus"
+
+prompt_seed: >
+  Intimate high-angle closeup of a matte off-white squeeze tube dispensing a 
+  thick, glossy white cream onto the back of a soft-textured hand. 
+  Soft diffused front-side lighting, warm peach-beige seamless background. 
+  Extreme shallow depth of field, focus on the cream texture and skin pores. 
+  Clean luxury aesthetic, warm 4000K lighting, 4:5 vertical.
+negative_prompt: "harsh shadows, clinical blue tones, dark mood, cluttered, watermark, artificial skin"
+
+emoji: 🤲
+notes_fa: "لحظه استفاده از کرم روی دست — تاکید بر بافت کرم و حس لمس لوکس و نرم."

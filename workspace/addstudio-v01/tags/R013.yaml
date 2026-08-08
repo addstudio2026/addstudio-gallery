@@ -1,0 +1,74 @@
+id: R013
+file: R013_skincare_clarins_hero-center-blocks.jpg
+
+brand: Clarins
+product_name: SPF30 Youth-protecting Sunscreen
+category: skincare
+subcategory: sunscreen
+container_type: tube
+container_material: matte_plastic
+label_style: white_typographic_with_monogram
+
+palette_product: ["#D4883A golden orange", "#FFFFFF white cap/text"]
+palette_scene: ["#E8A050 light orange", "#8B5E3C dark brown-orange"]
+color_temperature: warm
+contrast: medium
+saturation: medium
+accent_color: golden_orange
+
+placement: centered_on_architectural_blocks
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+
+props: [geometric_blocks, pedestals]
+prop_placement: "product resting on minimalist rectangular blocks of varying heights"
+vfx: [soft_shadows, clean_edges]
+human_presence: none
+
+lighting_quality: soft_studio_diffused
+key_direction: top_front
+rim_light: subtle_warm
+fill: high
+shadow_type: soft_ambient
+light_temperature_k: 4500
+
+background_type: seamless_gradient
+background_color: warm_orange_gradient
+gradient_direction: radial_center
+surface: matte_blocks
+reflection: none
+
+layout_archetype: hero_center_blocks
+crop: medium
+negative_space: around
+symmetry: symmetrical
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: clean_editorial
+mood: "stable, professional, protective, warm"
+season_occasion: summer_protection
+
+concept_idea: "Architectural stability meet solar warmth — using geometric blocks to present the product as a solid, trusted shield."
+fits_product_types: [sunscreen, face_cream, lotion]
+fits_container: [tube, jar]
+swap_difficulty: easy
+strength: "geometric structure + monochromatic warm palette"
+avoid_if: "chaotic layouts, dark cold colors, natural organic backgrounds"
+
+prompt_seed: >
+  Studio product photograph of {PRODUCT} resting on a set of minimalist, 
+  rectangular geometric blocks of varying heights. Seamless warm orange 
+  gradient background, soft diffused studio lighting from the top-front. 
+  Clean architectural lines, soft shadows, shallow depth of field. 
+  Monochromatic golden-orange color palette, professional editorial mood, 4500K, 4:5 vertical.
+negative_prompt: "cluttered, dark tones, organic shapes, high contrast harsh shadows, blurry, watermark"
+
+emoji: 🧱
+notes_fa: "چیدمان روی بلوک‌های هندسی مینیمال — حس پایداری، تخصص و محافظت."
