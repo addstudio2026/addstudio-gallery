@@ -1,39 +1,39 @@
 id: R028
-file: R028_skincare_placeholder.jpg
+file: R028_skincare_synskin_hero-center-blue-fabric.jpg
 
 # --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
-product_name: Acnes Gel-Cream
+product_name: Acnes 0% Oil Gel-Cream Moisturizer
 category: skincare
-subcategory: gel_cream
+subcategory: moisturizer
 container_type: tube
 container_material: matte_plastic
 label_style: blue_gold_typographic
 
 # --- 2. COLOR ---
-palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
-palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
+palette_product: ["#FFFFFF white", "#90CAF9 light blue", "#C9A84C gold"]
+palette_scene: ["#64B5F6 light blue", "#42A5F5 medium blue"]
 color_temperature: cool
-contrast: medium
-saturation: vivid
-accent_color: cyan
+contrast: low
+saturation: medium
+accent_color: light_blue
 
 # --- 3. PLACEMENT & CAMERA ---
-placement: hero_center_spheres
+placement: tilted
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
 
 # --- 4. PROPS & VFX ---
-props: [iridescent_spheres]
-prop_placement: "floating spheres around the product"
-vfx: [dew_droplets]
+props: [blue_fabric_backdrop]
+prop_placement: "product resting on soft, draped blue fabric with gentle folds"
+vfx: [soft_shadows]
 human_presence: none
 
 # --- 5. LIGHTING ---
 lighting_quality: soft_diffused
-key_direction: front
+key_direction: front_left
 rim_light: none
 fill: high
 shadow_type: soft_short
@@ -41,13 +41,13 @@ light_temperature_k: 5500
 
 # --- 6. BACKGROUND & SURFACE ---
 background_type: solid
-background_color: light_sky_blue
+background_color: medium_blue
 gradient_direction: n/a
-surface: matte_paper
+surface: fabric
 reflection: none
 
 # --- 7. COMPOSITION & LAYOUT ---
-layout_archetype: hero_center_spheres
+layout_archetype: hero_center_fabric
 crop: medium
 negative_space: top
 symmetry: asymmetrical
@@ -61,20 +61,20 @@ script_direction: n/a
 # --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean
-mood: "dynamic, scientific, clinical"
+mood: "soft, pure, hydrating, serene"
 season_occasion: none
 
 # --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Floating spheres as symbols of purity."
-fits_product_types: [gel_cream, moisturizer]
+concept_idea: "The soft texture of the fabric emphasizes the gentle and moisturizing nature of the gel-cream."
+fits_product_types: [moisturizer, gel_cream, emulsion]
 fits_container: [tube]
 swap_difficulty: easy
-strength: "spherical geometry + cool palette"
-avoid_if: "warm-toned brands"
+strength: "monochromatic blue palette + soft fabric texture"
+avoid_if: "warm-toned brands, high contrast aesthetics"
 
 # --- 11. PROMPT SEED ---
-prompt_seed: "Studio product photograph of {PRODUCT} centered with iridescent spheres, white matte tube, soft sky-blue background, 4:5 vertical."
-negative_prompt: "harsh shadows, warm tones"
+prompt_seed: "Studio product photograph of {PRODUCT} tilted diagonally on a soft, draped light-blue fabric backdrop with gentle folds. Seamless medium-blue background, soft diffused lighting from the front-left, creating a serene and hydrating atmosphere. High-key monochromatic blue palette, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, cluttered props, text, watermark"
 
 emoji: 🧪
-notes_fa: "کره‌های درخشان — حس علمی."
+notes_fa: "محصول روی پارچه‌ی آبی نرم — حس لطافت و آبرسانی."
