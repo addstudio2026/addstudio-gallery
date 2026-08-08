@@ -1,5 +1,87 @@
 id: R001
 file: R001_skincare_miixit_hero-center-hands.jpg
+
+# --- 1. PRODUCT IDENTITY ---
 brand: MIIXIT
-mood: intimate, luxurious
+product_name: Water Bomb Face Serum
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: clear_glass
+label_style: matte_beige_typographic
+
+# --- 2. COLOR ---
+palette_product: ["#E8DDD1 creamy beige", "#2D5A3D forest green", "#1A1A1A black text"]
+palette_scene: ["#E8DDD1 warm beige", "#D4A889 skin tone"]
+color_temperature: warm
+contrast: low
+saturation: muted
+accent_color: forest_green
+
+# --- 3. PLACEMENT & CAMERA ---
+placement: held_in_hand
+camera_angle: eye_level
+product_scale: closeup
+depth_of_field: shallow
+product_count: 1
+
+# --- 4. PROPS & VFX ---
+props: [human_hands]
+prop_placement: "lower hand cupping base, upper hand hovering above dropper"
+vfx: [none]
+human_presence: hand
+
+# --- 5. LIGHTING ---
+lighting_quality: soft_diffused
+key_direction: front_left_45
+rim_light: none
+fill: high
+shadow_type: soft_short
+light_temperature_k: 3500
+
+# --- 6. BACKGROUND & SURFACE ---
+background_type: seamless_gradient
+background_color: warm_beige
+gradient_direction: center_light_to_edges_dark
+surface: none
+reflection: none
+
+# --- 7. COMPOSITION & LAYOUT ---
+layout_archetype: hero_center_pedestal
+crop: medium_tight
+negative_space: around
+symmetry: symmetrical
+aspect_ratio: "4:5"
+
+# --- 8. TYPOGRAPHY & COPY ---
+has_text: false
+text_zones: []
+script_direction: n/a
+
+# --- 9. STYLE & MOOD ---
+render_style: photoreal_studio
+post_processing: clean
+mood: "intimate, luxurious, calming, ritual"
+season_occasion: none
+
+# --- 10. REUSE / RETRIEVAL ---
+concept_idea: "Two hands cradling a serum bottle in a tender ritual moment — skincare as self-care ceremony."
+fits_product_types: [serum, ampoule, oil, essence]
+fits_container: [dropper_bottle, glass_bottle]
+swap_difficulty: easy
+strength: "human touch + intimate framing + premium simplicity"
+avoid_if: "large bottles, pump products, opaque containers"
+
+# --- 11. PROMPT SEED ---
+prompt_seed: >
+  A photorealistic luxury skincare campaign image of {PRODUCT} held gently
+  between two warm-toned hands, lower palm cradling the base, upper hand
+  hovering above the cap in a tender ritual gesture.
+  Warm beige gradient background, soft golden diffused key light from
+  front-left, glossy glass reflections, shallow depth of field.
+  Ultra-realistic skin texture, natural nails, cinematic warm lighting,
+  intimate self-care energy, 4:5 vertical.
+negative_prompt: "harsh shadows, cluttered background, artificial skin, text overlay, watermark"
+
 emoji: 🤲
+notes_fa: "دست‌ها دور محصول قاب گرفتن — حس مراسم مراقبت از پوست."
