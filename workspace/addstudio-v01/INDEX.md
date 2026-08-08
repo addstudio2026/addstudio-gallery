@@ -22,3 +22,27 @@
 | R018 | LOXWE | Advanced Lotion | skincare | pump | hero-center-wave | sleek, molten luxury | 💎 |
 | R019 | SYNSKIN | Acnes Gel-Cleanser | skincare | tube | hero-center-foam | fresh, clinical purity | 🫧 |
 | R020 | SYNSKIN | Acnes Toner Seboregulating | skincare | pump | hero-center-bubbles | fresh, hydrating clinical | 💧 |
+| R021 | HSYSKIN | Acnes Gel-Cream | skincare | tube | diagonal-dynamic | fresh, clinical | 🧪 |
+| R022 | Lá farrerr | Sunscreen | skincare | tube | hero-center-ribbon | warm, solar energy | ☀️ |
+| R023 | Lá farrerr | Sunscreen | skincare | tube | hero-center-arch | elegant, protective | 🏛️ |
+| R024 | Lá farrerr | Sunscreen | skincare | tube | hero-center-pedestal | bold, structured | 📦 |
+| R025 | Lá farrerr | Sunscreen | skincare | tube | hero-center-water | pure, hydrating | 💧 |
+| R026 | SYNSKIN | Acnes Gel-Cream | skincare | tube | hero-center-foam | fresh, clinical | 🫧 |
+| R027 | SYNSKIN | Moisturizer | skincare | tube | hero-center-fabric | soft, pure | 🧴 |
+| R028 | SYNSKIN | Acnes Gel-Cream | skincare | tube | hero-center-spheres | dynamic, scientific | 🧪 |
+| R031 | SYNSKIN | Acnes Gel‑Cream | skincare | tube | hero_center_gel | fresh, clinical, dynamic | 🧪 |
+| R032 | SYNSKIN | Acnes Gel‑Cream | skincare | tube | hero_center_fabric | fresh, clinical, soft | 🧴 |
+| R033 | SYNSKIN | Acnes Gel‑Cream | skincare | tube | hero_center_reflect | fresh, clinical, reflective | 🪞 |
+| R034 | SYNSKIN | Acnes Gel‑Cream | skincare | tube | hero_center_sky | fresh, clinical, airy | 🌤️ |
+| R035 | ONE POSE | Ultra Smart Eye Cream | skincare | jar | floating_cluster | elegant, feminine, dreamy | 🌸 |
+| R036 | Venus | Aqua24 Deep Moisturizing | skincare | jar | diagonal_dynamic | fresh, clinical, hydrating | 💙 |
+| R037 | Lá farrerr | Exfoliating Face Wash 1 | skincare | tube | floating_cluster | feminine, soft, playful | 🫧 |
+| R038 | Lá farrerr | Daily Defense Cream | skincare | tube | floating_cluster | ethereal, luxury, soft | ☁️ |
+| R039 | unknown | Moisturizing Serum | skincare | dropper_bottle | hero_center_pedestal | minimalist, architectural | 🏛️ |
+| R040 | Herborist | Botanical Line | skincare | mixed | hero_center_pedestal | pure, serene, botanical | 🌿 |
+| R041 | Spēs | Mushing Hair Spray | haircare | spray_bottle | hero_center_pedestal | fresh, pure, zen | 💚 |
+| R042 | Dr. ALVA | Probiotics Repairing Toner | skincare | bottle | hero_center_pedestal | sterile, professional, scientific | 🧪 |
+| R043 | AHC | Premium EX Hydra B5 | skincare | bottle | diagonal_dynamic | pure, hydrating, weightless | 🌊 |
+| R044 | anua | Heartleaf Cleansing Foam | skincare | tube | hero_center_pedestal | natural, clean, botanical | 🫧 |
+| R045 | Dr. Jart+ | Pore Minish Bubble Foam | skincare | tube | hero_center_pedestal | sterile, serene, dermatological | 🌵 |
+| R046 | One leaf | SPF 50+ Sunscreen | skincare | tube | diagonal_dynamic | pure, bright, protective | ☀️ |
