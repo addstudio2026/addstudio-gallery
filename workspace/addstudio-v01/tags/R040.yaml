@@ -1,57 +1,5 @@
 id: R040
 file: R040_skincare_herborist_architectural-arch.jpg
 brand: Herborist
-product_name: Botanical Skincare Line
-category: skincare
-subcategory: mixed_set
-container_type: [bottle, jar]
-container_material: matte_plastic
-label_style: white_minimal_typographic
-palette_product: ["#B2D2B9 mint_green", "#FFFFFF white"]
-palette_scene: ["#C8D1C5 pale_sage", "#B2D2B9 mint_green", "#FFFFFF white"]
-color_temperature: cool
-contrast: low
-saturation: medium
-accent_color: mint_green
-placement: upright_centered
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 3
-props: [architectural_arch, vertical_slats, mirror_base, flower_branch, glass_spheres]
-prop_placement: "products on white textured platform; mint green arch frames center, white vertical slats on left, branch leaning in from top-left, medium bottle on mirror base"
-vfx: [none]
-human_presence: none
-lighting_quality: soft_diffused
-key_direction: top_left
-rim_light: subtle
-fill: high
-shadow_type: soft_short
-light_temperature_k: 5500
-background_type: solid
-background_color: pale_sage
-gradient_direction: n/a
-surface: white_textured_plaster
-reflection: soft_mirror
-layout_archetype: hero_center_pedestal
-crop: medium
-negative_space: top
-symmetry: asymmetrical
-aspect_ratio: "4:5"
-has_text: false
-text_zones: []
-script_direction: n/a
-render_style: photoreal_studio
-post_processing: clean_matte
-mood: "pure, serene, clinical-botanical, minimalist"
-season_occasion: none
-concept_idea: "Architectural framing and botanical accents to convey a balance of science (geometry) and nature (flowers)."
-fits_product_types: [toner, essence, cream, serum]
-fits_container: [bottle, jar]
-swap_difficulty: medium
-strength: "geometric depth + monochromatic mint palette"
-avoid_if: "warm-toned brands, busy backgrounds"
-prompt_seed: "Studio product photograph of {PRODUCT} arranged on a white textured plaster platform. A minimalist mint-green semi-circular arch frames the center, with thin white vertical slats on the left. A delicate white flower branch leans in from the upper-left. One product rests on a circular mirror base creating a soft reflection. Pale sage-green seamless background, soft diffused lighting from top-left, shallow depth of field. Minimalist architectural aesthetic, cool mint and white palette, 4:5 vertical."
-negative_prompt: "harsh shadows, cluttered props, warm tones, text, watermark"
+mood: pure, serene, botanical
 emoji: 🌿
-notes_fa: "ترکیب معماری مینیمال (قوس و ستون) با المان‌های گیاهی — تعادل بین علم و طبیعت."

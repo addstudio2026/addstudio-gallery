@@ -1,57 +1,5 @@
 id: R031
 file: R031_skincare_synskin_hero-center-gel.jpg
 brand: SYNSKIN
-product_name: Acnes Gel‑Cream
-category: skincare
-subcategory: gel_cream
-container_type: tube
-container_material: matte_plastic
-label_style: blue_gold_typographic
-palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
-palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
-color_temperature: cool
-contrast: medium
-saturation: vivid
-accent_color: cyan
-placement: hero_center_gel
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 1
-props: [gel_texture, iridescent_bubbles]
-prop_placement: "translucent viscous gel shapes flowing around tube, clear droplets and bubbles clinging"
-vfx: [dew_droplets]
-human_presence: none
-lighting_quality: soft_diffused
-key_direction: front
-rim_light: none
-fill: high
-shadow_type: soft_short
-light_temperature_k: 5500
-background_type: solid
-background_color: light_sky_blue
-gradient_direction: n/a
-surface: matte_paper
-reflection: none
-layout_archetype: hero_center_gel
-crop: medium
-negative_space: top
-symmetry: asymmetrical
-aspect_ratio: "4:5"
-has_text: false
-text_zones: []
-script_direction: n/a
-render_style: photoreal_studio
-post_processing: clean
-mood: "fresh, clinical, dynamic, moisturizing"
-season_occasion: none
-concept_idea: "Gel texture envelops product, showing moisturizing and restorative action."
-fits_product_types: [gel_cream, moisturizer, cleanser]
-fits_container: [tube]
-swap_difficulty: easy
-strength: "dynamic gel flow + cool cyan palette"
-avoid_if: "warm‑toned brands, luxury/premium aesthetic"
-prompt_seed: "Studio product photograph of {PRODUCT} positioned diagonally, white matte tube with gold logo, surrounded by flowing translucent gel shapes and iridescent bubbles. Light sky‑blue solid background, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical dynamic energy, cool 5500K, 4:5 vertical."
-negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
+mood: fresh, clinical, dynamic
 emoji: 🧪
-notes_fa: "ژل شفاف دور لوله — احساس مرطوب‌کننده و ترمیمی."

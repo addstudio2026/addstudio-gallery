@@ -1,57 +1,5 @@
 id: R043
 file: R043_skincare_ahc_floating-wave.jpg
 brand: AHC
-product_name: Premium EX Hydra B5 (Toner & Emulsion)
-category: skincare
-subcategory: hydrating_set
-container_type: bottle
-container_material: translucent_blue_plastic
-label_style: minimalist_white_typographic
-palette_product: ["#0077B6 deep_cobalt", "#CAF0F8 ice_blue"]
-palette_scene: ["#90E0EF sky_blue", "#B0C4DE steel_blue", "#FFFFFF white"]
-color_temperature: cool
-contrast: low
-saturation: medium
-accent_color: cobalt_blue
-placement: floating
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 2
-props: [iridescent_spheres, translucent_blue_wave]
-prop_placement: "two bottles floating diagonally; surrounded by iridescent water-droplet spheres and a sweeping translucent blue glass-like ribbon wave at the bottom"
-vfx: [specular_highlights, soft_bokeh]
-human_presence: none
-lighting_quality: soft_diffused
-key_direction: top_left
-rim_light: subtle
-fill: high
-shadow_type: soft_short
-light_temperature_k: 5600
-background_type: seamless_gradient
-background_color: pale_ice_blue
-gradient_direction: radial_center_glow
-surface: none
-reflection: none
-layout_archetype: diagonal_dynamic
-crop: medium
-negative_space: around
-symmetry: asymmetrical
-aspect_ratio: "4:5"
-has_text: false
-text_zones: []
-script_direction: n/a
-render_style: photoreal_studio
-post_processing: clean_glossy
-mood: "pure, hydrating, scientific, weightless"
-season_occasion: none
-concept_idea: "Products drifting in a liquid-inspired environment to emphasize the 'Hydra' nature of the product line."
-fits_product_types: [toner, emulsion, serum]
-fits_container: [bottle]
-swap_difficulty: medium
-strength: "flowing fluid shapes + monochromatic blue palette"
-avoid_if: "warm-toned brands, heavy/dark aesthetics"
-prompt_seed: "Studio product photograph of two {PRODUCT} floating diagonally in a weightless, ethereal environment. Surrounded by iridescent translucent blue spheres and a sweeping, curved translucent blue glass-like ribbon wave arcing across the bottom. Seamless radial gradient background from pale ice-blue to white. Soft diffused lighting from top-left, creating crisp white specular highlights on the bottles and spheres. Hydrating scientific aesthetic, monochromatic blue palette, shallow depth of field, 4:5 vertical."
-negative_prompt: "harsh shadows, warm tones, cluttered environment, text, watermark"
+mood: pure, hydrating, weightless
 emoji: 🌊
-notes_fa: "دو محصول شناور در محیطی آبی با موج‌های شیشه‌ای و حباب‌های درخشان — حس آبرسانی عمیق."

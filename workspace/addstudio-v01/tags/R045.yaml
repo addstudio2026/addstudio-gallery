@@ -1,57 +1,5 @@
 id: R045
 file: R045_skincare_drjart_rocky-succulent.jpg
 brand: Dr. Jart+
-product_name: Pore Medic Pore Minish Bubble Foam
-category: skincare
-subcategory: cleanser
-container_type: tube
-container_material: matte_plastic
-label_style: bold_black_typographic
-palette_product: ["#FFFFFF white", "#A2B5E3 periwinkle_blue"]
-palette_scene: ["#FFFFFF stark_white", "#D3D3D3 light_grey", "#8B7D8B muted_purple"]
-color_temperature: cool
-contrast: medium
-saturation: low
-accent_color: periwinkle_blue
-placement: upright_centered
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 1
-props: [textured_white_rocky_surface, succulent_plants]
-prop_placement: "product resting on a jagged, fragmented white rocky/concrete surface; two muted purple/green succulents placed at mid-left and lower-right"
-vfx: [none]
-human_presence: none
-lighting_quality: soft_diffused
-key_direction: upper_left
-rim_light: none
-fill: high
-shadow_type: soft_short
-light_temperature_k: 5500
-background_type: seamless_gradient
-background_color: light_grey
-gradient_direction: radial_center_light
-surface: matte_rocky_concrete
-reflection: none
-layout_archetype: hero_center_pedestal
-crop: medium
-negative_space: around
-symmetry: symmetrical
-aspect_ratio: "4:5"
-has_text: false
-text_zones: []
-script_direction: n/a
-render_style: photoreal_studio
-post_processing: clean_clinical
-mood: "sterile, serene, dermatological, fresh"
-season_occasion: none
-concept_idea: "Combining stark mineral textures (rock) with delicate organic life (succulents) to convey purity and scientific precision."
-fits_product_types: [cleanser, foam, pore_treatment]
-fits_container: [tube]
-swap_difficulty: medium
-strength: "stark white contrast + organic botanical accents"
-avoid_if: "warm-toned brands, colorful backgrounds"
-prompt_seed: "Studio product photograph of {PRODUCT} positioned vertically and centered on a stark white, fragmented rocky concrete surface with jagged edges. Two muted purple and sage-green succulent plants are placed strategically at the mid-left and lower-right. Seamless light grey to white gradient background. Soft diffused lighting from the upper-left, casting subtle soft shadows to the right. Clinical clean beauty aesthetic, high-key monochromatic white palette, shallow depth of field, 4:5 vertical."
-negative_prompt: "harsh shadows, colorful backgrounds, cluttered environment, text, watermark"
+mood: sterile, serene, dermatological
 emoji: 🌵
-notes_fa: "محصول روی سطح سنگی سفید تکسچردار همراه با ساکولنت‌های بنفش-خاکستری — حس پاکیزگی کلینیکال و طبیعی."
