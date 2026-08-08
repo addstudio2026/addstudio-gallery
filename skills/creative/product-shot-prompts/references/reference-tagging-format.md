@@ -156,10 +156,22 @@ notes_fa: "ترکیب برگ واقعی + بطری کهربایی، حس ارگ�
 ```
 /addstudio-v01/
   ├── INDEX.md            ← جدول one-liner همه رفرنس‌ها (اسکن سریع انسانی)
-  ├── references.yaml     ← همه YAML blockها (منبع ایجنت)
+  ├── references.yaml     ← همه YAML blockها (منبع legacy/quick-scan)
+  ├── /tags               ← فایل‌های YAML مجزا برای هر رفرنس ← منبع اصلی حقیقت
+  │   ├── R001.yaml
+  │   ├── R002.yaml
+  │   └── ...
   └── /images
 ```
-بعد از هر save، **هر دو** فایل آپدیت می‌شن. اگر آپدیت نشد، ذخیره ناقصه.
+
+**Storage Strategy (Individual Tags):**
+هر رفرنس باید فایل `.yaml` مجزای خودش را در پوشه `tags/` داشته باشد (مثلاً `R031.yaml`). این فایل‌ها **منبع اصلی حقیقت** هستند. فایل `references.yaml` ممکن است برای legacy یا quick-scan وجود داشته باشد، ولی فایل‌های مجزا مرجع نهایی هستند.
+
+**⚠️ GitHub Sync:**
+- فایل‌های `tags/*.yaml` باید جداگانه `git add` شوند: `git add workspace/addstudio-v01/tags/`
+- اگر فایل‌ها قبلاً وجود داشته‌اند ولی خالی بوده‌اند، `git add` ممکن است تشخیص ندهد — از `git add -f` یا `git add .` استفاده کنید.
+
+بعد از هر save، **هر سه** فایل (INDEX.md + references.yaml + tags/*.yaml) آپدیت و sync می‌شن. اگر آپدیت نشد، ذخیره ناقصه.
 
 ---
 

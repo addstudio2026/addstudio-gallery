@@ -80,7 +80,7 @@ No 11-slot template. No technical specs in the prompt body. No reference file na
 
 Product fidelity absolute. Never invent label text. No props unless asked. Prompt in English always. No hedging. Under 220 words.
 
-## Reference Image Collection Protocol (v2.0)
+## Reference Image Collection Protocol (v2.1)
 
 **File naming:** `R{NNN}_{category}_{brand-or-unknown}_{layout}.jpg` — `R{NNN}` is the unique key, never changes.
 
@@ -88,6 +88,9 @@ Product fidelity absolute. Never invent label text. No props unless asked. Promp
 - **REFERENCE** (brand style bootstrapping) → auto-save + tag in the same message.
 - **PRODUCT** (user's own product) → **do NOT save**. Write prompt first. Only save if user explicitly says "ذخیره کن" or similar.
 - **Ambiguous?** Ask one short question. Do not auto-save.
+
+**Storage Strategy (Individual Tags):**
+To ensure maximum reliability and avoid corruption of large central files, every reference MUST have its own individual YAML file in the `tags/` directory (e.g., `/data/workspace/addstudio-v01/tags/R031.yaml`). While a central `references.yaml` may exist for legacy/quick-scan reasons, the **individual files are the primary source of truth**.
 
 ### Dual output (mandatory)
 Every image gets TWO outputs:
@@ -97,10 +100,21 @@ Every image gets TWO outputs:
 - `R027` — SYNSKIN Acnes Toner | matte white tube, cool teal gradient, floating 15° tilt, water bubbles, soft diffused key + cold rim, 9:16 story, "clinical / aquatic-fresh" 🔵
 ```
 
-**B) YAML block (agent source of truth):** See `references/reference-tagging-format.md` for the full 11-section YAML format with all 18 required fields.
+**B) Individual YAML file:** Create a separate `.yaml` file for the reference in the `tags/` directory following the 11-section format. Update `INDEX.md` with the one-liner.
 
-### After save
-Update both `INDEX.md` (one-liner table) and `references.yaml` (YAML blocks). If not updated, save is incomplete.
+
+## ⚠️ CRITICAL VERIFICATION RULE
+Before confirming a tagging task is complete, the agent MUST verify that the resulting files are NOT empty and contain all 11 required forensic sections. NEVER rely on the output of a script that only checks for file existence or counts lines; physically read a sample of the files to ensure they aren't just stubs or truncated summaries.
+
+## 🛠️ DATA INTEGRITY WORKFLOW
+When splitting a central `references.yaml` into individual `Rxxx.yaml` files:
+1. Read the source file using a method that preserves all content (e.g., `cat` via terminal) to avoid line-number prefixes or truncation.
+2. Use explicit markers (e.g., `---`) to split blocks.
+3. Write each block to its own file.
+4. **Verify:** Read back a random sample of created files to confirm full content (11 sections) is present before reporting success to the user.
+5. **GitHub Sync:** Ensure the `git add` command specifically targets the directory containing the new files to prevent 'nothing to commit' errors when files were already present but empty.
+6. **Forensic Restoration:** If data is lost or truncated in the files, the agent MUST reconstruct it manually from the conversation history (History) rather than relying on corrupted disk states.
+7. **Atomic Commits:** When syncing to GitHub, ensure files are staged (`git add`) and committed before pushing to avoid 'Everything up-to-date' false positives when files are missing from the index.
 
 ### Retrieval (for product prompts)
 When user sends their own product image:
@@ -122,6 +136,9 @@ A tag is REJECTED if:
 ## Pitfalls
 
 - **⚠️ ALWAYS load this skill FIRST.** Before doing any product photography work, call `skill_view(name='product-shot-prompts')` and `skill_view(name='poster-addstudio-v01')`. The user explicitly said: "اسکیل واست نوشتم که احمق" — skipping skill loading causes repeated mistakes that are already solved in the skill files.
+- **⚠️ `backup.sh` does NOT auto-commit.** The script at `/data/hermes-backup/backup.sh` only stages files (`git add`). After running it, you MUST manually run `git commit` and `git push`. Failing to do this causes "Everything up-to-date" false positives when files are missing from the remote. Always: `backup.sh` → `git commit` → `git push`.
+- **⚠️ `read_file` returns line-numbered output (`1|content`).** This breaks YAML parsing in scripts. When reading `references.yaml` or any YAML file for processing, use `terminal(command="cat <path>")` instead of `read_file` to get clean unnumbered content. The `execute_code` tool's `read_file` also returns structured data — access raw content via `terminal('cat ...')` for reliable text extraction.
+- **⚠️ Session history tag recovery requires searching `tool_calls`.** When forensic tags were written via `write_file` tool calls (not displayed in chat messages), you must search the session JSON's `tool_calls` array, not just message content. Use `json.loads(func.get("arguments", "{}"))` to extract the `content` field from `write_file` calls.
 - Always keep `locked: true`. Once bootstrap is done, Section A is immutable.
 - 5 well-matched references beat 20 inconsistent ones. If bootstrap must average between two conflicting lighting setups, the result will be lifeless.
 - Version your files: use `version: X.Y` in frontmatter. When you want to change style, create a new version and keep the old one — sometimes the previous version was better.
@@ -130,7 +147,7 @@ A tag is REJECTED if:
 - **⚠️ CRITICAL — Never include reference file names in prompt output.** The reference is the agent's thinking tool, not part of the deliverable. The prompt must stand alone.
 - **⚠️ CRITICAL — Concept must serve the product.** A visually beautiful concept that has nothing to do with the product is a failure. Always ask: "What does this product DO and does this image tell THAT story?" Sunscreen → protection/morning. Serum → luxury/precious. Cleanser → freshness/clarity. Match concept to function.
 - **User may request product material/finish changes**: If user says "cream should be visible" or "liquid should be white" or "tilt the product", update Identity Lock to include those modifications. Core brand elements (logo, text, shape, colors) stay locked; user-requested material/finish/pose changes are part of the new product identity.
-- **⚠️ CRITICAL — Tags MUST be written to disk, not just shown in chat.** Every tag (one-liner + YAML block) must be saved to `references.yaml` and `INDEX.md`. Showing tags in chat without saving to disk is an INCOMPLETE save. User explicitly corrected this: "اینو به عنوان یکی از اصلی ترین کارهات باید سیو‌کنی". If disk write fails, the save didn't happen.
+- **⚠️ CRITICAL — Disk Persistence**: Every save must be atomic across BOTH `references.yaml` and `INDEX.md`. Showing tags in chat without writing them to disk is an INCOMPLETE save. Verify that both files are updated and pushed to the backup repository to prevent data loss between sessions.
 - **⚠️ CRITICAL — Batch images = individual tags.** When user sends multiple images at once, each image gets its OWN full YAML tag (one-liner + complete YAML block). Never batch them together or skip individual tagging. User explicitly corrected: "ببین باید همه رو تگ گذاری کنی جدا جدا".
 - **⚠️ CRITICAL — Visual analysis must be FORENSIC.** When tagging references, describe EVERY visible element: props, VFX, textures, surface details. MISS NOTHING. Missing a prop (e.g., gel shapes behind a bottle) means the tag is wrong and the user will correct you. Use a multi-step forensic breakdown (Product, Props, VFX, Background, Lighting, Palette). If you can see it, tag it.
 
@@ -170,7 +187,7 @@ Use the Model-Style format (3 sections, ~100 words). Every clause should SERVE t
 
 **When to give multiple:** ONLY when user explicitly asks ("ایده بده", "چند تا ایده بده", "alternatives"). Then give 2-3 genuinely different concepts with distinct visual metaphors and different reference backbones.
 
-**Reference images are ALWAYS used** unless the user explicitly says not to. Never write a prompt without anchoring it to a specific hero reference image. The reference provides the structural backbone — composition, lighting setup, spatial relationships. The prompt must MATCH the reference image's structure, not just borrow its mood.
+**Reference images are ALWAYS used** unless the user explicitly says not to. Never write a prompt without anchoring it to a specific hero reference image. The reference provides the structural backbone — composition, lighting setup, spatial relationships. The prompt must MATCH the reference image's structure, not just borrow its mood. If the reference has a wave form, the prompt must describe a wave form. If the reference has hands cradling, the prompt must describe hands cradling. NEVER use a reference for mood only while inventing a completely different composition.
 
 **⚠️ CRITICAL — Reference files are YOUR tool, not the deliverable.** Never include reference image file names (e.g., "19-lowe-advanced-lotion-wave.jpg") in the prompt output. The user corrected this explicitly. The reference shapes your thinking; the prompt stands alone. If the user asks for the source, then provide it.
 
