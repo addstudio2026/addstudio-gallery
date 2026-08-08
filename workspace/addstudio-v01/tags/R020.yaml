@@ -1,4 +1,74 @@
 id: R020
 file: R020_skincare_synskin_hero-center-bubbles.jpg
 
-#
+brand: SYNSKIN
+product_name: Acnes Toner Seboregulating
+category: skincare
+subcategory: toner
+container_type: pump
+container_material: glossy_plastic
+label_style: blue_gold_typographic
+
+palette_product: ["#FFFFFF white", "#2196F3 blue", "#C9A84C gold"]
+palette_scene: ["#4FC3F7 light blue", "#0288D1 deep blue"]
+color_temperature: cool
+contrast: medium
+saturation: vivid
+accent_color: blue
+
+placement: upright_centered
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+
+props: [gel_shapes, water_droplets]
+prop_placement: "translucent blue gel blobs behind bottle, water droplets floating around"
+vfx: [dew_droplets, floating_particles]
+human_presence: none
+
+lighting_quality: soft_diffused
+key_direction: front
+rim_light: subtle_cool
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5500
+
+background_type: seamless_gradient
+background_color: blue_gradient
+gradient_direction: top_light_to_bottom_dark
+surface: none
+reflection: none
+
+layout_archetype: hero_center_pedestal
+crop: medium
+negative_space: around
+symmetry: symmetrical
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: clean
+mood: "fresh, hydrating, clinical calm"
+season_occasion: none
+
+concept_idea: "Gel textures and water droplets floating around the product — hydration and oil-control made visible."
+fits_product_types: [toner, essence, micellar_water]
+fits_container: [pump_bottle, spray_bottle]
+swap_difficulty: easy
+strength: "gel shapes + floating droplets + cool blue palette"
+avoid_if: "warm-toned brands, luxury/premium aesthetic"
+
+prompt_seed: >
+  Studio product photograph of {PRODUCT} standing upright at center,
+  translucent blue gel shapes and water droplets of varying sizes floating
+  around the bottle. Blue gradient background lighter at top, soft
+  diffused key from front, cool rim light on bottle edge, shallow depth
+  of field. Fresh hydrating clinical energy, cool 5500K, 4:5 vertical.
+negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
+
+emoji: 💧
+notes_fa: "شکل‌های ژل آبی و حباب‌های شناور — هیدراتاسیون و کنترل چربی."
