@@ -1,18 +1,18 @@
 id: R026
-file: R026_skincare_placeholder.jpg
+file: R026_skincare_synskin_hero-center-pedestal.jpg
 
 # --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
-product_name: Acnes Gel-Cream
+product_name: Acnes Gel‑Cleanser
 category: skincare
-subcategory: gel_cream
+subcategory: cleanser
 container_type: tube
 container_material: matte_plastic
 label_style: blue_gold_typographic
 
 # --- 2. COLOR ---
-palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
-palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
+palette_product: ["#FFFFFF white", "#2196F3 teal", "#C9A84C gold"]
+palette_scene: ["#4DD0E1 cyan", "#FFFFFF white surface"]
 color_temperature: cool
 contrast: medium
 saturation: vivid
@@ -27,23 +27,23 @@ product_count: 1
 
 # --- 4. PROPS & VFX ---
 props: [foam_texture]
-prop_placement: "product resting in a bed of white foam"
-vfx: [dew_droplets]
+prop_placement: "product resting in a bed of thick white airy foam"
+vfx: [dew_droplets, specular_highlights]
 human_presence: none
 
 # --- 5. LIGHTING ---
 lighting_quality: soft_diffused
-key_direction: front
-rim_light: none
+key_direction: front_left
+rim_light: subtle
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
 
 # --- 6. BACKGROUND & SURFACE ---
-background_type: solid
-background_color: light_sky_blue
-gradient_direction: n/a
-surface: matte_paper
+background_type: seamless_gradient
+background_color: light_cyan
+gradient_direction: radial_center_light
+surface: foam_bed
 reflection: none
 
 # --- 7. COMPOSITION & LAYOUT ---
@@ -61,20 +61,20 @@ script_direction: n/a
 # --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean
-mood: "fresh, clinical"
+mood: "fresh, clinical, pure"
 season_occasion: none
 
 # --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Foam representing deep cleansing."
-fits_product_types: [gel_cream, cleanser]
+concept_idea: "Foam texture visually represents deep cleansing and skin purification."
+fits_product_types: [cleanser, foam, gel_wash]
 fits_container: [tube]
 swap_difficulty: easy
-strength: "foam texture + cool palette"
-avoid_if: "warm-toned brands"
+strength: "tactile foam texture + cool cyan palette"
+avoid_if: "warm-toned brands, luxury gold aesthetics"
 
 # --- 11. PROMPT SEED ---
-prompt_seed: "Studio product photograph of {PRODUCT} in white foam, white matte tube, soft blue background, 4:5 vertical."
-negative_prompt: "harsh shadows, warm tones"
+prompt_seed: "Studio product photograph of {PRODUCT} nestled in a bed of thick, airy white soap foam. Seamless light-cyan radial gradient background. Soft diffused lighting from front-left, creating subtle specular highlights on the foam bubbles. Fresh clinical pure aesthetic, cool 5500K, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
 
 emoji: 🫧
-notes_fa: "بستر کف سفید — احساس پاکیزگی."
+notes_fa: "محصول در بستر کف سفید — نمایش بصری پاک‌کنندگی عمیق."
