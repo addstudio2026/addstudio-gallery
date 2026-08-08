@@ -1,4 +1,57 @@
 id: R041
 file: R041_haircare_spes_acrylic-tiered.jpg
-
-#
+brand: Spēs
+product_name: Mushing Hair Spray
+category: haircare
+subcategory: hair_spray
+container_type: spray_bottle
+container_material: matte_plastic
+label_style: vertical_minimal_typographic
+palette_product: ["#B2D8B2 pale_mint", "#E8E2D1 muted_beige"]
+palette_scene: ["#D4E6C5 light_sage", "#B2D8B2 mint_green", "#FFFFFF white"]
+color_temperature: cool
+contrast: low
+saturation: medium
+accent_color: lime_green
+placement: stacked
+camera_angle: high_angle
+product_scale: medium
+depth_of_field: shallow
+product_count: 3
+props: [tiered_acrylic_stand, heart_shaped_translucent_objects]
+prop_placement: "products arranged on clear acrylic tiered cubic stand; translucent lime-green heart shapes scattered in foreground and background"
+vfx: [soft_bokeh, specular_highlights]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: top_down
+rim_light: none
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5500
+background_type: seamless_gradient
+background_color: mint_green
+gradient_direction: radial_center_light
+surface: clear_acrylic
+reflection: soft_mirror
+layout_archetype: hero_center_pedestal
+crop: medium
+negative_space: top
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean_matte
+mood: "fresh, pure, minimalist, zen"
+season_occasion: none
+concept_idea: "Layered architectural transparency paired with soft organic shapes to convey lightness and freshness."
+fits_product_types: [hair_spray, fragrance, toner]
+fits_container: [spray_bottle, cylindrical_bottle]
+swap_difficulty: medium
+strength: "acrylic transparency + monochromatic green palette"
+avoid_if: "warm-toned brands, heavy/dark materials"
+prompt_seed: "High-angle studio product photograph of {PRODUCT} arranged on a clear, tiered acrylic cubic pedestal. Surrounded by scattered translucent lime-green heart-shaped resin objects creating a soft bokeh effect in the foreground and background. Seamless mint-green radial gradient background. Soft omnidirectional diffused lighting, minimal matte sheen, low contrast. Clean minimalist Zen aesthetic, monochromatic analogous green palette, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, high contrast, dark colors, cluttered background, text, watermark"
+emoji: 💚
+notes_fa: "محصولات روی استند پله‌ای اکریلیک شفاف همراه با قلب‌های سبز شفاف — حس تازگی و مینیمالیسم."

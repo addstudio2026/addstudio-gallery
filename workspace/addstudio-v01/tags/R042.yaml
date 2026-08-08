@@ -1,4 +1,57 @@
 id: R042
 file: R042_skincare_dralva_clinical-lab.jpg
-
-#
+brand: Dr. ALVA
+product_name: Probiotics Professional Repairing Toner
+category: skincare
+subcategory: toner
+container_type: bottle
+container_material: matte_plastic
+label_style: clinical_white_typographic
+palette_product: ["#FFFFFF white", "#2A5A9F dark_blue"]
+palette_scene: ["#8BA4C7 steel_blue", "#D1DCEB powder_blue", "#B0D4F1 pale_blue"]
+color_temperature: cool
+contrast: low
+saturation: medium
+accent_color: powder_blue
+placement: upright_centered
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+props: [glass_test_tubes, glass_beaker]
+prop_placement: "bottle centered and framed by 5 clear glass test tubes of varying heights, some containing pale blue liquid with micro-bubbles, thick-walled glass beaker in foreground bottom"
+vfx: [specular_highlights, refractive_distortion]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: front_left
+rim_light: none
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5600
+background_type: seamless_gradient
+background_color: steel_blue
+gradient_direction: vertical_top_dark_bottom_light
+surface: none
+reflection: none
+layout_archetype: hero_center_pedestal
+crop: medium
+negative_space: top
+symmetry: symmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean_clinical
+mood: "sterile, professional, refreshing, scientific"
+season_occasion: none
+concept_idea: "Product surrounded by lab glassware to communicate pharmaceutical-grade efficacy and scientific research."
+fits_product_types: [toner, serum, essence, medical_skincare]
+fits_container: [bottle]
+swap_difficulty: medium
+strength: "clinical storytelling + monochromatic cool palette"
+avoid_if: "warm-toned brands, natural/boho aesthetics"
+prompt_seed: "Studio product photograph of {PRODUCT} standing upright and centered, framed by several clear glass test tubes of varying heights, some containing a translucent pale blue liquid with tiny suspended air bubbles. A thick-walled glass beaker partially obscures the base in the foreground. Seamless vertical gradient background from muted steel blue to bright powder blue. Soft diffused lighting from front-left, creating clean specular highlights on the glass. Clinical laboratory aesthetic, monochromatic cool blue and white palette, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, cluttered environment, text, watermark"
+emoji: 🧪
+notes_fa: "محصول در مرکز و محاط شده با لوله‌های آزمایش و بشر شیشه‌ای — حس کلینیکال و علمی."

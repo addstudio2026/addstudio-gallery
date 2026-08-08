@@ -1,4 +1,57 @@
 id: R038
 file: R038_skincare_lafarrerr_floating-cluster-cream.jpg
-
-#
+brand: Lá farrerr
+product_name: Daily Defense Cream (Shades 01-06)
+category: skincare
+subcategory: primer_foundation
+container_type: tube
+container_material: matte_plastic
+label_style: serif_minimal_black_text
+palette_product: ["#F5D6C6 pale_peach", "#1A1A1A matte_black"]
+palette_scene: ["#E8C3B0 warm_beige", "#D9B4A0 muted_tan", "#FFFFFF white"]
+color_temperature: warm
+contrast: low
+saturation: medium
+accent_color: warm_beige
+placement: floating
+camera_angle: high_angle
+product_scale: medium
+depth_of_field: shallow
+product_count: 6
+props: [cosmetic_cream_swirls, iridescent_bubbles, dandelion_seeds]
+prop_placement: "thick glossy beige cream ribbons weaving around tubes, 3 iridescent spheres, 3 fluffy dandelion seed heads"
+vfx: [specular_highlights, soft_bokeh]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: top_left
+rim_light: subtle
+fill: high
+shadow_type: soft_short
+light_temperature_k: 4800
+background_type: seamless_gradient
+background_color: warm_nude_peach
+gradient_direction: radial_center_light
+surface: none
+reflection: none
+layout_archetype: floating_cluster
+crop: medium
+negative_space: around
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean_glossy
+mood: "ethereal, luxury, skin-inclusive, soft"
+season_occasion: none
+concept_idea: "Product shades floating in a river of cream with botanical accents to signify softness and skin-blend."
+fits_product_types: [primer, foundation, bb_cream, moisturizer]
+fits_container: [tube]
+swap_difficulty: medium
+strength: "dynamic fluid shapes + monochromatic nude palette"
+avoid_if: "vivid colors, high contrast, masculine aesthetics"
+prompt_seed: "High-angle studio product photograph of a cluster of {PRODUCT} floating in a dynamic, swirling arrangement amidst thick, glossy beige-colored cosmetic cream ribbons. Interspersed with a few iridescent translucent spheres and delicate white fluffy dandelion seed heads. Seamless warm nude-peach radial gradient background. Soft diffused light from the top-left, creating gentle specular highlights on the cream and tubes. Ethereal luxury aesthetic, monochromatic warm-beige palette, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, high contrast, dark colors, distorted tubes, watermark"
+emoji: ☁️
+notes_fa: "تجمعی از محصولات شناور در جریان کرم بژ و دانه های هندوانه — حس لوکس، نرم و پوست-محور."

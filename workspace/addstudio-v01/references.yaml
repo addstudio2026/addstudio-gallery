@@ -1,181 +1,6 @@
-id: R007
-file: R007_haircare_isima_hero-center-nature.jpg
-
-# --- 1. PRODUCT IDENTITY ---
-brand: Isima
-product_name: No Drama Priming Detangler
-category: haircare
-subcategory: detangler_spray
-container_type: spray
-container_material: matte_plastic
-label_style: white_typographic
-
-# --- 2. COLOR ---
-palette_product: ["#C4856A terracotta", "#FFFFFF white text"]
-palette_scene: ["#D4B896 sandstone", "#A07858 desert brown"]
-color_temperature: warm
-contrast: medium
-saturation: muted
-accent_color: terracotta
-
-# --- 3. PLACEMENT & CAMERA ---
-placement: upright_centered
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 1
-
-# --- 4. PROPS & VFX ---
-props: [natural_rocks]
-prop_placement: "bottle on stacked weathered rocks, small accent rocks on sides"
-vfx: [light_leak]
-human_presence: none
-
-# --- 5. LIGHTING ---
-lighting_quality: soft_diffused
-key_direction: front_left_45
-rim_light: subtle_warm
-fill: medium
-shadow_type: soft_short
-light_temperature_k: 4500
-
-# --- 6. BACKGROUND & SURFACE ---
-background_type: seamless_gradient
-background_color: desert_warm_brown
-gradient_direction: center_light_to_edges_dark
-surface: stone_slab
-reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
-layout_archetype: hero_center_pedestal
-crop: medium
-negative_space: top
-symmetry: symmetrical
-aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
-has_text: false
-text_zones: []
-script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
-render_style: photoreal_studio
-post_processing: clean
-mood: "earthy, natural, calm, desert luxury"
-season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Product emerging from nature — rocks as pedestal, earth tones as visual proof of gentle formula."
-fits_product_types: [detangler, spray, leave_in_treatment]
-fits_container: [spray_bottle, pump_bottle]
-swap_difficulty: easy
-strength: "nature storytelling + cohesive earth palette"
-avoid_if: "bright/neon packaging, urban/tech brands"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} standing upright on stacked
-  weathered natural rocks, warm desert tones.
-  Seamless warm brown gradient background, soft diffused key from upper-left
-  45°, subtle warm rim, small lens flare at bottom-right, shallow depth of
-  field. Clean commercial retouching, earthy premium energy, warm 4500K, 4:5.
-negative_prompt: "harsh shadows, cluttered props, cool tones, text, watermark"
-
-emoji: 🪨
-notes_fa: "بطری روی سنگ‌های طبیعی — حس بیابانی آرام و لوکس."
----
-id: R008
-file: R008_skincare_moreandcore_hero-center-prop.jpg
-
-# --- 1. PRODUCT IDENTITY ---
-brand: more&core
-product_name: SPF50+ Sunstick + Serum
-category: skincare
-subcategory: sunscreen
-container_type: stick
-container_material: glossy_plastic
-label_style: orange_typographic
-
-# --- 2. COLOR ---
-palette_product: ["#FFFFFF white", "#F57C20 bright orange", "#C68A4B amber glass"]
-palette_scene: ["#E8723A tennis orange", "#FFFFFF white lines"]
-color_temperature: warm
-contrast: high
-saturation: vivid
-accent_color: tangerine_orange
-
-# --- 3. PLACEMENT & CAMERA ---
-placement: upright_offset
-camera_angle: eye_level
-product_scale: medium
-depth_of_field: shallow
-product_count: 2
-
-# --- 4. PROPS & VFX ---
-props: [shopping_cart, tennis_balls]
-prop_placement: "products nestled in cart among tennis balls on court surface"
-vfx: [none]
-human_presence: none
-
-# --- 5. LIGHTING ---
-lighting_quality: hard_direct
-key_direction: top
-rim_light: none
-fill: low
-shadow_type: hard_sharp
-light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
-background_type: natural_env
-background_color: orange_tennis_court
-gradient_direction: n/a
-surface: court_surface
-reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
-layout_archetype: hero_center_prop
-crop: medium
-negative_space: top
-symmetry: asymmetrical
-aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
-has_text: false
-text_zones: []
-script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
-render_style: photoreal_studio
-post_processing: clean
-mood: "playful, sporty, bold, energetic"
-season_occasion: summer
-
-# --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Products as prizes in a tennis cart — sporty lifestyle meets sun protection."
-fits_product_types: [sunscreen, sunstick, serum]
-fits_container: [stick, dropper_bottle]
-swap_difficulty: hard
-strength: "unique prop storytelling + sporty energy"
-avoid_if: "luxury/premium brands, minimal aesthetic"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Professional product photography of {PRODUCT} nestled in a white wire
-  shopping cart on an orange tennis court, surrounded by bright orange
-  tennis balls. Hard direct sunlight from above, sharp dark shadows, vivid
-  orange and white palette. Highly detailed, photorealistic, sporty energy,
-  4:5 vertical.
-negative_prompt: "soft lighting, warm tones, cluttered, text, watermark"
-
-emoji: 🎾
-notes_fa: "محصولات داخل سبد خرید تنیس — حس ورزشی و شاداب."
----
-...
 ---
 id: R031
 file: R031_skincare_synskin_hero-center-gel.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
 product_name: Acnes Gel‑Cream
 category: skincare
@@ -183,81 +8,57 @@ subcategory: gel_cream
 container_type: tube
 container_material: matte_plastic
 label_style: blue_gold_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
 palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
 color_temperature: cool
 contrast: medium
 saturation: vivid
 accent_color: cyan
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: hero_center_gel
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [gel_texture, iridescent_bubbles]
 prop_placement: "translucent viscous gel shapes flowing around tube, clear droplets and bubbles clinging"
 vfx: [dew_droplets]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: front
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: solid
 background_color: light_sky_blue
 gradient_direction: n/a
 surface: matte_paper
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_gel
 crop: medium
 negative_space: top
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean
 mood: "fresh, clinical, dynamic, moisturizing"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Gel texture envelops product, showing moisturizing and restorative action."
 fits_product_types: [gel_cream, moisturizer, cleanser]
 fits_container: [tube]
 swap_difficulty: easy
 strength: "dynamic gel flow + cool cyan palette"
 avoid_if: "warm‑toned brands, luxury/premium aesthetic"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} positioned diagonally, white matte tube with gold logo, surrounded by flowing translucent gel shapes and iridescent bubbles. Light sky‑blue solid background, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical dynamic energy, cool 5500K, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} positioned diagonally, white matte tube with gold logo, surrounded by flowing translucent gel shapes and iridescent bubbles. Light sky‑blue solid background, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical dynamic energy, cool 5500K, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
-
 emoji: 🧪
 notes_fa: "ژل شفاف دور لوله — احساس مرطوب‌کننده و ترمیمی."
 ---
 id: R032
 file: R032_skincare_synskin_hero-center-fabric.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
 product_name: Acnes Gel‑Cream
 category: skincare
@@ -265,81 +66,57 @@ subcategory: gel_cream
 container_type: tube
 container_material: matte_plastic
 label_style: blue_gold_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
 palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
 color_temperature: cool
 contrast: medium
 saturation: vivid
 accent_color: cyan
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: hero_center_fabric
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [none]
 prop_placement: n/a
 vfx: [none]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: front
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: solid
 background_color: light_sky_blue
 gradient_direction: n/a
 surface: matte_paper
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_fabric
 crop: medium
 negative_space: top
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean
 mood: "fresh, clinical, soft fabric backdrop"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Soft fabric background emphasizes purity and gentle care."
 fits_product_types: [gel_cream, moisturizer, cleanser]
 fits_container: [tube]
 swap_difficulty: easy
 strength: "clean fabric + cool palette"
 avoid_if: "warm‑toned brands"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} centered on a soft sky‑blue fabric backdrop, white matte tube with gold logo, subtle light, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical soft‑fabric energy, cool 5500K, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} centered on a soft sky‑blue fabric backdrop, white matte tube with gold logo, subtle light, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical soft‑fabric energy, cool 5500K, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
-
 emoji: 🧴
 notes_fa: "پس‌زمینهٔ پارچه‌ای نرم — احساس پاکیزگی و مراقبت ملایم."
 ---
 id: R033
 file: R033_skincare_synskin_hero-center-reflect.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
 product_name: Acnes Gel‑Cream
 category: skincare
@@ -347,82 +124,173 @@ subcategory: gel_cream
 container_type: tube
 container_material: matte_plastic
 label_style: blue_gold_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
 palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
 color_temperature: cool
 contrast: medium
 saturation: vivid
 accent_color: cyan
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: hero_center_reflect
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [none]
 prop_placement: n/a
 vfx: [none]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: front
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: solid
 background_color: light_sky_blue
 gradient_direction: n/a
 surface: glossy_reflective
 reflection: mirror
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_reflect
 crop: medium
 negative_space: top
 symmetry: symmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean
 mood: "fresh, clinical, reflective"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Reflective surface doubles the product, emphasizing purity."
 fits_product_types: [gel_cream, moisturizer, cleanser]
 fits_container: [tube]
 swap_difficulty: easy
 strength: "mirror reflection + cool palette"
 avoid_if: "warm‑toned brands"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} centered on a glossy reflective surface, white matte tube with gold logo, soft sky‑blue backdrop, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical reflective energy, cool 5500K, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} centered on a glossy reflective surface, white matte tube with gold logo, soft sky‑blue backdrop, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical reflective energy, cool 5500K, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
-
 emoji: 🪞
 notes_fa: "سطح بازتابی محصول را دو برابر می‌کند — پاکیزگی را تقویت می‌کند."
-
+---
+id: R035
+file: R035_skincare_onepose_hero-center.jpg
+brand: ONE POSE
+product_name: Ultra Smart Pro-Collagen Evening Eye Cream
+category: skincare
+subcategory: eye_cream
+container_type: jar
+container_material: clear_glass
+label_style: minimal_white_typographic
+palette_product: ["#FFFFFF white", "#FF00FF magenta_pink", "#FFC0CB pale_pink"]
+palette_scene: ["#FFB6C1 light_pink", "#DB7093 pale_violet_red"]
+color_temperature: warm
+contrast: medium
+saturation: vivid
+accent_color: magenta_pink
+placement: tilted
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+props: [hydrogel_eye_patches]
+prop_placement: "jar tilted diagonally, resting on curved translucent pink gel pads; patches scattered around"
+vfx: [dew_droplets, bokeh]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: front_left_45
+rim_light: subtle
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5000
+background_type: seamless_gradient
+background_color: blush_pink
+gradient_direction: center_light_to_edges_dark
+surface: none
+reflection: none
+layout_archetype: floating_cluster
+crop: medium
+negative_space: around
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: pastel_soft
+mood: "elegant, feminine, hydrating, dreamy"
+season_occasion: none
+concept_idea: "Product floating amidst hydrating gel pads and droplets to signify intense moisture."
+fits_product_types: [eye_cream, gel_mask, moisturizer]
+fits_container: [jar]
+swap_difficulty: medium
+strength: "ethereal floating composition + monochromatic pink palette"
+avoid_if: "masculine brands, dark palettes"
+prompt_seed: "Studio product photograph of {PRODUCT} tilted diagonally, resting weightlessly on translucent pink hydrogel pads. Surrounded by floating clear water droplets and soft bokeh highlights. Seamless blush-pink gradient background, soft diffused key light from upper-left 45°, subtle rim light. Ethereal floating composition, high fill, shallow depth of field. Luxury feminine beauty aesthetic, soft pastel tones, 4:5 vertical."
+negative_prompt: "hard shadows, dark background, cluttered props, text, watermark"
+emoji: 🌸
+notes_fa: "محصول شناور روی پچ‌های هیدروژلی صورتی — حس آبرسانی عمیق و رویایی."
+---
+id: R036
+file: R036_skincare_venus_hero-center-dew.jpg
+brand: Venus
+product_name: Aqua24 Deep Moisturizing Cream
+category: skincare
+subcategory: face_cream
+container_type: jar
+container_material: matte_plastic
+label_style: blue_white_typographic
+palette_product: ["#FFFFFF white", "#007BA7 cerulean_blue"]
+palette_scene: ["#ADD8E6 light_blue", "#4682B4 steel_blue", "#FFFFFF white"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: cerulean_blue
+placement: leaning
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+props: [textured_ledge]
+prop_placement: "jar resting on a white stippled curved ledge running diagonally"
+vfx: [dew_droplets]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: front_left_45
+rim_light: none
+fill: medium
+shadow_type: soft_short
+light_temperature_k: 5500
+background_type: seamless_gradient
+background_color: sky_blue
+gradient_direction: bottom_light_to_top_dark
+surface: matte_stippled_white
+reflection: none
+layout_archetype: diagonal_dynamic
+crop: medium
+negative_space: top
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean
+mood: "fresh, clinical, hydrating, calm"
+season_occasion: summer
+concept_idea: "Product on a wet, textured surface to visually represent 'Aqua' and deep hydration."
+fits_product_types: [face_cream, moisturizer, gel]
+fits_container: [jar]
+swap_difficulty: easy
+strength: "cool blue palette + water droplet storytelling"
+avoid_if: "warm-toned brands, luxury gold aesthetics"
+prompt_seed: "Studio product photograph of {PRODUCT} leaning slightly on a white matte textured curved ledge. Numerous clear water droplets scattered across the surface and clinging to the jar. Smooth blue gradient background, soft diffused key light from upper-left 45°, soft cool shadows. Fresh hydration aesthetic, cool 5500K, shallow depth of field, 4:5 vertical."
+negative_prompt: "warm tones, harsh shadows, cluttered environment, text, watermark"
+emoji: 💙
+notes_fa: "محصول روی لبه سفید تکسچردار با قطرات آب — تأکید بر آبرسانی عمیق."
 ---
 id: R037
 file: R037_skincare_lafarrerr_hero-center-bubbles.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Lá farrerr
 product_name: Exfoliating Face Wash 1
 category: skincare
@@ -430,87 +298,57 @@ subcategory: face_wash
 container_type: tube
 container_material: matte_plastic
 label_style: white_typographic_magenta
-
-# --- 2. COLOR ---
 palette_product: ["#E91E63 magenta", "#FFFFFF white"]
 palette_scene: ["#FFB6C1 soft_pink", "#C2185B deep_rose", "#FFF0F5 pale_pink"]
 color_temperature: warm
 contrast: low
 saturation: vivid
 accent_color: magenta
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: tilted
 camera_angle: high_angle
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [oversized_bubbles]
 prop_placement: "product nestled between large translucent pink glossy spheres; micro-bubbles scattered around"
 vfx: [specular_highlights, bokeh]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_down
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5000
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: rose_pink
 gradient_direction: radial_center_light
 surface: none
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: floating_cluster
 crop: medium
 negative_space: around
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
-has_text: true
-text_zones: [headline_topleft, badge_bottomright]
-script_direction: ltr
-
-# --- 9. STYLE & MOOD ---
+has_text: false
+text_zones: []
+script_direction: n/a
 render_style: photoreal_studio
 post_processing: pastel_soft
 mood: "feminine, soft, clean, playful"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product nestled in bubbles to visually represent foaming action and deep cleansing."
 fits_product_types: [face_wash, cleanser, foam]
 fits_container: [tube]
 swap_difficulty: medium
 strength: "monochromatic pink palette + playful bubble shapes"
 avoid_if: "masculine brands, dark/moody aesthetics"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph from a high-angle, showing {PRODUCT} nestled among oversized, 
-  translucent pink glossy bubbles. Tiny crystalline micro-bubbles drift in the periphery.
-  Seamless radial rose-pink gradient background with a luminous center.
-  Soft top-down diffused lighting, sharp white specular highlights on the bubble curves.
-  Playful feminine aesthetic, monochromatic pink palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph from a high-angle, showing {PRODUCT} nestled among oversized, translucent pink glossy bubbles. Tiny crystalline micro-bubbles drift in the periphery. Seamless radial rose-pink gradient background with a luminous center. Soft top-down diffused lighting, sharp white specular highlights on the bubble curves. Playful feminine aesthetic, monochromatic pink palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "hard shadows, dark colors, cluttered background, distorted tube, watermark"
-
 emoji: 🫧
 notes_fa: "محصول محاط شده در حباب‌های صورتی بزرگ — نمایش بصری کف کردن و پاک‌کنندگی."
 ---
-
----
 id: R038
 file: R038_skincare_lafarrerr_floating-cluster-cream.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Lá farrerr
 product_name: Daily Defense Cream (Shades 01-06)
 category: skincare
@@ -518,88 +356,57 @@ subcategory: primer_foundation
 container_type: tube
 container_material: matte_plastic
 label_style: serif_minimal_black_text
-
-# --- 2. COLOR ---
 palette_product: ["#F5D6C6 pale_peach", "#1A1A1A matte_black"]
 palette_scene: ["#E8C3B0 warm_beige", "#D9B4A0 muted_tan", "#FFFFFF white"]
 color_temperature: warm
 contrast: low
 saturation: medium
 accent_color: warm_beige
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: floating
 camera_angle: high_angle
 product_scale: medium
 depth_of_field: shallow
 product_count: 6
-
-# --- 4. PROPS & VFX ---
 props: [cosmetic_cream_swirls, iridescent_bubbles, dandelion_seeds]
 prop_placement: "thick glossy beige cream ribbons weaving around tubes, 3 iridescent spheres, 3 fluffy dandelion seed heads"
 vfx: [specular_highlights, soft_bokeh]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_left
 rim_light: subtle
 fill: high
 shadow_type: soft_short
 light_temperature_k: 4800
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: warm_nude_peach
 gradient_direction: radial_center_light
 surface: none
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: floating_cluster
 crop: medium
 negative_space: around
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_glossy
 mood: "ethereal, luxury, skin-inclusive, soft"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product shades floating in a river of cream with botanical accents to signify softness and skin-blend."
 fits_product_types: [primer, foundation, bb_cream, moisturizer]
 fits_container: [tube]
 swap_difficulty: medium
 strength: "dynamic fluid shapes + monochromatic nude palette"
 avoid_if: "vivid colors, high contrast, masculine aesthetics"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  High-angle studio product photograph of a cluster of {PRODUCT} floating in a dynamic, 
-  swirling arrangement amidst thick, glossy beige-colored cosmetic cream ribbons. 
-  Interspersed with a few iridescent translucent spheres and delicate white fluffy dandelion seed heads.
-  Seamless warm nude-peach radial gradient background. 
-  Soft diffused light from the top-left, creating gentle specular highlights on the cream and tubes.
-  Ethereal luxury aesthetic, monochromatic warm-beige palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "High-angle studio product photograph of a cluster of {PRODUCT} floating in a dynamic, swirling arrangement amidst thick, glossy beige-colored cosmetic cream ribbons. Interspersed with a few iridescent translucent spheres and delicate white fluffy dandelion seed heads. Seamless warm nude-peach radial gradient background. Soft diffused light from the top-left, creating gentle specular highlights on the cream and tubes. Ethereal luxury aesthetic, monochromatic warm-beige palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, high contrast, dark colors, distorted tubes, watermark"
-
 emoji: ☁️
 notes_fa: "تجمعی از محصولات شناور در جریان کرم بژ و دانه های هندوانه — حس لوکس، نرم و پوست-محور."
 ---
-
----
 id: R039
 file: R039_skincare_unknown_architectural-stairs.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: unknown
 product_name: Moisturizing & Soothing Serum
 category: skincare
@@ -607,88 +414,57 @@ subcategory: serum
 container_type: dropper_bottle
 container_material: frosted_glass
 label_style: minimal_white_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FF9F43 bright_orange", "#F5E6D3 pale_cream"]
 palette_scene: ["#F5E6D3 cream", "#E8C39E warm_beige", "#FF9F43 orange"]
 color_temperature: warm
 contrast: low
 saturation: medium
 accent_color: bright_orange
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: upright_centered
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [geometric_stairs, rectangular_blocks, stylized_orange_leaves, circular_disc]
 prop_placement: "product on top step of right-aligned ascending stairs, orange leaves left mid-ground overlapping a cream disc"
 vfx: [none]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_left
 rim_light: subtle
 fill: high
 shadow_type: soft_short
 light_temperature_k: 4800
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: warm_beige
 gradient_direction: radial_center_light
 surface: matte_plaster
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: around
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
-has_text: true
-text_zones: [headline_topleft, collab_topright]
-script_direction: ltr
-
-# --- 9. STYLE & MOOD ---
+has_text: false
+text_zones: []
+script_direction: n/a
 render_style: photoreal_studio
 post_processing: clean_matte
 mood: "minimalist, serene, architectural, luxury"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product as the peak of a geometric ascent, blending rigid architecture with organic stylized leaves."
 fits_product_types: [serum, oil, essence]
 fits_container: [dropper_bottle, glass_bottle]
 swap_difficulty: hard
 strength: "architectural structure + monochromatic warm palette"
 avoid_if: "busy environments, dark palettes"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} positioned on the top step of a minimalist, 
-  cream-colored geometric staircase. A large circular matte disc frames the product from behind.
-  Vivid orange stylized waxy leaves emerge from the left.
-  Seamless warm beige radial gradient background.
-  Soft diffused lighting from top-left, casting gentle ambient occlusion shadows.
-  Architectural minimalist aesthetic, monochromatic warm tones, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} positioned on the top step of a minimalist, cream-colored geometric staircase. A large circular matte disc frames the product from behind. Vivid orange stylized waxy leaves emerge from the left. Seamless warm beige radial gradient background. Soft diffused lighting from top-left, casting gentle ambient occlusion shadows. Architectural minimalist aesthetic, monochromatic warm tones, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, cluttered props, dark colors, text, watermark"
-
 emoji: 🏛️
 notes_fa: "محصول در اوج یک پله هندسی — ترکیب معماری مینیمال با برگ‌های استایلایز شده."
 ---
-
----
 id: R040
 file: R040_skincare_herborist_architectural-arch.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Herborist
 product_name: Botanical Skincare Line
 category: skincare
@@ -696,89 +472,57 @@ subcategory: mixed_set
 container_type: [bottle, jar]
 container_material: matte_plastic
 label_style: white_minimal_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#B2D2B9 mint_green", "#FFFFFF white"]
 palette_scene: ["#C8D1C5 pale_sage", "#B2D2B9 mint_green", "#FFFFFF white"]
 color_temperature: cool
 contrast: low
 saturation: medium
 accent_color: mint_green
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: upright_centered
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 3
-
-# --- 4. PROPS & VFX ---
 props: [architectural_arch, vertical_slats, mirror_base, flower_branch, glass_spheres]
 prop_placement: "products on white textured platform; mint green arch frames center, white vertical slats on left, branch leaning in from top-left, medium bottle on mirror base"
 vfx: [none]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_left
 rim_light: subtle
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: solid
 background_color: pale_sage
 gradient_direction: n/a
 surface: white_textured_plaster
 reflection: soft_mirror
-# Since the mirror is a prop, it is noted in the prop_placement but reflection is also active here.
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: top
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_matte
 mood: "pure, serene, clinical-botanical, minimalist"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Architectural framing and botanical accents to convey a balance of science (geometry) and nature (flowers)."
 fits_product_types: [toner, essence, cream, serum]
 fits_container: [bottle, jar]
 swap_difficulty: medium
 strength: "geometric depth + monochromatic mint palette"
 avoid_if: "warm-toned brands, busy backgrounds"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} arranged on a white textured plaster platform.
-  A minimalist mint-green semi-circular arch frames the center, with thin white vertical slats on the left.
-  A delicate white flower branch leans in from the upper-left.
-  One product rests on a circular mirror base creating a soft reflection.
-  Pale sage-green seamless background, soft diffused lighting from top-left, shallow depth of field.
-  Minimalist architectural aesthetic, cool mint and white palette, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} arranged on a white textured plaster platform. A minimalist mint-green semi-circular arch frames the center, with thin white vertical slats on the left. A delicate white flower branch leans in from the upper-left. One product rests on a circular mirror base creating a soft reflection. Pale sage-green seamless background, soft diffused lighting from top-left, shallow depth of field. Minimalist architectural aesthetic, cool mint and white palette, 4:5 vertical."
 negative_prompt: "harsh shadows, cluttered props, warm tones, text, watermark"
-
 emoji: 🌿
 notes_fa: "ترکیب معماری مینیمال (قوس و ستون) با المان‌های گیاهی — تعادل بین علم و طبیعت."
 ---
-
----
 id: R041
 file: R041_haircare_spes_acrylic-tiered.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Spēs
 product_name: Mushing Hair Spray
 category: haircare
@@ -786,87 +530,57 @@ subcategory: hair_spray
 container_type: spray_bottle
 container_material: matte_plastic
 label_style: vertical_minimal_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#B2D8B2 pale_mint", "#E8E2D1 muted_beige"]
 palette_scene: ["#D4E6C5 light_sage", "#B2D8B2 mint_green", "#FFFFFF white"]
 color_temperature: cool
 contrast: low
 saturation: medium
 accent_color: lime_green
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: stacked
 camera_angle: high_angle
 product_scale: medium
 depth_of_field: shallow
 product_count: 3
-
-# --- 4. PROPS & VFX ---
 props: [tiered_acrylic_stand, heart_shaped_translucent_objects]
 prop_placement: "products arranged on clear acrylic tiered cubic stand; translucent lime-green heart shapes scattered in foreground and background"
 vfx: [soft_bokeh, specular_highlights]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_down
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: mint_green
 gradient_direction: radial_center_light
 surface: clear_acrylic
 reflection: soft_mirror
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: top
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_matte
 mood: "fresh, pure, minimalist, zen"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Layered architectural transparency paired with soft organic shapes to convey lightness and freshness."
 fits_product_types: [hair_spray, fragrance, toner]
 fits_container: [spray_bottle, cylindrical_bottle]
 swap_difficulty: medium
 strength: "acrylic transparency + monochromatic green palette"
 avoid_if: "warm-toned brands, heavy/dark materials"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  High-angle studio product photograph of {PRODUCT} arranged on a clear, tiered acrylic cubic pedestal.
-  Surrounded by scattered translucent lime-green heart-shaped resin objects creating a soft bokeh effect in the foreground and background.
-  Seamless mint-green radial gradient background.
-  Soft omnidirectional diffused lighting, minimal matte sheen, low contrast.
-  Clean minimalist Zen aesthetic, monochromatic analogous green palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "High-angle studio product photograph of {PRODUCT} arranged on a clear, tiered acrylic cubic pedestal. Surrounded by scattered translucent lime-green heart-shaped resin objects creating a soft bokeh effect in the foreground and background. Seamless mint-green radial gradient background. Soft omnidirectional diffused lighting, minimal matte sheen, low contrast. Clean minimalist Zen aesthetic, monochromatic analogous green palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, high contrast, dark colors, cluttered background, text, watermark"
-
 emoji: 💚
 notes_fa: "محصولات روی استند پله‌ای اکریلیک شفاف همراه با قلب‌های سبز شفاف — حس تازگی و مینیمالیسم."
 ---
-
----
 id: R042
 file: R042_skincare_dralva_clinical-lab.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Dr. ALVA
 product_name: Probiotics Professional Repairing Toner
 category: skincare
@@ -874,89 +588,57 @@ subcategory: toner
 container_type: bottle
 container_material: matte_plastic
 label_style: clinical_white_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#2A5A9F dark_blue"]
 palette_scene: ["#8BA4C7 steel_blue", "#D1DCEB powder_blue", "#B0D4F1 pale_blue"]
 color_temperature: cool
 contrast: low
 saturation: medium
 accent_color: powder_blue
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: upright_centered
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [glass_test_tubes, glass_beaker]
 prop_placement: "bottle centered and framed by 5 clear glass test tubes of varying heights, some containing pale blue liquid with micro-bubbles, thick-walled glass beaker in foreground bottom"
 vfx: [specular_highlights, refractive_distortion]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: front_left
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5600
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: steel_blue
 gradient_direction: vertical_top_dark_bottom_light
 surface: none
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: top
 symmetry: symmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_clinical
 mood: "sterile, professional, refreshing, scientific"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product surrounded by lab glassware to communicate pharmaceutical-grade efficacy and scientific research."
 fits_product_types: [toner, serum, essence, medical_skincare]
 fits_container: [bottle]
 swap_difficulty: medium
 strength: "clinical storytelling + monochromatic cool palette"
 avoid_if: "warm-toned brands, natural/boho aesthetics"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} standing upright and centered, 
-  framed by several clear glass test tubes of varying heights, some containing a 
-  translucent pale blue liquid with tiny suspended air bubbles. A thick-walled glass 
-  beaker partially obscures the base in the foreground.
-  Seamless vertical gradient background from muted steel blue to bright powder blue.
-  Soft diffused lighting from front-left, creating clean specular highlights on the glass.
-  Clinical laboratory aesthetic, monochromatic cool blue and white palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} standing upright and centered, framed by several clear glass test tubes of varying heights, some containing a translucent pale blue liquid with tiny suspended air bubbles. A thick-walled glass beaker partially obscures the base in the foreground. Seamless vertical gradient background from muted steel blue to bright powder blue. Soft diffused lighting from front-left, creating clean specular highlights on the glass. Clinical laboratory aesthetic, monochromatic cool blue and white palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, cluttered environment, text, watermark"
-
 emoji: 🧪
 notes_fa: "محصول در مرکز و محاط شده با لوله‌های آزمایش و بشر شیشه‌ای — حس کلینیکال و علمی."
 ---
-
----
 id: R043
 file: R043_skincare_ahc_floating-wave.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: AHC
 product_name: Premium EX Hydra B5 (Toner & Emulsion)
 category: skincare
@@ -964,88 +646,57 @@ subcategory: hydrating_set
 container_type: bottle
 container_material: translucent_blue_plastic
 label_style: minimalist_white_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#0077B6 deep_cobalt", "#CAF0F8 ice_blue"]
 palette_scene: ["#90E0EF sky_blue", "#B0C4DE steel_blue", "#FFFFFF white"]
 color_temperature: cool
 contrast: low
 saturation: medium
 accent_color: cobalt_blue
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: floating
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 2
-
-# --- 4. PROPS & VFX ---
 props: [iridescent_spheres, translucent_blue_wave]
 prop_placement: "two bottles floating diagonally; surrounded by iridescent water-droplet spheres and a sweeping translucent blue glass-like ribbon wave at the bottom"
 vfx: [specular_highlights, soft_bokeh]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_left
 rim_light: subtle
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5600
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: pale_ice_blue
 gradient_direction: radial_center_glow
 surface: none
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: diagonal_dynamic
 crop: medium
 negative_space: around
 symmetry: asymmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_glossy
 mood: "pure, hydrating, scientific, weightless"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Products drifting in a liquid-inspired environment to emphasize the 'Hydra' nature of the product line."
 fits_product_types: [toner, emulsion, serum]
 fits_container: [bottle]
 swap_difficulty: medium
 strength: "flowing fluid shapes + monochromatic blue palette"
 avoid_if: "warm-toned brands, heavy/dark aesthetics"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of two {PRODUCT} floating diagonally in a weightless, 
-  ethereal environment. Surrounded by iridescent translucent blue spheres 
-  and a sweeping, curved translucent blue glass-like ribbon wave arcing across the bottom.
-  Seamless radial gradient background from pale ice-blue to white.
-  Soft diffused lighting from top-left, creating crisp white specular highlights on the bottles and spheres.
-  Hydrating scientific aesthetic, monochromatic blue palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of two {PRODUCT} floating diagonally in a weightless, ethereal environment. Surrounded by iridescent translucent blue spheres and a sweeping, curved translucent blue glass-like ribbon wave arcing across the bottom. Seamless radial gradient background from pale ice-blue to white. Soft diffused lighting from top-left, creating crisp white specular highlights on the bottles and spheres. Hydrating scientific aesthetic, monochromatic blue palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, cluttered environment, text, watermark"
-
 emoji: 🌊
 notes_fa: "دو محصول شناور در محیطی آبی با موج‌های شیشه‌ای و حباب‌های درخشان — حس آبرسانی عمیق."
 ---
-
----
 id: R044
 file: R044_skincare_anua_foam-bed.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: anua
 product_name: Heartleaf Pore Deep Cleansing Foam
 category: skincare
@@ -1053,88 +704,57 @@ subcategory: cleanser
 container_type: tube
 container_material: matte_plastic
 label_style: white_green_minimal_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#8BA38B pale_olive"]
 palette_scene: ["#5B7C5B muted_sage", "#3E543E deep_forest", "#FFFFFF white"]
 color_temperature: cool
 contrast: low
 saturation: medium
 accent_color: muted_sage
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: upright_centered
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [bubbly_foam_bed, iridescent_soap_bubbles]
 prop_placement: "tube nestled in a thick, organic puddle of white aerated soap foam; iridescent bubbles scattered across the foam and background"
 vfx: [specular_highlights, soft_bokeh]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: top_left
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5400
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: solid
 background_color: sage_green
 gradient_direction: radial_vignette_center_light
 surface: matte_matte
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: around
 symmetry: symmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_matte
 mood: "natural, clean, botanical, fresh"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product resting on its own lather to visually prove product function and botanical freshness."
 fits_product_types: [cleanser, face_wash, foam]
 fits_container: [tube]
 swap_difficulty: easy
 strength: "monochromatic green palette + tactile foam texture"
 avoid_if: "warm-toned brands, luxury gold aesthetics"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} positioned vertically and centered, 
-  nestled in a large, irregular bed of thick, opaque white bubbly soap foam.
-  Several translucent iridescent soap bubbles of varying sizes scattered around the product.
-  Solid muted sage-green background with a subtle radial vignette.
-  Soft diffused lighting from top-left, creating gentle highlights on the bubbles and foam.
-  Botanical fresh aesthetic, monochromatic green and white palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} positioned vertically and centered, nestled in a large, irregular bed of thick, opaque white bubbly soap foam. Several translucent iridescent soap bubbles of varying sizes scattered around the product. Solid muted sage-green background with a subtle radial vignette. Soft diffused lighting from top-left, creating gentle highlights on the bubbles and foam. Botanical fresh aesthetic, monochromatic green and white palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, warm tones, dark colors, text, watermark"
-
 emoji: 🫧
 notes_fa: "لوله محصول روی توده‌ای از کف سفید و حباب‌های درخشان — تأکید بر خاصیت پاک‌کنندگی و تازگی گیاهی."
 ---
-
----
 id: R045
 file: R045_skincare_drjart_rocky-succulent.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: Dr. Jart+
 product_name: Pore Medic Pore Minish Bubble Foam
 category: skincare
@@ -1142,89 +762,57 @@ subcategory: cleanser
 container_type: tube
 container_material: matte_plastic
 label_style: bold_black_typographic
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#A2B5E3 periwinkle_blue"]
 palette_scene: ["#FFFFFF stark_white", "#D3D3D3 light_grey", "#8B7D8B muted_purple"]
 color_temperature: cool
 contrast: medium
 saturation: low
 accent_color: periwinkle_blue
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: upright_centered
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [textured_white_rocky_surface, succulent_plants]
 prop_placement: "product resting on a jagged, fragmented white rocky/concrete surface; two muted purple/green succulents placed at mid-left and lower-right"
 vfx: [none]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: upper_left
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5500
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: seamless_gradient
 background_color: light_grey
 gradient_direction: radial_center_light
 surface: matte_rocky_concrete
 reflection: none
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: hero_center_pedestal
 crop: medium
 negative_space: around
 symmetry: symmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_clinical
 mood: "sterile, serene, dermatological, fresh"
 season_occasion: none
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Combining stark mineral textures (rock) with delicate organic life (succulents) to convey purity and scientific precision."
 fits_product_types: [cleanser, foam, pore_treatment]
 fits_container: [tube]
 swap_difficulty: medium
 strength: "stark white contrast + organic botanical accents"
 avoid_if: "warm-toned brands, colorful backgrounds"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} positioned vertically and centered on a 
-  stark white, fragmented rocky concrete surface with jagged edges.
-  Two muted purple and sage-green succulent plants are placed strategically 
-  at the mid-left and lower-right.
-  Seamless light grey to white gradient background.
-  Soft diffused lighting from the upper-left, casting subtle soft shadows to the right.
-  Clinical clean beauty aesthetic, high-key monochromatic white palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} positioned vertically and centered on a stark white, fragmented rocky concrete surface with jagged edges. Two muted purple and sage-green succulent plants are placed strategically at the mid-left and lower-right. Seamless light grey to white gradient background. Soft diffused lighting from the upper-left, casting subtle soft shadows to the right. Clinical clean beauty aesthetic, high-key monochromatic white palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, colorful backgrounds, cluttered environment, text, watermark"
-
 emoji: 🌵
 notes_fa: "محصول روی سطح سنگی سفید تکسچردار همراه با ساکولنت‌های بنفش-خاکستری — حس پاکیزگی کلینیکال و طبیعی."
 ---
-
----
 id: R046
 file: R046_skincare_oneleaf_floating-sky.jpg
-
-# --- 1. PRODUCT IDENTITY ---
 brand: One leaf
 product_name: SPF 50+ Ultra UV Protection Sunscreen
 category: skincare
@@ -1232,78 +820,51 @@ subcategory: sunscreen
 container_type: tube
 container_material: matte_plastic
 label_style: minimal_white_black_yellow
-
-# --- 2. COLOR ---
 palette_product: ["#FFFFFF white", "#000000 black", "#E3C530 yellow"]
 palette_scene: ["#87CEEB sky_blue", "#FFFFFF white", "#B0C4DE light_steel_blue"]
 color_temperature: neutral
 contrast: low
 saturation: medium
 accent_color: golden_yellow
-
-# --- 3. PLACEMENT & CAMERA ---
 placement: floating
 camera_angle: high_angle
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
-
-# --- 4. PROPS & VFX ---
 props: [mirror_reflective_surface]
 prop_placement: "product floating diagonally from top-left to bottom-right; mirrored reflection beneath the tube creating perfect symmetry"
 vfx: [soft_bokeh]
 human_presence: none
-
-# --- 5. LIGHTING ---
 lighting_quality: soft_diffused
 key_direction: overhead
 rim_light: none
 fill: high
 shadow_type: soft_short
 light_temperature_k: 5600
-
-# --- 6. BACKGROUND & SURFACE ---
 background_type: natural_env
 background_color: sky_blue
 gradient_direction: radial_center_light
 surface: mirror_reflective
 reflection: mirror
-
-# --- 7. COMPOSITION & LAYOUT ---
 layout_archetype: diagonal_dynamic
 crop: medium
 negative_space: around
 symmetry: symmetrical
 aspect_ratio: "4:5"
-
-# --- 8. TYPOGRAPHY & COPY ---
 has_text: false
 text_zones: []
 script_direction: n/a
-
-# --- 9. STYLE & MOOD ---
 render_style: photoreal_studio
 post_processing: clean_airy
 mood: "pure, bright, weightless, protective"
 season_occasion: summer
-
-# --- 10. REUSE / RETRIEVAL ---
 concept_idea: "Product floating in the sky with a mirror reflection to emphasize UV protection and weightless purity."
 fits_product_types: [sunscreen, sunblock, day_cream]
 fits_container: [tube]
 swap_difficulty: easy
 strength: "surreal sky environment + symmetrical mirror reflection"
 avoid_if: "dark/moody aesthetics, urban backgrounds"
-
-# --- 11. PROMPT SEED ---
-prompt_seed: >
-  Studio product photograph of {PRODUCT} floating diagonally from top-left to bottom-right, 
-  positioned above a perfectly reflective mirrored surface that creates a crisp symmetrical reflection.
-  Background is a bright, ethereal light blue sky with soft, wispy white clouds in shallow bokeh.
-  Diffused high-key lighting mimicking natural daylight, creating a clean and airy feel.
-  Surreal minimalist aesthetic, bright blue and white palette, shallow depth of field, 4:5 vertical.
+prompt_seed: "Studio product photograph of {PRODUCT} floating diagonally from top-left to bottom-right, positioned above a perfectly reflective mirrored surface that creates a crisp symmetrical reflection. Background is a bright, ethereal light blue sky with soft, wispy white clouds in shallow bokeh. Diffused high-key lighting mimicking natural daylight, creating a clean and airy feel. Surreal minimalist aesthetic, bright blue and white palette, shallow depth of field, 4:5 vertical."
 negative_prompt: "harsh shadows, dark colors, cluttered background, distorted tube, watermark"
-
 emoji: ☀️
 notes_fa: "محصول شناور در آسمان با انعکاس آینه‌ای کامل در پایین — حس محافظت در برابر UV و سبکی."
----

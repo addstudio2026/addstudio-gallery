@@ -1,4 +1,57 @@
 id: R044
 file: R044_skincare_anua_foam-bed.jpg
-
-#
+brand: anua
+product_name: Heartleaf Pore Deep Cleansing Foam
+category: skincare
+subcategory: cleanser
+container_type: tube
+container_material: matte_plastic
+label_style: white_green_minimal_typographic
+palette_product: ["#FFFFFF white", "#8BA38B pale_olive"]
+palette_scene: ["#5B7C5B muted_sage", "#3E543E deep_forest", "#FFFFFF white"]
+color_temperature: cool
+contrast: low
+saturation: medium
+accent_color: muted_sage
+placement: upright_centered
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+props: [bubbly_foam_bed, iridescent_soap_bubbles]
+prop_placement: "tube nestled in a thick, organic puddle of white aerated soap foam; iridescent bubbles scattered across the foam and background"
+vfx: [specular_highlights, soft_bokeh]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: top_left
+rim_light: none
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5400
+background_type: solid
+background_color: sage_green
+gradient_direction: radial_vignette_center_light
+surface: matte_matte
+reflection: none
+layout_archetype: hero_center_pedestal
+crop: medium
+negative_space: around
+symmetry: symmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean_matte
+mood: "natural, clean, botanical, fresh"
+season_occasion: none
+concept_idea: "Product resting on its own lather to visually prove product function and botanical freshness."
+fits_product_types: [cleanser, face_wash, foam]
+fits_container: [tube]
+swap_difficulty: easy
+strength: "monochromatic green palette + tactile foam texture"
+avoid_if: "warm-toned brands, luxury gold aesthetics"
+prompt_seed: "Studio product photograph of {PRODUCT} positioned vertically and centered, nestled in a large, irregular bed of thick, opaque white bubbly soap foam. Several translucent iridescent soap bubbles of varying sizes scattered around the product. Solid muted sage-green background with a subtle radial vignette. Soft diffused lighting from top-left, creating gentle highlights on the bubbles and foam. Botanical fresh aesthetic, monochromatic green and white palette, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, dark colors, text, watermark"
+emoji: 🫧
+notes_fa: "لوله محصول روی توده‌ای از کف سفید و حباب‌های درخشان — تأکید بر خاصیت پاک‌کنندگی و تازگی گیاهی."

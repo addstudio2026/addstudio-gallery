@@ -1,4 +1,57 @@
 id: R039
 file: R039_skincare_unknown_architectural-stairs.jpg
-
-#
+brand: unknown
+product_name: Moisturizing & Soothing Serum
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: frosted_glass
+label_style: minimal_white_typographic
+palette_product: ["#FF9F43 bright_orange", "#F5E6D3 pale_cream"]
+palette_scene: ["#F5E6D3 cream", "#E8C39E warm_beige", "#FF9F43 orange"]
+color_temperature: warm
+contrast: low
+saturation: medium
+accent_color: bright_orange
+placement: upright_centered
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+props: [geometric_stairs, rectangular_blocks, stylized_orange_leaves, circular_disc]
+prop_placement: "product on top step of right-aligned ascending stairs, orange leaves left mid-ground overlapping a cream disc"
+vfx: [none]
+human_presence: none
+lighting_quality: soft_diffused
+key_direction: top_left
+rim_light: subtle
+fill: high
+shadow_type: soft_short
+light_temperature_k: 4800
+background_type: seamless_gradient
+background_color: warm_beige
+gradient_direction: radial_center_light
+surface: matte_plaster
+reflection: none
+layout_archetype: hero_center_pedestal
+crop: medium
+negative_space: around
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+has_text: false
+text_zones: []
+script_direction: n/a
+render_style: photoreal_studio
+post_processing: clean_matte
+mood: "minimalist, serene, architectural, luxury"
+season_occasion: none
+concept_idea: "Product as the peak of a geometric ascent, blending rigid architecture with organic stylized leaves."
+fits_product_types: [serum, oil, essence]
+fits_container: [dropper_bottle, glass_bottle]
+swap_difficulty: hard
+strength: "architectural structure + monochromatic warm palette"
+avoid_if: "busy environments, dark palettes"
+prompt_seed: "Studio product photograph of {PRODUCT} positioned on the top step of a minimalist, cream-colored geometric staircase. A large circular matte disc frames the product from behind. Vivid orange stylized waxy leaves emerge from the left. Seamless warm beige radial gradient background. Soft diffused lighting from top-left, casting gentle ambient occlusion shadows. Architectural minimalist aesthetic, monochromatic warm tones, shallow depth of field, 4:5 vertical."
+negative_prompt: "harsh shadows, cluttered props, dark colors, text, watermark"
+emoji: 🏛️
+notes_fa: "محصول در اوج یک پله هندسی — ترکیب معماری مینیمال با برگ‌های استایلایز شده."
