@@ -1,5 +1,5 @@
-id: R028
-file: R028_skincare_placeholder.jpg
+id: R029
+file: R029_skincare_placeholder.jpg
 
 # --- 1. PRODUCT IDENTITY ---
 brand: SYNSKIN
@@ -19,14 +19,14 @@ saturation: vivid
 accent_color: cyan
 
 # --- 3. PLACEMENT & CAMERA ---
-placement: hero_center_spheres
+placement: hero_center_bubbles
 camera_angle: eye_level
 product_scale: medium
 depth_of_field: shallow
 product_count: 1
 
 # --- 4. PROPS & VFX ---
-props: [iridescent_spheres]
+props: [iridescent_bubbles]
 prop_placement: "floating spheres around the product"
 vfx: [dew_droplets]
 human_presence: none
@@ -47,7 +47,7 @@ surface: matte_paper
 reflection: none
 
 # --- 7. COMPOSITION & LAYOUT ---
-layout_archetype: hero_center_spheres
+layout_archetype: hero_center_bubbles
 crop: medium
 negative_space: top
 symmetry: asymmetrical
@@ -65,7 +65,7 @@ mood: "dynamic, scientific, clinical"
 season_occasion: none
 
 # --- 10. REUSE / RETRIEVAL ---
-concept_idea: "Floating spheres as symbols of purity."
+concept_idea: "Bubbles symbolizing purity and scientific innovation."
 fits_product_types: [gel_cream, moisturizer]
 fits_container: [tube]
 swap_difficulty: easy
@@ -73,8 +73,8 @@ strength: "spherical geometry + cool palette"
 avoid_if: "warm-toned brands"
 
 # --- 11. PROMPT SEED ---
-prompt_seed: "Studio product photograph of {PRODUCT} centered with iridescent spheres, white matte tube, soft sky-blue background, 4:5 vertical."
-negative_prompt: "harsh shadows, warm tones"
+prompt_seed: "Studio product photograph of {PRODUCT} surrounded by floating iridescent translucent spheres, white matte tube, soft sky-blue background, diffused lighting, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, text"
 
 emoji: 🧪
-notes_fa: "کره‌های درخشان — حس علمی."
+notes_fa: "حباب‌های درخشان — نمایش نوآوری علمی."
