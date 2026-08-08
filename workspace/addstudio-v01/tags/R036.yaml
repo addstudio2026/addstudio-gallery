@@ -1,5 +1,80 @@
 id: R036
 file: R036_skincare_venus_hero-center-dew.jpg
+
+# --- 1. PRODUCT IDENTITY ---
 brand: Venus
-mood: fresh, clinical, hydrating
+product_name: Aqua24 Deep Moisturizing Cream
+category: skincare
+subcategory: face_cream
+container_type: jar
+container_material: matte_plastic
+label_style: blue_white_typographic
+
+# --- 2. COLOR ---
+palette_product: ["#FFFFFF white", "#007BA7 cerulean_blue"]
+palette_scene: ["#ADD8E6 light_blue", "#4682B4 steel_blue", "#FFFFFF white"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: cerulean_blue
+
+# --- 3. PLACEMENT & CAMERA ---
+placement: leaning
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+
+# --- 4. PROPS & VFX ---
+props: [textured_ledge]
+prop_placement: "jar resting on a white stippled curved ledge running diagonally"
+vfx: [dew_droplets]
+human_presence: none
+
+# --- 5. LIGHTING ---
+lighting_quality: soft_diffused
+key_direction: front_left_45
+rim_light: none
+fill: medium
+shadow_type: soft_short
+light_temperature_k: 5500
+
+# --- 6. BACKGROUND & SURFACE ---
+background_type: seamless_gradient
+background_color: sky_blue
+gradient_direction: bottom_light_to_top_dark
+surface: matte_stippled_white
+reflection: none
+
+# --- 7. COMPOSITION & LAYOUT ---
+layout_archetype: diagonal_dynamic
+crop: medium
+negative_space: top
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+
+# --- 8. TYPOGRAPHY & COPY ---
+has_text: false
+text_zones: []
+script_direction: n/a
+
+# --- 9. STYLE & MOOD ---
+render_style: photoreal_studio
+post_processing: clean
+mood: "fresh, clinical, hydrating, calm"
+season_occasion: summer
+
+# --- 10. REUSE / RETRIEVAL ---
+concept_idea: "Product on a wet, textured surface to visually represent 'Aqua' and deep hydration."
+fits_product_types: [face_cream, moisturizer, gel]
+fits_container: [jar]
+swap_difficulty: easy
+strength: "cool blue palette + water droplet storytelling"
+avoid_if: "warm-toned brands, luxury gold aesthetics"
+
+# --- 11. PROMPT SEED ---
+prompt_seed: "Studio product photograph of {PRODUCT} leaning slightly on a white matte textured curved ledge. Numerous clear water droplets scattered across the surface and clinging to the jar. Smooth blue gradient background, soft diffused key light from upper-left 45°, soft cool shadows. Fresh hydration aesthetic, cool 5500K, shallow depth of field, 4:5 vertical."
+negative_prompt: "warm tones, harsh shadows, cluttered environment, text, watermark"
+
 emoji: 💙
+notes_fa: "محصول روی لبه سفید تکسچردار با قطرات آب — تأکید بر آبرسانی عمیق."
