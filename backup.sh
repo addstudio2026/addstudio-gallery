@@ -38,8 +38,10 @@ done
 
 # Workspace
 if [ -d "/data/workspace/addstudio-v01" ]; then
+    mkdir -p workspace/addstudio-v01/tags
     cp /data/workspace/addstudio-v01/*.md workspace/addstudio-v01/ 2>/dev/null || true
     cp /data/workspace/addstudio-v01/*.jpg workspace/addstudio-v01/ 2>/dev/null || true
+    cp /data/workspace/addstudio-v01/tags/*.yaml workspace/addstudio-v01/tags/ 2>/dev/null || true
 fi
 
 # Cron
