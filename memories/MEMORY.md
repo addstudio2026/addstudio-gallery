@@ -1,4 +1,4 @@
-Prompt Gen Workflow: Product Img -> Match R001-R046 Ref -> User Approval -> Final Prompt (per skill rules).
+Prompt Gen Workflow: Product Img -> Match R001-R046 Ref -> User Approval -> Read .yaml tag (Source of Truth) -> Final Prompt.
 §
 Saved PRODUCT_SHOT_SKILL.md at /data/workspace/addstudio-v01/PRODUCT_SHOT_SKILL.md. poster-addstudio-v01 skill in Hermes skills (creative category).
 §
@@ -11,3 +11,5 @@ Always deliver ONE best prompt, not multiple options. ALWAYS visually analyze he
 CRITICAL BUG: MIMO2.5 enters infinite loops calling same tool 100+ times. Stop after 5 identical calls, max 10 per response. Added LOOP SAFETY RULE to SOUL.md.
 §
 Ref DB v2: 46 individual .yaml files in /data/workspace/addstudio-v01/tags/R{NNN}.yaml (R001-R046). Each = full 11-section forensic tag. Also references.yaml (central) and INDEX.md (one-liner table). Always save individual files FIRST, then sync to /data/hermes-backup/ for git push.
+§
+User requires strict adherence to YAML reference data for product shot prompts; visual analysis is secondary to the forensic data in /tags/*.yaml.

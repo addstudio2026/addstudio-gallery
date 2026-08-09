@@ -4,4 +4,4 @@ User communicates in Persian, expects Persian notes but English prompts. Direct 
 §
 User: Hosein Mirhoseini. Persian speaker, prompts in English. Creative Director for skincare/beauty (Lá farrerr). Workspace: /data/workspace/addstudio-v01/. Uses Telegram. Expects zero-error forensic tagging (all 11 sections required); incomplete data is a failure.
 §
-User prefers 'Reference-First' workflow: 1) Analyze product -> 2) Propose R{NNN} ref -> 3) User approves -> 4) Agent MUST read corresponding .yaml in /tags/ to extract forensic data (Lighting, BG, Composition, Seed) as absolute source of truth for the final prompt.
+User prefers 'Reference-First' workflow: 1) Analyze product -> 2) Propose R{NNN} ref -> 3) User approves -> 4) Agent MUST read corresponding .yaml in /tags/ as absolute source of truth. Also supports 'Mashup' approach (combining layout of one ref with theme of another).
