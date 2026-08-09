@@ -1,0 +1,74 @@
+id: R010
+file: R010_skincare_olehenriksen_floating-cluster.jpg
+
+brand: Ole Henriksen
+product_name: Banana Bright+ Eye Creme
+category: skincare
+subcategory: eye_cream
+container_type: jar
+container_material: paper_box
+label_style: orange_white_typographic
+
+palette_product: ["#E8723A warm orange", "#F5E1C8 cream", "#1A1A1A black text"]
+palette_scene: ["#F5A623 golden orange", "#E8C47C warm gold"]
+color_temperature: warm
+contrast: medium
+saturation: vivid
+accent_color: bright_orange
+
+placement: stacked_floating_cluster
+camera_angle: eye_level_slight_tilt
+product_scale: medium
+depth_of_field: shallow
+product_count: 3
+
+props: [floating_components, geometric_shapes]
+prop_placement: "product and its box floating in a balanced cluster arrangement"
+vfx: [soft_glow, micro_dust_particles]
+human_presence: none
+
+lighting_quality: soft_diffused_radiant
+key_direction: top_center
+rim_light: warm_golden_outline
+fill: high
+shadow_type: soft_floating_shadows
+light_temperature_k: 3800
+
+background_type: seamless_gradient
+background_color: warm_gold_orange
+gradient_direction: radial_center_light
+surface: none
+reflection: none
+
+layout_archetype: floating_cluster
+crop: medium
+negative_space: around
+symmetry: asymmetrical_balanced
+aspect_ratio: "4:5"
+
+has_text: false
+text_zones: []
+script_direction: n/a
+
+render_style: photoreal_studio
+post_processing: clean_vivid
+mood: "energetic, bright, premium, uplifting"
+season_occasion: none
+
+concept_idea: "Gravity-defying floating cluster of product and packaging — conveying lightness and a burst of energy."
+fits_product_types: [eye_cream, small_jars, luxury_compacts]
+fits_container: [jar, small_box]
+swap_difficulty: medium
+strength: "floating composition + warm vibrant orange palette"
+avoid_if: "heavy products, cold clinical vibes, dark backgrounds"
+
+prompt_seed: >
+  Studio product photograph of {PRODUCT} and its packaging floating in a 
+  balanced, gravity-defying cluster. Warm golden orange radial gradient background, 
+  soft radiant lighting from the top, warm golden rim lights. 
+  High saturation, vivid orange tones, shallow depth of field with soft-focus edges. 
+  Premium energetic mood, 3800K warm light, 4:5 vertical.
+negative_prompt: "gravity, floor, hard shadows, cool tones, blue background, cluttered, blurry"
+
+emoji: 🍌
+notes_fa: "خوشه شناور از محصول و بسته‌بندی — حس سبکی و انرژی درخشان."
