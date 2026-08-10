@@ -30,7 +30,6 @@
   .font-display{font-family:'Fraunces',serif;}
   .font-mono{font-family:'IBM Plex Mono',monospace;}
 
-  /* header */
   .header{
     position:sticky; top:0; z-index:30;
     background:linear-gradient(180deg, var(--bg) 70%, rgba(11,11,13,0));
@@ -58,7 +57,6 @@
   .search-wrap input::placeholder{color:var(--ink-faint);}
   .search-icon{color:var(--ink-faint); flex:none;}
 
-  /* chips */
   .chip-row{
     display:flex; gap:8px; overflow-x:auto; padding:12px 16px 6px;
     scrollbar-width:none;
@@ -72,21 +70,19 @@
     transition:all .15s ease; cursor:pointer; white-space:nowrap;
   }
   .chip.active{
-    background:var(--gold); border-color:var(--gold); color:#171208;
+    background:var(--gold); border-color:var(--gold); color:#17120/black;
     font-weight:500;
   }
   .chip-sep{flex:none; width:1px; background:var(--line); margin:2px 2px;}
 
-  /* grid */
   .grid-wrap{padding:14px 12px 90px;}
-  .masonry{column-count:2; column-gap:10px;}
+  .masonry{column-count:2; column-gap:12px;}
   @media (min-width:480px){ .masonry{column-count:3;} }
 
   .plate{
-    break-inside:avoid; margin-bottom:10px; position:relative;
-    border-radius:10px; overflow:hidden; background:var(--surface);
+    break-inside:avoid; margin-bottom:16px; position:relative;
+    border-radius:12px; overflow:hidden; background:var(--surface);
     border:1px solid var(--line);
-    cursor:pointer;
   }
   .plate img{
     width:100%; display:block; opacity:0; transition:opacity .5s ease;
@@ -100,97 +96,34 @@
   }
   @keyframes shimmer{
     0%{background-position:200% 0;}
-    100%{background-position:-200% 0;}
+    100%{background-position:-100% 0;}
   }
-  .plate-tag{
-    position:absolute; left:8px; bottom:8px; right:8px;
-    display:flex; align-items:flex-end; justify-content:space-between;
-    pointer-events:none;
-  }
-  .plate-shade{
-    position:absolute; inset:0; top:55%;
-    background:linear-gradient(180deg, rgba(11,11,13,0), rgba(11,11,13,.88));
-    pointer-events:none;
+  .plate-info{
+    padding:10px; display:flex; flex-direction:column; gap:6px;
   }
   .plate-id{
-    font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--gold-bright);
-    letter-spacing:.03em; z-index:2;
+    font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--gold-bright);
+    letter-spacing:.05em;
   }
   .plate-brand{
-    font-family:'Inter',sans-serif; font-size:10.5px; color:var(--ink-dim);
-    letter-spacing:.03em; z-index:2; text-align:right;
+    font-family:'Inter',sans-serif; font-size:11px; color:var(--ink-dim);
+    margin-bottom:8px;
+  }
+  .copy-btn{
+    width:100%; padding:8px; border-radius:8px; border:1px solid var(--line);
+    background:var(--surface-2); color:var(--ink); font-family:'Inter',sans-serif;
+    font-size:12px; font-weight:500; cursor:pointer;
+    transition:all .2s ease; display:flex; align-items:center; justify-content:center; gap:6px;
+  }
+  .copy-btn:active{background:var(--line); scale:0.98;}
+  .copy-btn.copied{
+    background:var(--gold); color:#000; border-color:var(--gold);
   }
 
-  /* empty state */
   .empty{
     text-align:center; padding:60px 20px; color:var(--ink-faint);
   }
   .empty .font-display{color:var(--ink-dim); font-size:19px; margin-bottom:6px;}
-
-  /* modal */
-  .modal-backdrop{
-    position:fixed; inset:0; background:rgba(8,8,9,.86);
-    backdrop-filter:blur(4px);
-    z-index:50; display:flex; align-items:flex-end;
-    opacity:0; pointer-events:none; transition:opacity .25s ease;
-  }
-  .modal-backdrop.open{opacity:1; pointer-events:auto;}
-  .modal-sheet{
-    width:100%; max-height:92vh; overflow-y:auto;
-    background:var(--bg); border-radius:20px 20px 0 0;
-    border-top:1px solid var(--line);
-    transform:translateY(24px); transition:transform .3s cubic-bezier(.2,.8,.2,1);
-  }
-  .modal-backdrop.open .modal-sheet{transform:translateY(0);}
-  .modal-handle{
-    width:36px; height:4px; background:var(--line); border-radius:99px;
-    margin:10px auto 4px;
-  }
-  .modal-img-wrap{
-    padding:14px 14px 0; position:relative;
-  }
-  .modal-img-wrap img{
-    width:100%; border-radius:12px; display:block; background:var(--surface);
-  }
-  .modal-close{
-    position:absolute; top:24px; right:24px; z-index:2;
-    width:32px; height:32px; border-radius:99px;
-    background:rgba(11,11,13,.6); border:1px solid rgba(255,255,255,.15);
-    color:var(--ink); display:flex; align-items:center; justify-content:center;
-    backdrop-filter:blur(4px);
-  }
-  .modal-body{padding:18px 20px 24px;}
-  .modal-plate-num{
-    font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--gold);
-    letter-spacing:.1em; text-transform:uppercase; margin-bottom:4px;
-  }
-  .modal-title{
-    font-family:'Fraunces',serif; font-style:italic; font-weight:450;
-    font-size:24px; margin:0 0 14px; letter-spacing:-.01em;
-  }
-  .modal-meta{
-    display:flex; gap:22px; padding:14px 0; border-top:1px solid var(--line);
-    border-bottom:1px solid var(--line); margin-bottom:20px;
-  }
-  .meta-item .meta-label{
-    font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.14em;
-    text-transform:uppercase; color:var(--ink-faint); margin-bottom:4px;
-  }
-  .meta-item .meta-value{font-size:14px; color:var(--ink);}
-  .select-btn{
-    width:100%; padding:15px; border-radius:12px; border:none;
-    background:var(--gold); color:#171208; font-family:'Inter',sans-serif;
-    font-weight:600; font-size:15px; letter-spacing:.01em;
-    display:flex; align-items:center; justify-content:center; gap:8px;
-    transition:filter .15s ease;
-  }
-  .select-btn:active{filter:brightness(.92);}
-
-  /* loading skeleton grid on first paint */
-  .init-skel{
-    break-inside:avoid; margin-bottom:10px; border-radius:10px;
-    background:var(--surface); position:relative; overflow:hidden;
-  }
 </style>
 </head>
 <body>
@@ -214,41 +147,10 @@
   </div>
 </div>
 
-<div class="modal-backdrop" id="modalBackdrop">
-  <div class="modal-sheet" id="modalSheet">
-    <div class="modal-handle"></div>
-    <div class="modal-img-wrap">
-      <button class="modal-close" id="modalClose">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
-      </button>
-      <img id="modalImg" src="" alt="">
-    </div>
-    <div class="modal-body">
-      <div class="modal-plate-num" id="modalPlateNum">R000</div>
-      <h2 class="modal-title" id="modalStyle">—</h2>
-      <div class="modal-meta">
-        <div class="meta-item">
-          <div class="meta-label">Brand</div>
-          <div class="meta-value" id="modalBrand">—</div>
-        </div>
-        <div class="meta-item">
-          <div class="meta-label">Category</div>
-          <div class="meta-value" id="modalCategory">—</div>
-        </div>
-      </div>
-      <button class="select-btn" id="selectBtn">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>
-        Select this Reference
-      </button>
-    </div>
-  </div>
-</div>
-
 <script>
 (function(){
   'use strict';
 
-  // ---- Telegram init ----
   var tg = window.Telegram ? window.Telegram.WebApp : null;
   if (tg) {
     tg.ready();
@@ -263,7 +165,6 @@
   var emptyEl = document.getElementById('emptyState');
   var searchInput = document.getElementById('searchInput');
 
-  // ---- initial skeleton while manifest loads ----
   function renderInitSkeletons(){
     var heights = [180,140,210,160,190,150];
     var html = '';
@@ -284,26 +185,22 @@
     .catch(function(err){
       gridEl.innerHTML = '<div class="empty" style="grid-column:1/-1;">' +
         '<div class="font-display">Could not load manifest.json</div>' +
-        '<div>Serve this folder over HTTP (not file://) so fetch() can reach it.</div></div>';
+        '<div>Serve this folder over HTTP so fetch() can reach it.</div></div>';
       console.error(err);
     });
 
   function buildChips(data){
     var categories = uniq(data.map(function(d){ return d.category; }));
     var brands = uniq(data.map(function(d){ return d.brand; }));
-
     var chips = ['ALL'].concat(categories);
     var html = chips.map(function(c){
       return '<div class="chip'+(c==='ALL'?' active':'')+'" data-type="category" data-value="'+esc(c)+'">'+esc(c)+'</div>';
     }).join('');
-
     html += '<div class="chip-sep"></div>';
     html += brands.map(function(b){
       return '<div class="chip" data-type="brand" data-value="'+esc(b)+'">'+esc(b)+'</div>';
     }).join('');
-
     chipRowEl.innerHTML = html;
-
     chipRowEl.querySelectorAll('.chip').forEach(function(chip){
       chip.addEventListener('click', function(){
         var value = chip.getAttribute('data-value');
@@ -315,18 +212,15 @@
     });
   }
 
-  function uniq(arr){
-    return arr.filter(function(v,i){ return arr.indexOf(v) === i; });
-  }
-  function esc(s){
-    var d = document.createElement('div'); d.textContent = s; return d.innerHTML;
-  }
+  function uniq(arr){ return arr.filter(function(v,i){ return arr.indexOf(v) === i; }); }
+  function esc(s){ var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 
   function filteredData(){
     var q = state.query.trim().toLowerCase();
     return state.data.filter(function(item){
       var matchesFilter = state.activeFilter === 'ALL' ||
-        item.category === state.activeFilter || item.brand === state.activeFilter;
+        item.category === state.activeFilter || item.brand === state.// Updated logic
+        item.brand === state.activeFilter;
       var matchesQuery = !q ||
         item.id.toLowerCase().indexOf(q) !== -1 ||
         item.brand.toLowerCase().indexOf(q) !== -1;
@@ -342,33 +236,31 @@
       return;
     }
     emptyEl.style.display = 'none';
-
     gridEl.innerHTML = items.map(function(item){
       return (
-        '<div class="plate" data-id="'+esc(item.id)+'">' +
+        '<div class="plate">' +
           '<div class="skel"></div>' +
           '<img data-src="'+esc(item.url)+'" alt="'+esc(item.id)+'">' +
-          '<div class="plate-shade"></div>' +
-          '<div class="plate-tag">' +
-            '<span class="plate-id">'+esc(item.id)+'</span>' +
-            '<span class="plate-brand">'+esc(item.brand)+'</span>' +
+          '<div class="plate-info">' +
+            '<div class="plate-id">'+esc(item.id)+'</div>' +
+            '<div class="plate-brand">'+esc(item.brand)+'</div>' +
+            '<button class="copy-btn" data-id="'+esc(item.id)+'">' +
+              '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"\/>' +
+              'Copy ID</button>' +
           '</div>' +
         '</div>'
       );
     }).join('');
-
     lazyLoadImages();
-
-    gridEl.querySelectorAll('.plate').forEach(function(plate){
-      plate.addEventListener('click', function(){
-        var id = plate.getAttribute('data-id');
-        var item = state.data.find(function(d){ return d.id === id; });
-        if (item) openModal(item);
+    // Copy events
+    gridEl.querySelectorAll('.copy-btn').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        var id = btn.getAttribute('data-id');
+        copyToClipboard(id, btn);
       });
     });
   }
 
-  // ---- lazy loading via IntersectionObserver ----
   function lazyLoadImages(){
     var imgs = gridEl.querySelectorAll('img[data-src]');
     if ('IntersectionObserver' in window){
@@ -381,9 +273,7 @@
         });
       }, { rootMargin: '150px 0px' });
       imgs.forEach(function(img){ io.observe(img); });
-    } else {
-      imgs.forEach(loadImg);
-    }
+    } else { imgs.forEach(loadImg); }
   }
   function loadImg(img){
     img.src = img.getAttribute('data-src');
@@ -395,7 +285,6 @@
     });
   }
 
-  // ---- search ----
   var searchDebounce;
   searchInput.addEventListener('input', function(e){
     clearTimeout(searchDebounce);
@@ -405,57 +294,22 @@
     }, 120);
   });
 
-  // ---- modal ----
-  var modalBackdrop = document.getElementById('modalBackdrop');
-  var modalImg = document.getElementById('modalImg');
-  var modalPlateNum = document.getElementById('modalPlateNum');
-  var modalStyle = document.getElementById('modalStyle');
-  var modalBrand = document.getElementById('modalBrand');
-  var modalCategory = document.getElementById('modalCategory');
-  var selectBtn = document.getElementById('selectBtn');
-  var currentItem = null;
-
-  function openModal(item){
-    currentItem = item;
-    modalImg.src = item.url;
-    modalPlateNum.textContent = item.id;
-    modalStyle.textContent = item.style;
-    modalBrand.textContent = item.brand;
-    modalCategory.textContent = item.category;
-    modalBackdrop.classList.add('open');
-    document.body.style.overflow = 'hidden';
-    if (tg && tg.BackButton){
-      tg.BackButton.show();
-      tg.BackButton.onClick(closeModal);
-    }
+  function copyToClipboard(text, btn){
+    var el = document.createElement('textarea');
+    el.value = text;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand('copy');
+    document.body.removeChild(el);
+    
+    btn.textContent = 'Copied!';
+    btn.classList.add('copied');
+    setTimeout(function(){
+      btn.textContent = 'Copy ID';
+      btn.classList.remove('copied');
+    }, 1500);
   }
-  function closeModal(){
-    modalBackdrop.classList.remove('open');
-    document.body.style.overflow = '';
-    currentItem = null;
-    if (tg && tg.BackButton){
-      tg.BackButton.hide();
-      tg.BackButton.offClick(closeModal);
-    }
-  }
-  document.getElementById('modalClose').addEventListener('click', closeModal);
-  modalBackdrop.addEventListener('click', function(e){
-    if (e.target === modalBackdrop) closeModal();
-  });
 
-  selectBtn.addEventListener('click', function(){
-    if (!currentItem) return;
-    if (tg && tg.sendData){
-      tg.sendData(currentItem.id);
-      tg.close();
-    } else {
-      // fallback for testing outside Telegram
-      alert('Selected reference: ' + currentItem.id +
-        '\n\n(Telegram.WebApp.sendData is only available inside Telegram — this alert is a browser-preview fallback.)');
-    }
-  });
-
-  if (tg && tg.MainButton) { tg.MainButton.hide(); }
 })();
 </script>
 </body>
