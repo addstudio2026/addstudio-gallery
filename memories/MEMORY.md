@@ -12,4 +12,4 @@ User requires strict adherence to YAML reference data; visual analysis secondary
 §
 User explicitly abandoned password system (2026-08-09). Do NOT ask for passwords. `hermes send --to telegram:chat_id msg` sends messages to other users. Available: Ali, Alireza Emtiaz, m4dsi.
 §
-User requires strict adherence to the 11-section standard for reference tagging; summary/shortened YAMLs are unacceptable. Accuracy and completeness take priority over execution speed.
+User requires strict adherence to the 11-section standard for reference tagging; shortened YAMLs are unacceptable. Quality always takes priority over speed.
