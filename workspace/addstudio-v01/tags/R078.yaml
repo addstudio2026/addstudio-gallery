@@ -1,0 +1,56 @@
+id: R078
+file: R078_skincare_hydraluxe_bound-navy.jpg
+
+brand: HYDRA-LUXE
+product_name: Hydrating Serum
+category: skincare
+subcategory: serum
+container_type: squeeze_tube
+container_material: metallic-plastic
+label_style: bold-white-sans-serif
+
+palette_product: ["#000080 deep-navy", "#C0C0C0 silver"]
+palette_scene: ["#000033 midnight-blue", "#000080 royal-blue"]
+color_temperature: cool
+contrast: high
+saturation: medium
+accent_color: #FFFFFF
+
+placement: centered-vertical
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on tube-center
+
+props:
+  - thick-braided-navy-ropes (entwining the tube)
+  - viscous-clear-serum-droplet (hanging from nozzle)
+
+lighting:
+  type: dramatic-directional-studio
+  source: side-lighting
+  effect: strong-chiaroscuro-highlights-on-textures
+
+background:
+  type: seamless-matte-gradient
+  elements: [dark-blue-void]
+  color: #000033
+
+composition:
+  style: monochromatic-dramatic-contrast
+  framing: structural-rope-framing
+  dynamic: static-and-compressed
+
+typography:
+  style: clean-white-all-caps-sans-serif
+  layout: centered-vertical
+
+style: Power-Luxury-Navy
+reuse: Ideal for high-performance serums, masculine skincare lines, or branding that wants to convey strength, intensity, and "bound" perfection.
+
+prompt_seed: >
+  A dramatic studio shot of a metallic deep navy blue skincare tube 
+  vertically centered and tightly entwined by thick, braided navy blue 
+  ropes. A single clear viscous serum droplet hangs from the silver 
+  nozzle. Monochromatic midnight-blue background. Strong directional 
+  lighting creating high contrast highlights on the metallic tube and 
+  rope textures. 8K, hyper-realistic, intense and luxurious aesthetic.
