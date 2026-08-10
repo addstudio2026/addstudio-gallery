@@ -656,5 +656,26 @@
     "category": "haircare",
     "style": "symmetrical-side-of-face",
     "url": "images/R100_haircare_natural_symmetrical-dewy.jpg"
+  },
+  {
+    "id": "R101",
+    "brand": "unknown",
+    "category": "skincare",
+    "style": "centered-on-black-plate",
+    "url": "images/R101_skincare_unknown_shadow-play.jpg"
+  },
+  {
+    "id": "R102",
+    "brand": "ILIA",
+    "category": "beauty",
+    "style": "held-by-hand",
+    "url": "images/R102_beauty_ilia_textured-luxury.jpg"
+  },
+  {
+    "id": "R103",
+    "brand": "unknown",
+    "category": "skincare",
+    "style": "scattered-on-textured-surface",
+    "url": "images/R103_skincare_unknown_hard-sun-amber.jpg"
   }
 ]
