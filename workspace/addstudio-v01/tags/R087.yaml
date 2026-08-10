@@ -1,0 +1,56 @@
+id: R087
+file: R087_skincare_peach-slices_bubble-wrapped.jpg
+
+brand: peach slices
+product_name: Smoothing Solution Ingrown Hair Treatment
+category: skincare
+subcategory: treatment
+container_type: cylindrical_bottle
+container_material: matte-blue-plastic
+label_style: cursive-red-and-white-sans-serif
+
+palette_product: ["#ADD8E6 light-blue", "#FF0000 red", "#FFFFFF white"]
+palette_scene: ["#E0FFFF pale-cyan", "#F0F8FF alice-blue", "#FFFFFF white"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: #FF0000
+
+placement: diagonal-tilted
+camera_angle: eye-level
+depth_of_field: medium (soft background)
+focus: sharp on product-label
+
+props:
+  - large-iridescent-water-bubbles (overlapping the product)
+  - translucent-blue-liquid-bubbles
+
+lighting:
+  type: bright-diffused-studio
+  source: top-and-sides
+  effect: high-contrast-white-highlights-on-bubbles
+
+background:
+  type: seamless-gradient
+  elements: [pale-blue-and-white-void]
+  color: #F0F8FF
+
+composition:
+  style: monochromatic-hydration-surrealism
+  framing: bubble-encapsulated-framing
+  dynamic: weightless-and-fluid
+
+typography:
+  style: cursive-red-script-and-white-sans-serif
+  layout: centered-stacked
+
+style: Hydration-Bubble-Surrealism
+reuse: Ideal for treatment serums, acne solutions, or any product emphasizing "liquid purity" and "deep hydration".
+
+prompt_seed: >
+  A vertical studio shot of a matte light-blue skincare bottle tilted 
+  diagonally, partially obscured by several large, clear, iridescent 
+  water bubbles. One large bubble curves over the cap. Soft, pale blue 
+  and white gradient background. Bright diffused lighting creating 
+  sharp white highlights on the bubble surfaces. 8K, hyper-realistic, 
+  clean and hydrating aesthetic.
