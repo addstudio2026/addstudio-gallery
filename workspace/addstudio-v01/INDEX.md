@@ -82,3 +82,4 @@
 | R081 | fwee | Spa Glowing Tone Up Base | skincare | tube | upright-tilted | Spa-Minimalist-Blue | 🧖‍♀️ |
 | R082 | LACOSTE | Luxury Sport Fragrance | beauty | bottle | centered-horizontal | Classic-Luxury-Outdoor | 🎾 |
 | R083 | KORFF | Sun Science Range | skincare | mixed | scattered-layered | Vibrant-Orange-Geometric | 🍊 |
+| R084 | VICHY | Minéral 89 Probiotic Fractions | skincare | bottle | upright-center | Clinical-Hydration-Blue | 🧪 |

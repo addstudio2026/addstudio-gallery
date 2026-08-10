@@ -1,0 +1,60 @@
+id: R084
+file: R084_skincare_vichy_clinical-blue.jpg
+
+brand: VICHY
+product_name: Minéral 89 Probiotic Fractions
+category: skincare
+subcategory: concentrate
+container_type: conical_glass_bottle
+container_material: translucent-blue-glass
+label_style: clinical-white-typography
+
+palette_product: ["#0000FF royal-blue", "#FFFFFF white", "#C0C0C0 silver"]
+palette_scene: ["#ADD8E6 light-blue", "#F0F8FF alice-blue", "#FFFFFF white"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: #FFFFFF
+
+placement: upright-center
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on label
+
+props:
+  - translucent-blue-glass-disc (as base)
+  - Erlenmeyer-flask (with blue liquid and bubbles)
+  - translucent-blue-spheres (gel-bead style)
+  - Petri-dish (with thin blue liquid)
+  - ribbed-blue-glass-panels (framing the scene)
+
+lighting:
+  type: bright-soft-studio
+  source: diffused-overhead
+  effect: gentle-specular-highlights-on-glass
+
+background:
+  type: solid-color
+  elements: [clean-white-void]
+  color: #FFFFFF
+
+composition:
+  style: clinical-hydration-symmetry
+  framing: scientific-glassware-border
+  dynamic: stable-and-precise
+
+typography:
+  style: bold-sans-serif-white-blue
+  layout: centered-structured
+
+style: Clinical-Hydration-Blue
+reuse: Ideal for high-end dermatological products, probiotic serums, or any item wanting to emphasize science and pure hydration.
+
+prompt_seed: >
+  A high-angle studio shot of a translucent blue conical glass bottle 
+  resting on a thick blue glass disc. The bottle is surrounded by 
+  laboratory glassware including Erlenmeyer flasks with light blue 
+  liquid, translucent blue gel-beads, and ribbed blue glass panels. 
+  Clean white background. Bright soft diffused lighting creating 
+  gentle highlights on the glass. 8K, hyper-realistic, clinical and 
+  refreshing aesthetic.
