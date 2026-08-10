@@ -70,3 +70,4 @@
 | R069 | SKINTIFIC | Acne control Clay Cleanser | skincare | tube | upright-center | Dermatological-Silver-Mint | 🧪 |
 | R070 | OHBT | Vegetal Depilating Mousse | beauty | bottle | floating-diagonal | Botanical-Fresh-Floating | 🍃 |
 | R071 | LACOSTE | Original Eau de Parfum | beauty | bottle | centered-on-line | Classic-Luxury-Outdoor | 🎾 |
+| R072 | The Ordinary | Hyaluronic Acid 2% + B5 | skincare | bottle | upright-center | Clinical-Science-Luxury | 🧪 |

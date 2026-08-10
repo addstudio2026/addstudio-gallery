@@ -80,18 +80,18 @@ No 11-slot template. No technical specs in the prompt body. No reference file na
 
 Product fidelity absolute. Never invent label text. No props unless asked. Prompt in English always. No hedging. Under 220 words.
 
-## Reference Image Collection Protocol (v2.1)
+## Reference Image Collection Protocol (v2.2)
 
 **File naming:** `R{NNN}_{category}_{brand-or-unknown}_{layout}.jpg` — `R{NNN}` is the unique key, never changes.
 
 ### Save behavior
-- **REFERENCE** (brand style bootstrapping) → auto-save + tag in the same message.
+- **REFERENCE** (brand style bootstrapping) → auto-save + tag in the same message. **SAVES MUST BE PHYSICAL**: Copy the image from cache to the project root (`/data/workspace/addstudio-v01/`) using the filename defined in the YAML.
 - **PRODUCT** (user's own product) → **do NOT save**. Write prompt first. Only save if user explicitly says "ذخیره کن" or similar.
-- **Ambiguous?** Ask one short question. Do not auto-save.
+- **Ambiguous?** Ask one short reason. Do not auto-save.
 
 **⚠️ ZERO-SUMMARY MANDATE (2026-08-10):** When tagging references—especially during batch uploads—NEVER use simplified or summarized YAML formats to increase speed. Every single reference MUST receive the full 11-section forensic treatment. A "fast" tag is a failed tag. Quality and completeness are non-negotiable, regardless of volume.
 
-**Execution Pattern (High-Reliability):** Process references one-by-one. Do not attempt to write multiple large YAML files in a single `execute_code` block to avoid syntax errors and quality degradation.
+**Execution Pattern (High-Reliability):** Process references one-by-one. Do not attempt to write multiple large YAML files in a single `execute_code` block to avoid syntax errors and quality degradation. **Pace over speed**: quality is the only metric of success.
 
 **Stability Tip (Multi-line Content):** To avoid character escaping or syntax errors in the `execute_code` sandbox when writing large YAML blocks, use the `terminal` tool with a heredoc: `terminal(command='cat <<EOF > path/to/file.yaml\\n[content]\\nEOF')`.
 
