@@ -88,3 +88,4 @@
 | R087 | peach slices | Smoothing Solution | skincare | bottle | diagonal-tilted | Hydration-Bubble-Surrealism | 🫧 |
 | R088 | glow stars | Mixed Skincare Range | skincare | mixed | clustered-center | Dreamy-Orange-Lifestyle | ☁️ |
 | R089 | Qginese | Anti-Wrinkle Revitalizing Essence | skincare | bottle | elevated-on-pedestals | Futuristic-Clockwork-Luxury | ⏰ |
+| R090 | EMEISUO | Skin Management Range | skincare | mixed | staggered-on-platforms | Minimalist-Geometric-White | ⬜ |
