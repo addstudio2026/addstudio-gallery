@@ -79,3 +79,4 @@
 | R078 | HYDRA-LUXE | Hydrating Serum | skincare | tube | centered-vertical | Power-Luxury-Navy | ⚓ |
 | R079 | TRTR | Pink Toning Serum | skincare | bottle | floating-diagonal | Dreamy-Pink-Surrealism | 🌸 |
 | R080 | Sunsilk | Hair Care Range | beauty | bottle | clustered-center | Commercial-Feminine-Tiled | 🛁 |
+| R081 | fwee | Spa Glowing Tone Up Base | skincare | tube | upright-tilted | Spa-Minimalist-Blue | 🧖‍♀️ |
