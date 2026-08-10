@@ -1,0 +1,17 @@
+[
+  { "id": "R001", "url": "https://picsum.photos/seed/R001/600/800", "category": "Orange", "brand": "KORFF", "style": "Geometric" },
+  { "id": "R002", "url": "https://picsum.photos/seed/R002/600/600", "category": "Clinical", "brand": "AVENE", "style": "Minimal Studio" },
+  { "id": "R003", "url": "https://picsum.photos/seed/R003/600/900", "category": "Orange", "brand": "KORFF", "style": "Podium" },
+  { "id": "R004", "url": "https://picsum.photos/seed/R004/600/500", "category": "Botanical", "brand": "CAUDALIE", "style": "Wet Surface" },
+  { "id": "R005", "url": "https://picsum.photos/seed/R005/600/750", "category": "Clinical", "brand": "AVENE", "style": "Floating" },
+  { "id": "R006", "url": "https://picsum.photos/seed/R006/600/650", "category": "Botanical", "brand": "L'OCCITANE", "style": "Shadow Play" },
+  { "id": "R007", "url": "https://picsum.photos/seed/R007/600/800", "category": "Metallic", "brand": "LA MER", "style": "Reflective" },
+  { "id": "R008", "url": "https://picsum.photos/seed/R008/600/550", "category": "Orange", "brand": "KORFF", "style": "Geometric" },
+  { "id": "R009", "url": "https://picsum.photos/seed/R009/600/850", "category": "Metallic", "brand": "LA MER", "style": "Podium" },
+  { "id": "R010", "url": "https://picsum.photos/seed/R010/600/600", "category": "Clinical", "brand": "AVENE", "style": "Minimal Studio" },
+  { "id": "R011", "url": "https://picsum.photos/seed/R011/600/700", "category": "Botanical", "brand": "CAUDALIE", "style": "Wet Surface" },
+  { "id": "R012", "url": "https://picsum.photos/seed/R012/600/950", "category": "Metallic", "brand": "LA MER", "style": "Reflective" },
+  { "id": "R013", "url": "https://picsum.photos/seed/R013/600/620", "category": "Orange", "brand": "KORFF", "style": "Shadow Play" },
+  { "id": "R014", "url": "https://picsum.photos/seed/R014/600/780", "category": "Botanical", "brand": "L'OCCITANE", "style": "Floating" },
+  { "id": "R015", "url": "https://picsum.photos/seed/R015/600/560", "category": "Clinical", "brand": "AVENE", "style": "Geometric" }
+]
