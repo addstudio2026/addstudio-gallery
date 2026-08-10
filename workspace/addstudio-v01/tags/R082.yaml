@@ -1,0 +1,57 @@
+id: R082
+file: R082_beauty_lacoste_clay-court.jpg
+
+brand: LACOSTE
+product_name: Luxury Sport Fragrance
+category: beauty
+subcategory: fragrance
+container_type: spray_bottle
+container_material: clear-glass
+label_style: minimalist-branded-white
+
+palette_product: ["#FFFFFF white", "#0000FF royal-blue", "#C0C0C0 silver"]
+palette_scene: ["#E2725B terracotta", "#BDB76B olive-beige", "#FFFFFF white"]
+color_temperature: warm-natural
+contrast: high
+saturation: medium
+accent_color: #FFFFFF
+
+placement: centered-horizontal
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on bottle-logo
+
+props:
+  - clay-tennis-court-surface (terracotta texture)
+  - white-tennis-balls (scattered around)
+
+lighting:
+  type: natural-daylight
+  source: overhead-sun
+  effect: soft-natural-shadows
+
+background:
+  type: real-setting (outdoor-tennis-court)
+  elements: [terracotta-clay-texture, tennis-court-lines]
+  color: #E2725B
+
+composition:
+  style: classic-outdoor-luxury
+  framing: centered-with-props
+  dynamic: stable-and-prestigious
+
+typography:
+  style: clean-sans-serif-navy
+  layout: centered-minimalist
+
+style: Classic-Luxury-Outdoor
+reuse: Ideal for sport-themed fragrances, high-end activewear accessories, or any product emphasizing "prestige" and "outdoor activity".
+
+prompt_seed: >
+  A high-angle studio photograph of a luxury clear glass fragrance 
+  bottle centered on a terracotta clay tennis court surface. Several 
+  white tennis balls are scattered aesthetically around the bottle. 
+  Bright natural daylight creating soft, realistic shadows. 
+  The contrast between the royal blue and white of the product and the 
+  orange-brown of the clay court creates a prestigious look. 
+  8K, hyper-realistic, classic luxury sport aesthetic.
