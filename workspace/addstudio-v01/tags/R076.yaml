@@ -1,0 +1,56 @@
+id: R076
+file: R076_skincare_soulman_water-droplets.jpg
+
+brand: SOULMAN
+product_name: Lactobionic Acid Pore-Reducing Essence
+category: skincare
+subcategory: essence
+container_type: frosted_glass_bottle
+container_material: frosted-glass
+label_style: minimalist-grey-white
+
+palette_product: ["#FFFFFF white", "#808080 grey"]
+palette_scene: ["#ADD8E6 light-blue", "#F0F8FF alice-blue"]
+color_temperature: cool
+contrast: low-medium
+saturation: medium
+accent_color: #FFFFFF
+
+placement: centered-floating
+camera_angle: eye-level
+depth_of_field: shallow (strong bokeh)
+focus: sharp on label
+
+props:
+  - large-translucent-water-droplet (as base)
+  - floating-spherical-water-bubbles (foreground/background)
+
+lighting:
+  type: bright-soft-studio
+  source: top-and-sides
+  effect: bright-white-specular-highlights-on-water
+
+background:
+  type: seamless-gradient
+  elements: [airy-blue-void]
+  color: #ADD8E6
+
+composition:
+  style: hydration-purity-symmetry
+  framing: centered-spherical-framing
+  dynamic: weightless
+
+typography:
+  style: clean-sans-serif-grey
+  layout: structured-minimalist
+
+style: Clinical-Hydration-Pure
+reuse: Ideal for essences, serums, or any product emphasizing deep hydration, purity, and pore-refining properties.
+
+prompt_seed: >
+  A symmetrical studio shot of a frosted white skincare bottle resting 
+  atop a large, translucent blue water droplet. The scene is filled with 
+  floating spherical water bubbles of various sizes, creating a deep 
+  bokeh effect. Soft, light-blue gradient background. Bright, diffused 
+  lighting creating brilliant white highlights on the water surfaces. 
+  8K, hyper-realistic, sterile and pure aesthetic.

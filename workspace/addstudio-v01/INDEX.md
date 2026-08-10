@@ -74,3 +74,4 @@
 | R073 | DOORDERMA | Barrier Repair Cream | skincare | tube | triangular-formation | Warm-Monochromatic-Commercial | 🟠 |
 | R074 | Wild | Refillable Deodorant | beauty | bottle | lower-right-quadrant | Modern-Vibrant-Gradient | 🌈 |
 | R075 | Dame bb | Baby's Multi-Care Nourishing Face Cream | beauty | jar | upright-center | Modern-Geometric-Blue | 🔵 |
+| R076 | SOULMAN | Lactobionic Acid Pore-Reducing Essence | skincare | bottle | centered-floating | Clinical-Hydration-Pure | 💧 |
