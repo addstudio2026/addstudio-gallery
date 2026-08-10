@@ -1,0 +1,59 @@
+id: R049
+file: R049_skincare_torriden_plush-surreal.jpg
+
+brand: Torriden
+product_name: Dive In Serum
+category: skincare
+subcategory: serum
+container_type: bottle_with_dropper
+container_material: plush_fabric (stylized)
+label_style: fabric_patch_sewn
+
+palette_product: ["#B0E0E6 powder-blue", "#FFFFFF white"]
+palette_scene: ["#0000FF royal-blue", "#FFFFFF fluffy-white", "#FF0000 accent-red"]
+color_temperature: neutral-cool
+contrast: medium
+saturation: high
+accent_color: royal-blue
+
+placement: upright-center
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on fabric texture
+
+props:
+  - stylized-plush-waves (framing the product)
+  - soft-plush-spheres (representing bubbles)
+  - plush-molecule-charm (accessory)
+
+lighting:
+  type: bright-diffused-studio
+  source: soft-boxes
+  effect: emphasizing-softness-and-volume
+
+background:
+  type: pop-art-memphis
+  elements: [abstract-squiggles, black-grid, polka-dots]
+  color: light-blue-base
+
+composition:
+  style: tactile-surrealism
+  framing: wave-framing
+  dynamic: soft-and-playful
+
+typography:
+  style: bold-sans-serif-black
+  layout: minimalist-patch
+
+style: Tactile-Plush-PopArt
+reuse: Ideal for products wanting a "cute", high-end, or futuristic feel that emphasizes softness, comfort, or a playful, toy-like luxury aesthetic.
+
+prompt_seed: >
+  A surreal professional product render where the product and its entire 
+  environment are made entirely of high-quality, fluffy plush fabric. 
+  The product stands centered, surrounded by stylized waves and bubbles 
+  crafted from soft, rich plush material in shades of blue and white. 
+  The background is a Memphis-style Pop Art composition with abstract 
+  shapes, grids, and polka dots. Bright clean studio lighting highlighting 
+  the fuzzy texture, volume, and tactile nature of the fabric. 
+  8K, hyper-detailed, premium fashion render.
