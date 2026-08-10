@@ -607,5 +607,12 @@
     "category": "skincare",
     "style": "elevated-on-pedestals",
     "url": "images/R093_skincare_qginese_time-lapse-luxury.jpg"
+  },
+  {
+    "id": "R094",
+    "brand": "MIXIT",
+    "category": "skincare",
+    "style": "resting-on-skin",
+    "url": "images/R094_skincare_mixit_skin-contact.jpg"
   }
 ]
