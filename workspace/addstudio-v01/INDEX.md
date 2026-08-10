@@ -57,3 +57,4 @@
 | R056 | RUNBEN | Sunscreen For Kids | skincare | bottle | hero-center | Glossy-Kids-Sport | 🎾 |
 | R057 | AMIVA | Probiotic Pore Serum | beauty | bottle | hero-center | Graphic-Athletic-Minimalism | 🎾 |
 | R058 | Wild | Natural Deodorant | beauty | bottle | floating-cluster | Energetic-Weightless-Fresh | 🎾 |
+| R059 | Veiluxe | Perfume | beauty | bottle | upright-center | Luxury-Athletic-Contrast | 🎾 |
