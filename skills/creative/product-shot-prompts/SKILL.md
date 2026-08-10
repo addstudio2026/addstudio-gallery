@@ -29,7 +29,8 @@ BOOTSTRAP: Study reference images, fill Section A with forensic numeric values, 
 1. **Load this skill** (product-shot-prompts) with `skill_view`
 2. **Load `poster-addstudio-v01`** if generating prompts
 3. **Check `references/reference-tagging-format.md`** for latest tagging format
-4. **THEN start working**
+4. **VERIFY IMAGE PATHS:** Do not assume reference images are in a `references/` folder. Use `find` or `ls` to locate the exact file path in the workspace (e.g., check root `/data/workspace/addstudio-v01/`) before sending MEDIA tags.
+5. **THEN start working**
 
 User explicitly corrected: "اسکیل واست نوشتم که احمق" — do NOT skip skill loading. The skill contains corrections and workflows that prevent repeated mistakes.
 
@@ -44,6 +45,7 @@ User explicitly corrected: "اسکیل واست نوشتم که احمق" — do
 5. **Match reference image style.** Mention "styled exactly like [reference image name]" as the visual bible.
 6. **Use poetic metaphors, NOT technical descriptions.** "wisps of light curl like smoke" ✅ not "ribbon of translucent material" ❌. "glowing particles drift lazily" ✅ not "scattered light elements" ❌. Image models respond to MOVEMENT and FEELING, not shapes and materials. Every visual element should have a simile or metaphor that makes it feel alive.
 7. **Don't save images until user explicitly says so.** When user sends a product image for prompt writing, write the prompt first. Only save if user says "ذخیره کن" or similar. HOWEVER: REFERENCE images (from other brands, for style bootstrapping) ARE auto-saved immediately — the user sends many and expects auto-save. DISTINCTION: product images = wait for command. Reference images = save now.
+8. **Reference Image Delivery:** Every time a reference is proposed, the agent MUST deliver the reference image in the same message. Never propose a reference by ID alone. Verify the file path on disk (via `ls` or `find`) before sending to avoid 'File not found' or broken media errors. User expects: Proposal -> Image -> Approval.
 
 ## Prompt Format (Model-Style — the ONLY format to use)
 
@@ -80,7 +82,21 @@ No 11-slot template. No technical specs in the prompt body. No reference file na
 
 Product fidelity absolute. Never invent label text. No props unless asked. Prompt in English always. No hedging. Under 220 words.
 
-## Reference Image Collection Protocol (v2.2)
+
+## 📦 Bulk Archiving Protocol (R-Series Expansion)
+When adding multiple references (e.g., R080-R100) in a single session, adhere to the **Atomic 4-Step Cycle** for EVERY individual reference before moving to the next. Never batch-create all YAMLs and then batch-copy all images.
+
+**The Atomic Cycle (Per Reference):**
+1. **Tagging:** Generate the 11-section YAML $\rightarrow$ `write_file` to `/tags/R{NNN}.yaml`.
+2. **Imaging:** Copy the specific image from cache to the project root $\rightarrow$ `terminal(cp ...)`.
+3. **Indexing:** Append the reference summary to `INDEX.md` $\rightarrow$ `terminal(echo ... >> INDEX.md)`.
+4. **Sync:** Commit and push the specific reference $\rightarrow$ `backup.sh` $\rightarrow$ `git commit` $\rightarrow$ `git push`.
+
+**Pitfalls & Quality Gates:**
+- **The Gap Trap:** Do not assume images are synced. Physically verify the file exists on disk before updating `INDEX.md`.
+- **Verification:** After a bulk run, run a count check (`ls tags/*.yaml | wc -l` vs `ls *.jpg | wc -l`) to ensure no YAML/Image mismatch.
+- **Symmetry:** If a reference is a "variation" of a previous one (e.g., R084 vs R085), the YAML must still be full and unique, not a "see R084" pointer.
+
 
 **File naming:** `R{NNN}_{category}_{brand-or-unknown}_{layout}.jpg` — `R{NNN}` is the unique key, never changes.
 
@@ -126,7 +142,7 @@ When splitting a central `references.yaml` into individual `Rxxx.yaml` files:
 When user sends their own product image:
 1. Extract: category, container_type, container_material, dominant colors, opacity, label busyness
 2. Match against index (container_type 30%, category 20%, fits 20%, color 15%, difficulty 10%, mood 5%)
-3. Return top 3 references with id, thumbnail, why-it-fits
+3. Return top 3 references with id, thumbnail, why-it-fits. **CRITICAL: Every reference proposal MUST include the actual image file delivered via MEDIA: tag. NEVER propose a reference by ID alone.**
 4. Take chosen prompt_seed → fill placeholders → adapt to product's palette → output final prompt
 
 ### Acceptance criteria
@@ -141,9 +157,10 @@ A tag is REJECTED if:
 
 ## Pitfalls
 
-- **⚠️ Shell Command Execution (2026-08-10)**: Avoid wrapping complex shell commands (especially `cat <<EOF` or multi-step pipelines with nested quotes) inside `execute_code`. Python's string handling often introduces `SyntaxError` or unexpected character issues in the sandbox. 
-- **Recommended Approach**: Execute `terminal` calls directly for YAML creation, image moving, and Git operations. This ensures raw shell execution without Python interpreter interference.
-- **Image Persistence**: Always verify and physically move images from the temporary cache (e.g., `/data/.hermes/cache/images/`) to the project root (`/data/workspace/addstudio-v01/`) using the filename defined in the YAML to ensure the archive is physically complete.
+### ⚠️ Technical Pitfalls & Execution Rules
+- **Avoid `execute_code` for Shell Redirection**: NEVER wrap `terminal(command='cat <<EOF ...')` or complex shell scripts inside `execute_code`. This frequently triggers Python `SyntaxError` due to quote escaping. Instead, call the `terminal` tool directly and sequentially for each operation.
+- **Mandatory Physical Sync**: After creating a `.yaml` tag, you MUST physically copy the image from the cache (e.g., `/data/.hermes/cache/images/...`) to the project directory (e.g., `/data/workspace/addstudio-v01/R{NNN}_...jpg`). A tag without a corresponding local image is an incomplete reference.
+- **Deterministic Backup**: Every new reference must be followed by a GitHub push sequence: `backup.sh` $\rightarrow$ `git add .` $\rightarrow$ `git commit` $\rightarrow$ `git push`. Do not batch these into a single `execute_code` block to avoid shell escaping errors.
 - **⚠️ ALWAYS load this skill FIRST.** Before doing any product photography work, call `skill_view(name='product-shot-prompts')` and `skill_view(name='poster-addstudio-v01')`. The user explicitly said: \"اسکیل واست نوشتم که احمق\" — skipping skill loading causes repeated mistakes that are already solved in the skill files. Before doing any product photography work, call `skill_view(name='product-shot-prompts')` and `skill_view(name='poster-addstudio-v01')`. The user explicitly said: "اسکیل واست نوشتم که احمق" — skipping skill loading causes repeated mistakes that are already solved in the skill files.
 - **⚠️ CRITICAL — Backup Script Pitfall**: The `backup.sh` script may only stage certain file extensions (e.g., .md, .jpg). When performing backups, the agent MUST verify that `.yaml` tags are explicitly included in the backup directory before committing. If the script is found to be omitting tags, patch it immediately to include `cp /data/workspace/addstudio-v01/tags/*.yaml workspace/addstudio-v01/tags/`.
 - **⚠️ CRITICAL — Git Context**: The git repository for backups is located at `/data/hermes-backup/`. Always `cd /data/hermes-backup` before executing `git commit` or `git push` to avoid 'not a git repository' errors.
@@ -154,7 +171,8 @@ A tag is REJECTED if:
 - Version your files: use `version: X.Y` in frontmatter. When you want to change style, create a new version and keep the old one — sometimes the previous version was better.
 - **Outlier identification**: During BOOTSTRAP, identify images that deviate from the dominant pattern (e.g., hard sporty lighting, collage format, non-warm palette). Exclude them from the locked-style derivation. Note them in the output so the user knows which references were excluded and why. \n- **Symmetry and Architectural Balance**: When tagging architectural props (stairs, arches, geometric blocks), explicitly capture the balance between rigid lines and organic accents. Ensure the `layout_archetype` reflects the architectural nature (e.g., `hero_center_pedestal` for stairs/plinths).
 - **⚠️ CRITICAL — Creative Director, NOT Camera Technician**: The user explicitly corrected a prompt written as camera specs with no creative concept. User said: "اصلا خوب نیست و شبیه به عکس ها نشده" (not good, doesn't look like the images). A technically correct prompt without a story/concept is worthless. See "Creative Director Mode" below.
-- **⚠️ CRITICAL — Never include reference file names in prompt output.** The reference is the agent's thinking tool, not part of the deliverable. The prompt must stand alone.
+- **⚠️ CRITICAL — Reference Image Pathing**: Do NOT assume reference images are located in a `references/` subdirectory. In the current environment, hero reference images are stored in the root of the workspace (e.g., `/data/workspace/addstudio-v01/R{NNN}_...jpg`). Always verify the actual file location using `find` or `ls` before attempting to send a MEDIA link to the user to avoid 'file not found' errors and multiple failed attempts.
+- **⚠️ CRITICAL — Never include reference file names in prompt output.** The reference is the agent's thinking tool, not part of the deliverable. The prompt must stand alone. If the user asks for the source, then provide it.
 - **⚠️ CRITICAL — Concept must serve the product.** A visually beautiful concept that has nothing to do with the product is a failure. Always ask: "What does this product DO and does this image tell THAT story?" Sunscreen → protection/morning. Serum → luxury/precious. Cleanser → freshness/clarity. Match concept to function.
 - **User may request product material/finish changes**: If user says "cream should be visible" or "liquid should be white" or "tilt the product", update Identity Lock to include those modifications. Core brand elements (logo, text, shape, colors) stay locked; user-requested material/finish/pose changes are part of the new product identity.
 - **⚠️ CRITICAL — Disk Persistence**: Every save must be atomic across BOTH `references.yaml` and `INDEX.md`. Showing tags in chat without writing them to disk is an INCOMPLETE save. Verify that both files are updated and pushed to the backup repository to prevent data loss between sessions.
