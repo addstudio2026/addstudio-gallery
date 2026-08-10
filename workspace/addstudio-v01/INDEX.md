@@ -73,3 +73,4 @@
 | R072 | The Ordinary | Hyaluronic Acid 2% + B5 | skincare | bottle | upright-center | Clinical-Science-Luxury | 🧪 |
 | R073 | DOORDERMA | Barrier Repair Cream | skincare | tube | triangular-formation | Warm-Monochromatic-Commercial | 🟠 |
 | R074 | Wild | Refillable Deodorant | beauty | bottle | lower-right-quadrant | Modern-Vibrant-Gradient | 🌈 |
+| R075 | Dame bb | Baby's Multi-Care Nourishing Face Cream | beauty | jar | upright-center | Modern-Geometric-Blue | 🔵 |

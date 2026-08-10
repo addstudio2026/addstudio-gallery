@@ -1,0 +1,56 @@
+id: R075
+file: R075_beauty_damebb_glass-rings.jpg
+
+brand: Dame bb
+product_name: Baby's Multi-Care Nourishing Face Cream
+category: beauty
+subcategory: face-cream
+container_type: cylindrical_jar
+container_material: plastic-glass_hybrid
+label_style: stylized-blue-white-minimalist
+
+palette_product: ["#0000FF royal-blue", "#FFFF00 bright-yellow", "#FFFFFF white"]
+palette_scene: ["#ADD8E6 light-blue", "#4169E1 royal-blue-glass"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: #FFFF00
+
+placement: upright-center
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on jar-label
+
+props:
+  - large-clear-blue-glass-ring (surrounding the product)
+  - foreground-blue-glass-ring (curving across the bottom)
+
+lighting:
+  type: bright-diffused-studio
+  source: overhead
+  effect: soft-specular-reflections-on-glass
+
+background:
+  type: solid-color
+  elements: [seamless-blue-void]
+  color: #ADD8E6
+
+composition:
+  style: geometric-abstract-symmetry
+  framing: concentric-ring-framing
+  dynamic: stable-and-modern
+
+typography:
+  style: stylized-serif-and-sans-serif
+  layout: centered-minimalist
+
+style: Modern-Geometric-Blue
+reuse: Ideal for high-end skincare, baby-care products with a modern twist, or any item wanting a "pure and protected" feeling.
+
+prompt_seed: >
+  A high-angle studio shot of a blue and yellow cosmetic jar centered 
+  within a series of clear, translucent blue glass rings. One large 
+  ring curves around the product, and another smaller ring curves across 
+  the foreground. Solid light-blue background. Bright, even lighting 
+  creating a clean, modern aesthetic with soft reflections on the glass. 
+  8K, hyper-realistic, symmetrical composition.
