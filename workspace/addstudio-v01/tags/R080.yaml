@@ -1,0 +1,58 @@
+id: R080
+file: R080_beauty_sunsilk_pink-tiled.jpg
+
+brand: Sunsilk
+product_name: Hair Care Range
+category: beauty
+subcategory: hair-care
+container_type: pump-bottle
+container_material: plastic
+label_style: purple-silver-white-feminine
+
+palette_product: ["#FFC0CB pink", "#800080 purple", "#C0C0C0 silver"]
+palette_scene: ["#FFB6C1 light-pink", "#FF69B4 hot-pink", "#FFFFFF white"]
+color_temperature: warm
+contrast: low
+saturation: high
+accent_color: #FFFFFF
+
+placement: clustered-center
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on center-bottles
+
+props:
+  - pink-tiled-surface-and-wall (bathroom setting)
+  - white-faucet-and-knobs
+  - pink-flower-accessory
+  - pink-scrub-brush
+
+lighting:
+  type: bright-even-studio
+  source: diffused-overhead
+  effect: soft-reflections-on-tiles
+
+background:
+  type: real-setting (bathroom)
+  elements: [pink-ceramic-tiles, white-plumbing]
+  color: #FFB6C1
+
+composition:
+  style: commercial-feminine-lifestyle
+  framing: top-down-cluster
+  dynamic: static-but-organic
+
+typography:
+  style: elegant-white-serif
+  layout: centered-branded
+
+style: Commercial-Feminine-Tiled
+reuse: Ideal for bathroom-based products, hair care lines, or branding emphasizing a daily beauty routine and feminine energy.
+
+prompt_seed: >
+  A high-angle studio shot of four pink hair care bottles arranged 
+  in a cluster on a pink tiled bathroom surface. The background is 
+  a matching pink tiled wall with a white faucet. A pink flower-shaped 
+  accessory and a pink scrub brush are placed beside the bottles. 
+  Bright, even lighting, vibrant pink colors, 8K, hyper-realistic, 
+  clean and feminine lifestyle aesthetic.
