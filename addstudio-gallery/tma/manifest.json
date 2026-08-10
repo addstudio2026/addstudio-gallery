@@ -677,5 +677,19 @@
     "category": "skincare",
     "style": "scattered-on-textured-surface",
     "url": "images/R103_skincare_unknown_hard-sun-amber.jpg"
+  },
+  {
+    "id": "R104",
+    "brand": "CLOZ",
+    "category": "skincare",
+    "style": "overlapping-L-shape-arrangement",
+    "url": "images/R104_skincare_cloz_minimalist-cool.jpg"
+  },
+  {
+    "id": "R105",
+    "brand": "Custom",
+    "category": "skincare",
+    "style": "staggered-diagonal-line",
+    "url": "images/R105_skincare_custom_nature-reflective.jpg"
   }
 ]
