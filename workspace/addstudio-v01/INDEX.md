@@ -84,3 +84,4 @@
 | R083 | KORFF | Sun Science Range | skincare | mixed | scattered-layered | Vibrant-Orange-Geometric | 🍊 |
 | R084 | VICHY | Minéral 89 Probiotic Fractions | skincare | bottle | upright-center | Clinical-Hydration-Blue | 🧪 |
 | R085 | VICHY | Minéral 89 Probiotic Fractions | skincare | bottle | upright-center | Minimal-Clinical-Blue | 🔬 |
+| R086 | Innfree | Ultra-Low Molecular Hyaluronic Acid Range | skincare | mixed | floating-centered | Airy-Hydration-Surrealism | 🧊 |
