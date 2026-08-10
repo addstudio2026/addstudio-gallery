@@ -90,3 +90,4 @@
 | R089 | Qginese | Anti-Wrinkle Revitalizing Essence | skincare | bottle | elevated-on-pedestals | Futuristic-Clockwork-Luxury | ⏰ |
 | R090 | EMEISUO | Skin Management Range | skincare | mixed | staggered-on-platforms | Minimalist-Geometric-White | ⬜ |
 | R091 | Dr.Eiffel+ | Relax Purify Foam Cleanser | skincare | tube | diagonal-held-by-hand | Surreal-DualTone-Interactivity | ⭕ |
+| R092 | glow stars | Mixed Skincare Range | skincare | mixed | clustered-center | Dreamy-Orange-Lifestyle | ☁️ |
