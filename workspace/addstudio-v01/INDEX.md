@@ -60,3 +60,4 @@
 | R059 | Veiluxe | Perfume | beauty | bottle | upright-center | Luxury-Athletic-Contrast | 🎾 |
 | R060 | MASAMI | Sundowner Sunscreen | skincare | bottle | center-vertical | Commercial-Summer-Minimalist | 🎾 |
 | R061 | CONSEDA | Soft Shower Gel | beauty | bottle | floating-diagonal | Fresh-Airy-Monochromatic | 🫧 |
+| R062 | BAYLA SKIN | Raspberry Fresh Face Wash | skincare | tube | centered-upright | Playful-Monochromatic-Surrealism | 👒 |
