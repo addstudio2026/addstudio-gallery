@@ -1,0 +1,57 @@
+id: R047
+file: R047_skincare_vira_tennis-sport.jpg
+
+brand: VIRA
+product_name: Sunscreen Cream
+category: skincare
+subcategory: sun-protection
+container_type: tube
+container_material: plastic
+label_style: bold_typographic_white
+
+palette_product: ["#FF8C00 dark-orange", "#FFFFFF white"]
+palette_scene: ["#87CEEB sky-blue", "#CCFF00 neon-yellow", "#FF69B4 pink"]
+color_temperature: warm
+contrast: high
+saturation: vivid
+accent_color: neon-yellow
+
+placement: upright-center
+camera_angle: eye-level
+depth_of_field: shallow (blurred background)
+focus: sharp on product
+
+props:
+  - pink_tennis_racket (diagonal framing)
+  - neon_yellow_tennis_ball (foreground)
+  - white_surface (base)
+
+lighting:
+  type: high-brightness-daylight
+  source: overhead-sun
+  effect: high-saturation, sunny-vibe
+
+background:
+  type: outdoor-sport
+  elements: [bright-blue-sky, wispy-clouds, blurred-tennis-court-fence]
+  color: sky-blue
+
+composition:
+  style: hero-center-framed
+  framing: diagonal-props-framing
+  dynamic: static-but-energetic
+
+typography:
+  style: bold-sans-serif-white
+  layout: promotional-ad-style
+
+style: Sports-Commercial-Energetic
+reuse: Ideal for summer products, sports-related skincare, or products emphasizing protection from heat/sun.
+
+prompt_seed: >
+  A high-brightness commercial product shot of the product standing upright and centered 
+  on a white surface. A pink tennis racket is positioned diagonally in the foreground, 
+  framing the product, with a neon yellow tennis ball resting nearby. 
+  The background is a vivid, bright blue sunny sky with soft wispy clouds and a 
+  blurred tennis court fence in the distance. High-saturation lighting, cinematic 
+  summer vibe, 8K, hyper-realistic.

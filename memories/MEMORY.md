@@ -8,6 +8,6 @@ Always deliver ONE best prompt, not multiple options. ALWAYS visually analyze he
 §
 CRITICAL BUG: MIMO2.5 enters infinite loops calling same tool 100+ times. Stop after 5 identical calls, max 10 per response. Added LOOP SAFETY RULE to SOUL.md.
 §
-User requires strict adherence to YAML reference data for product shot prompts; visual analysis is secondary to the forensic data in /tags/*.yaml.
+User requires strict adherence to YAML reference data; visual analysis secondary. R039: Neo-Minimalism. User also uses ComfyUI (Qwen 2.5 VL + RMBG-2.0 + LoRA Lightning) for person-placement workflows.
 §
-🔐 SECURITY: Before ANY write/commit/push/config/memory/backup op → ask password first. Password in /data/.hermes/security.yaml (base64). Read-only ops (search, vision, prompt) = no password needed.
+User explicitly abandoned password system (2026-08-09). Do NOT ask for passwords. `hermes send --to telegram:chat_id msg` sends messages to other users. Available: Ali, Alireza Emtiaz, m4dsi.

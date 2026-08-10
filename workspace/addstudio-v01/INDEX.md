@@ -46,3 +46,4 @@
 | R044 | anua | Heartleaf Cleansing Foam | skincare | tube | hero_center_pedestal | natural, clean, botanical | 🫧 |
 | R045 | Dr. Jart+ | Pore Minish Bubble Foam | skincare | tube | hero_center_pedestal | sterile, serene, dermatological | 🌵 |
 | R046 | One leaf | SPF 50+ Sunscreen | skincare | tube | diagonal_dynamic | pure, bright, protective | ☀️ |
+| R047 | VIRA | Sunscreen Cream | skincare | tube | hero-center-framed | energetic, sunny, sport | 🎾 |
