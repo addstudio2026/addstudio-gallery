@@ -48,3 +48,4 @@
 | R046 | One leaf | SPF 50+ Sunscreen | skincare | tube | diagonal_dynamic | pure, bright, protective | ☀️ |
 | R047 | VIRA | Sunscreen Cream | skincare | tube | hero-center-framed | energetic, sunny, sport | 🎾 |
 | R049 | Torriden | Dive In Serum | skincare | bottle | hero-center-waves | tactile, plush, pop-art | 🧸 |
+| R050 | LA ROCHE-POSAY | Hyalu B5 Eye Serum | skincare | bottle | hero-center-flowers | clinical, serene, hydrated | 💧 |
