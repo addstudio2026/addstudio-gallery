@@ -87,3 +87,4 @@
 | R086 | Innfree | Ultra-Low Molecular Hyaluronic Acid Range | skincare | mixed | floating-centered | Airy-Hydration-Surrealism | 🧊 |
 | R087 | peach slices | Smoothing Solution | skincare | bottle | diagonal-tilted | Hydration-Bubble-Surrealism | 🫧 |
 | R088 | glow stars | Mixed Skincare Range | skincare | mixed | clustered-center | Dreamy-Orange-Lifestyle | ☁️ |
+| R089 | Qginese | Anti-Wrinkle Revitalizing Essence | skincare | bottle | elevated-on-pedestals | Futuristic-Clockwork-Luxury | ⏰ |
