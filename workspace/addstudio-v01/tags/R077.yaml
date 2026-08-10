@@ -1,0 +1,56 @@
+id: R077
+file: R077_skincare_nylah_molecular-surrealism.jpg
+
+brand: NYLAH
+product_name: Thrive Triple Action Hair Growth Serum
+category: skincare
+subcategory: hair-serum
+container_type: dropper_bottle
+container_material: clear-glass
+label_style: clean-white-with-red-accents
+
+palette_product: ["#FADADD pale-pink", "#FFFFFF white", "#FF0000 red"]
+palette_scene: ["#F5F5F5 light-grey", "#E0FFFF pale-blue"]
+color_temperature: cool
+contrast: low-medium
+saturation: low
+accent_color: #FF0000
+
+placement: floating-diagonal
+camera_angle: eye-level
+depth_of_field: medium (bokeh molecular structures)
+focus: sharp on label
+
+props:
+  - 3D-molecular-structures (glass spheres connected by rods)
+  - air-bubbles (trapped inside spheres)
+
+lighting:
+  type: bright-diffused-studio
+  source: upper-left
+  effect: soft-specular-highlights-on-glass
+
+background:
+  type: seamless-gradient
+  elements: [sterile-grey-to-blue-void]
+  color: #F5F5F5
+
+composition:
+  style: clinical-molecular-surrealism
+  framing: decentralized-dynamic
+  dynamic: floating
+
+typography:
+  style: bold-black-sans-serif-and-red-serif
+  layout: structured-modern
+
+style: Clinical-Molecular-Surrealism
+reuse: Ideal for hair growth products, anti-aging serums, or any product highlighting "advanced technology" or "chemical innovation".
+
+prompt_seed: >
+  A professional studio shot of a clear glass dropper bottle containing a 
+  pale pink liquid, floating diagonally at a 45-degree angle. The bottle is 
+  surrounded by 3D rendered translucent glass molecular structures 
+  (spheres connected by thin rods) with tiny air bubbles inside. 
+  Soft light-grey to pale-blue gradient background. Bright diffused 
+  lighting from the upper-left. 8K, hyper-realistic, clinical modern aesthetic.

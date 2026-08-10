@@ -75,3 +75,4 @@
 | R074 | Wild | Refillable Deodorant | beauty | bottle | lower-right-quadrant | Modern-Vibrant-Gradient | 🌈 |
 | R075 | Dame bb | Baby's Multi-Care Nourishing Face Cream | beauty | jar | upright-center | Modern-Geometric-Blue | 🔵 |
 | R076 | SOULMAN | Lactobionic Acid Pore-Reducing Essence | skincare | bottle | centered-floating | Clinical-Hydration-Pure | 💧 |
+| R077 | NYLAH | Thrive Hair Growth Serum | skincare | bottle | floating-diagonal | Clinical-Molecular-Surrealism | ⚛️ |
