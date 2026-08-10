@@ -91,6 +91,10 @@ Product fidelity absolute. Never invent label text. No props unless asked. Promp
 
 **⚠️ ZERO-SUMMARY MANDATE (2026-08-10):** When tagging references—especially during batch uploads—NEVER use simplified or summarized YAML formats to increase speed. Every single reference MUST receive the full 11-section forensic treatment. A "fast" tag is a failed tag. Quality and completeness are non-negotiable, regardless of volume.
 
+**Execution Pattern (High-Reliability):** Process references one-by-one. Do not attempt to write multiple large YAML files in a single `execute_code` block to avoid syntax errors and quality degradation.
+
+**Stability Tip (Multi-line Content):** To avoid character escaping or syntax errors in the `execute_code` sandbox when writing large YAML blocks, use the `terminal` tool with a heredoc: `terminal(command='cat <<EOF > path/to/file.yaml\\n[content]\\nEOF')`.
+
 **Storage Strategy (Individual Tags):**
 To ensure maximum reliability and avoid corruption of large central files, every reference MUST have its own individual YAML file in the `tags/` directory (e.g., `/data/workspace/addstudio-v01/tags/R031.yaml`). While a central `references.yaml` may exist for legacy/quick-scan reasons, the **individual files are the primary source of truth**.
 
