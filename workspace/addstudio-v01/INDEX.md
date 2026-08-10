@@ -61,3 +61,12 @@
 | R060 | MASAMI | Sundowner Sunscreen | skincare | bottle | center-vertical | Commercial-Summer-Minimalist | 🎾 |
 | R061 | CONSEDA | Soft Shower Gel | beauty | bottle | floating-diagonal | Fresh-Airy-Monochromatic | 🫧 |
 | R062 | BAYLA SKIN | Raspberry Fresh Face Wash | skincare | tube | centered-upright | Playful-Monochromatic-Surrealism | 👒 |
+| R063 | e.l.f. | Squeeze Me Lip Balm | beauty | tube | centered-vertical | Surreal-Monochromatic-Pop | 🫐 |
+| R064 | APPLE SLIM | Apple Cider Vinegar Gummies | beauty | bottle | centered-stack | Warm-Minimalist-Balance | 🍒 |
+| R065 | DERMA RADIANCE | Niacinamide Gel Cleanser | skincare | tube | foreground-diagonal | High-Fashion-Monochromatic | 💜 |
+| R066 | ATOMY | Hydra Brightening Cream | skincare | jar | diagonal-staircase | Surreal-Architectural-Blue | 🧴 |
+| R067 | STAR | Starcream Moisturizer | skincare | bottle | emerging-from-rip | Tactile-Blue-Surrealism | ☁️ |
+| R068 | SIMPLÆM | Cosmetic Body Cream | beauty | jar | triangular-arrangement | Clinical-Science-Green | 🧪 |
+| R069 | SKINTIFIC | Acne control Clay Cleanser | skincare | tube | upright-center | Dermatological-Silver-Mint | 🧪 |
+| R070 | OHBT | Vegetal Depilating Mousse | beauty | bottle | floating-diagonal | Botanical-Fresh-Floating | 🍃 |
+| R071 | LACOSTE | Original Eau de Parfum | beauty | bottle | centered-on-line | Classic-Luxury-Outdoor | 🎾 |
