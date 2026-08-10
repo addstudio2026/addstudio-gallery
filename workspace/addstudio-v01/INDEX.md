@@ -49,3 +49,10 @@
 | R047 | VIRA | Sunscreen Cream | skincare | tube | hero-center-framed | energetic, sunny, sport | 🎾 |
 | R049 | Torriden | Dive In Serum | skincare | bottle | hero-center-waves | tactile, plush, pop-art | 🧸 |
 | R050 | LA ROCHE-POSAY | Hyalu B5 Eye Serum | skincare | bottle | hero-center-flowers | clinical, serene, hydrated | 💧 |
+| R051 | MASAMI | Sundowner Sunscreen | skincare | bottle | hero-center | Playful-Sporty | 🎾 |
+| R052 | O'GULIA | Transparent Sunscreen | skincare | bottle | hero-center | High-Contrast-Summer | 🎾 |
+| R053 | ELCE | Sunscreen Line | skincare | bottle | hero-center | Energetic-Airy | 🎾 |
+| R054 | gb | Plant-Based Deodorant | beauty | bottle | hero-center | Fresh-Athletic-Botanical | 🎾 |
+| R055 | RUNBEN | Sunscreen | skincare | bottle | hero-center | Surreal-Sporty | 🎾 |
+| R056 | RUNBEN | Sunscreen For Kids | skincare | bottle | hero-center | Glossy-Kids-Sport | 🎾 |
+| R057 | AMIVA | Probiotic Pore Serum | beauty | bottle | hero-center | Graphic-Athletic-Minimalism | 🎾 |
