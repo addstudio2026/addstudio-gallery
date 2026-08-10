@@ -72,3 +72,4 @@
 | R071 | LACOSTE | Original Eau de Parfum | beauty | bottle | centered-on-line | Classic-Luxury-Outdoor | 🎾 |
 | R072 | The Ordinary | Hyaluronic Acid 2% + B5 | skincare | bottle | upright-center | Clinical-Science-Luxury | 🧪 |
 | R073 | DOORDERMA | Barrier Repair Cream | skincare | tube | triangular-formation | Warm-Monochromatic-Commercial | 🟠 |
+| R074 | Wild | Refillable Deodorant | beauty | bottle | lower-right-quadrant | Modern-Vibrant-Gradient | 🌈 |
