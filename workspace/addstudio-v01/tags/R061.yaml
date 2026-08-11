@@ -1,0 +1,19 @@
+category: beauty
+container_type: cylindrical_bottle
+palette_product: ["#4B2C20 dark-brown", "#000000 black", "#FFFFFF white"]
+palette_scene: ["#ADD8E6 light-blue", "#F0F8FF alice-blue", "#E0FFFF iridescent-white"]
+color_temperature: cool
+placement: floating-diagonal, centered
+camera_angle: eye-level, straight-on
+product_scale: 40% of frame height
+props: [fluffy-white-soap-suds, iridescent-bubbles]
+lighting_quality: bright-diffused-studio, specular-highlights-on-bubbles
+key_direction: front-and-sides, diffused
+shadow_type: virtually non-existent, weightless floating environment
+background_type: soft-gradient, airy-atmosphere, weightless-void
+surface: none (floating)
+layout_archetype: weightless-monochromatic
+negative_space: 50% airy breathing room
+mood: fresh, airy, monochromatic, pure, hydrating, cloud-like
+concept_idea: A weightless, fluid composition where a dark translucent bottle is enveloped in fluffy suds and iridescent bubbles, evoking absolute purity and hydration.
+prompt_seed: A professional studio shot of a dark brown translucent bottle floating diagonally against a soft light-blue gradient background. The bottle is partially enveloped in thick, fluffy white soap suds and surrounded by numerous iridescent, translucent bubbles of varying sizes. Bright, diffused lighting creating crisp highlights on the bubbles.

@@ -119,3 +119,4 @@
 - R058 — Wild Natural Deodorant | floating cluster, neon tennis balls, blue sky, energetic fresh vibe 🎾
 - R059 — Veiluxe Perfume | matte black bottle, red clay court, padel racket framing, luxury athletic vibe 🎾
 - R060 — MASAMI Sundowner Sunscreen | split pink/green background, pink tennis balls, palm shadow, commercial vibe 🎾
+- R061 — CONSEDA Soft Shower Gel | dark brown bottle, floating diagonal, soap suds and iridescent bubbles, fresh airy vibe 🧼
