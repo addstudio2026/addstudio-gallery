@@ -1,0 +1,19 @@
+category: skincare
+container_type: bottle/tube
+palette_product: [white, clinical-green, silver]
+palette_scene: [mint-green, sterile-white, soft-grey]
+color_temperature: 5000K (neutral-cool clinical)
+placement: standing upright, centred on a reflective white surface
+camera_angle: eye-level, straight-on, subtle hero tilt
+product_scale: 40% of frame height
+props: subtle frosted glass panels in background, clinical lab-style accents
+lighting_quality: bright, diffused, high-key laboratory lighting
+key_direction: upper-left, soft-box diffused
+shadow_type: soft elliptical contact shadow, low opacity, cool grey
+background_type: seamless clinical gradient, white to soft mint-green
+surface: glossy white reflective surface with subtle reflection
+layout_archetype: hero_center_clinical
+negative_space: 50% luxury breathing room
+mood: sterile, professional, trustworthy, clinical, fresh
+concept_idea: A high-end clinical dermatology setting where the product is presented as a scientific breakthrough, surrounded by purity and medical precision.
+prompt_seed: A photorealistic clinical skincare campaign image of the product standing upright on a glossy white reflective surface. The background is a seamless gradient from sterile white to soft mint-green, with subtle frosted glass panels creating a laboratory atmosphere. Bright, diffused high-key lighting from the upper-left creates soft, cool grey contact shadows. The overall mood is professional and sterile, evoking a high-end dermatology clinic.

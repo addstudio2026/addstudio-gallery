@@ -115,4 +115,4 @@
 | R112 | Dr. ALVA | unknown | skincare | bottle | centered-composition | Clinical-Cyan-Dynamic | 🧪 |
 | R113 | Focus&Femme | unknown | skincare | bottle | centered-composition | Sterile-White-Scientific | 🧪 |
 | R114 | Generic Lab | unknown | skincare | bottle | centered-composition | Minimalist-Glassware-Symmetry | 🧪 |
-| R115 | GLASSLIKE | unknown | skincare | bottle | centered-composition | Sterile-White-Lab-Coat | 🧪 |
+| R115 | GLASSLIKE | unknown | skincare | bottle | centered-composition | Sterile-White-Lab-Coat | 🧪 |- R052 — O'GULIA Transparent Sunscreen | yellow-orange tube, blue sky background, ping-pong props, high-energy summer vibe 🎾
