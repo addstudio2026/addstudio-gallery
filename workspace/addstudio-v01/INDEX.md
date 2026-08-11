@@ -117,3 +117,4 @@
 | R114 | Generic Lab | unknown | skincare | bottle | centered-composition | Minimalist-Glassware-Symmetry | 🧪 |
 | R115 | GLASSLIKE | unknown | skincare | bottle | centered-composition | Sterile-White-Lab-Coat | 🧪 |- R052 — O'GULIA Transparent Sunscreen | yellow-orange tube, blue sky background, ping-pong props, high-energy summer vibe 🎾
 - R058 — Wild Natural Deodorant | floating cluster, neon tennis balls, blue sky, energetic fresh vibe 🎾
+- R059 — Veiluxe Perfume | matte black bottle, red clay court, padel racket framing, luxury athletic vibe 🎾
