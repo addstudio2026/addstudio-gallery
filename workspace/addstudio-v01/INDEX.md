@@ -121,3 +121,4 @@
 - R060 — MASAMI Sundowner Sunscreen | split pink/green background, pink tennis balls, palm shadow, commercial vibe 🎾
 - R061 — CONSEDA Soft Shower Gel | dark brown bottle, floating diagonal, soap suds and iridescent bubbles, fresh airy vibe 🧼
 - R062 — BAYLA Fresh Face Wash | anthropomorphic character, miniature fashion accessories, magenta theme, playful surrealism 👗
+- R067 — STAR Starcream Moisturizer | emerging from ripped-paper, holographic silver, tactile blue surrealism ❄️

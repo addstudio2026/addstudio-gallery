@@ -1,0 +1,19 @@
+category: skincare
+container_type: pump-bottle
+palette_product: ["#ADD8E6 light-blue", "#C0C0C0 holographic-silver"]
+palette_scene: ["#F0F8FF ice-blue", "#0000FF medium-blue"]
+color_temperature: cool
+placement: emerging-from-rip, centered
+camera_angle: eye-level, straight-on
+product_scale: 40% of frame height
+props: [ripped-paper-cream-edges, diagonal-white-cream-streaks]
+lighting_quality: bright-soft-studio, holographic-glint-on-text
+key_direction: front, diffused
+shadow_type: soft, integrated into the rip edges, cool tones
+background_type: layered-blue, medium-blue-inner, pale-blue-outer
+surface: none (integrated into ripped paper effect)
+layout_archetype: tactile-surrealism (centered-rip-framing)
+negative_space: 40% layered blue background
+mood: tactile, surreal, fresh, cool, clean, innovative
+concept_idea: A "Tactile-Blue-Surrealism" shot where the product breaks through a thick, whipped-cream-like paper rip, emphasizing texture and the feeling of "breaking through" a barrier.
+prompt_seed: A studio shot of a light blue skincare bottle emerging from a jagged, thick white ripped-paper hole that looks like whipped cream. The bottle has bold holographic silver lettering. Two thick diagonal streaks of white cream cross the frame. Background is a gradient of ice-blue and medium-blue. Bright soft lighting.
