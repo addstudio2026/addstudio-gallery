@@ -1,0 +1,19 @@
+category: skincare
+container_type: bottle
+palette_product: ["#FFFFFF white", "#FFC0CB pastel-pink"]
+palette_scene: ["#FFB6C1 light-pink", "#32CD32 vibrant-green"]
+color_temperature: warm-bright
+placement: center-vertical, standing upright
+camera_angle: eye-level, straight-on
+product_scale: 40% of frame height
+props: [pink-tennis-balls, manicured-artificial-grass, palm-frond-shadow]
+lighting_quality: high-key-studio, bright-even-glow, diffused-overhead
+key_direction: overhead, soft-diffused
+shadow_type: soft shadows, palm leaf shadow cast from top-left, low contrast
+background_type: horizontal-split background, pastel-pink upper half, green-grass lower half
+surface: lush vibrant green artificial grass
+layout_archetype: promotional-split-layout
+negative_space: 50% clean background for text
+mood: commercial, summer-minimalist, vivid, clean, feminine
+concept_idea: A a clean, two-tone promotional ad balancing a feminine pastel pink atmosphere with a fresh, vibrant green summer sports aesthetic.
+prompt_seed: A professional commercial advertisement shot. The image is split horizontally: the top half is a solid pastel pink background with a soft palm leaf shadow, and the bottom half is a lush, vibrant green grass surface. The product stands centered, surrounded by scattered pastel pink tennis balls on the grass. Bright, even, high-key lighting, complementary pink and green color palette.

@@ -118,3 +118,4 @@
 | R115 | GLASSLIKE | unknown | skincare | bottle | centered-composition | Sterile-White-Lab-Coat | 🧪 |- R052 — O'GULIA Transparent Sunscreen | yellow-orange tube, blue sky background, ping-pong props, high-energy summer vibe 🎾
 - R058 — Wild Natural Deodorant | floating cluster, neon tennis balls, blue sky, energetic fresh vibe 🎾
 - R059 — Veiluxe Perfume | matte black bottle, red clay court, padel racket framing, luxury athletic vibe 🎾
+- R060 — MASAMI Sundowner Sunscreen | split pink/green background, pink tennis balls, palm shadow, commercial vibe 🎾
