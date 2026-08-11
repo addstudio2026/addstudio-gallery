@@ -1,0 +1,44 @@
+id: R104
+file: R104_skincare_cloz_minimalist-cool.jpg
+brand: CLOZ
+product_name: Enzyme Powder
+category: skincare
+subcategory: powder-cleanser
+container_type: cylindrical-tube
+container_material: matte-white-plastic
+label_style: silver-grey-minimalist-typography
+palette_product: ["#FFFFFF matte-white", "#C0C0C0 silver-grey"]
+palette_scene: ["#D1D9E0 pale-blue-grey", "#FFFFFF white-light"]
+color_temperature: cool
+contrast: low-medium
+saturation: very-low
+accent_color: #C0C0C0
+placement: overlapping-L-shape-arrangement
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on branding
+props: [none]
+lighting:
+  type: soft-diffused-studio
+  source: upper-left
+  effect: gentle-gradients-and-soft-shadows
+background:
+  type: seamless-minimal
+  elements: [pale-blue-grey-void]
+  color: #D1D9E0
+composition:
+  style: modern-matte-monochrome
+  framing: minimalist-composition
+  dynamic: stable-and-clean
+typography:
+  style: all-caps-sans-serif-grey
+  layout: centered-and-vertical
+style: Minimalist-Cool-Tone
+reuse: Ideal for enzyme powders, clinical skincare, or any product emphasizing purity, science, and modern minimalism.
+prompt_seed: >
+  A high-angle professional studio shot of two matte white cylindrical 
+  containers arranged in an overlapping L-shape. The background is a 
+  seamless, pale blue-grey void. Soft diffused lighting from the 
+  upper-left creating gentle shadows and subtle highlights. 
+  Monochromatic cool-toned palette, non-reflective soft-touch finish. 
+  8K, ultra-realistic, clean and clinical beauty photography.

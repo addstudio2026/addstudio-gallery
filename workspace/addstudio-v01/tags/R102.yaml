@@ -1,0 +1,44 @@
+id: R102
+file: R102_beauty_ilia_textured-luxury.jpg
+brand: ILIA
+product_name: The Base Face Milk
+category: beauty
+subcategory: face-milk
+container_type: cylindrical-frosted-bottle
+container_material: frosted-glass-plastic
+label_style: silver-typography-on-beige
+palette_product: ["#F5F5DC beige", "#D3D3D3 light-grey", "#C0C0C0 silver"]
+palette_scene: ["#FFFDD0 cream", "#D4AF37 gold", "#E8D3B9 skin-tone"]
+color_temperature: neutral-warm
+contrast: low-medium
+saturation: low
+accent_color: #D4AF37
+placement: held-by-hand
+camera_angle: close-up-vertical
+depth_of_field: shallow
+focus: sharp on product-branding
+props: [gold-bow-ring, hammered-gold-band, plisse-textured-fabric-sleeve]
+lighting:
+  type: soft-diffused-studio
+  source: front-side
+  effect: gentle-sheen-on-jewelry-and-soft-fabric-shadows
+background:
+  type: plain-minimal
+  elements: [neutral-grey-void]
+  color: #D3D3D3
+composition:
+  style: tactile-luxury-monochrome
+  framing: close-up-hand-focus
+  dynamic: elegant-and-static
+typography:
+  style: clean-all-caps-sans-serif
+  layout: vertical-minimal
+style: Textured-Luxury-Monochrome
+reuse: Ideal for premium skincare emphasizing high-end fashion, elegance, and the "touch" of luxury fabrics and jewelry.
+prompt_seed: >
+  A professional close-up beauty shot of a hand with long milky-white 
+  nails holding a frosted beige skincare bottle. The hand is adorned 
+  with elegant gold rings (a bow ring and a hammered band). The person 
+  is wearing a cream-colored plissé pleated fabric sleeve. Soft 
+  diffused lighting, neutral grey background. Monochromatic cream 
+  and gold palette. 8K, ultra-realistic, high-end editorial aesthetic.

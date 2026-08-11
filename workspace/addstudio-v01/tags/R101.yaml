@@ -1,0 +1,44 @@
+id: R101
+file: R101_skincare_unknown_shadow-play.jpg
+brand: unknown
+product_name: unknown
+category: skincare
+subcategory: unknown
+container_type: cylindrical_glass_bottle
+container_material: clear-glass
+label_style: white-minimalist
+palette_product: ["#FFFFFF white", "#C0C0C0 silver", "#FF0000 red-accent"]
+palette_scene: ["#FFFFFF white", "#D3D3D3 light-grey", "#000000 black-shadow"]
+color_temperature: neutral-cool
+contrast: high
+saturation: very-low
+accent_color: #FF0000
+placement: centered-on-black-plate
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on bottle
+props: [black-circular-plate, textured-grey-fabric, hand-shadow]
+lighting:
+  type: strong-directional-light
+  source: side-left
+  effect: high-contrast-shadows-and-bright-highlights
+background:
+  type: plain-wall
+  elements: [white-void, hand-shadow]
+  color: #FFFFFF
+composition:
+  style: minimalist-shadow-art
+  framing: centered-symmetric
+  dynamic: mysterious-and-static
+typography:
+  style: sans-serif-black-red
+  layout: minimal
+style: Shadow-Play-Mystery
+reuse: Ideal for products wanting to create a sense of mystery, artistic minimalism, or emphasizing a "hidden" effect.
+prompt_seed: >
+  A professional minimalist beauty shot of a small clear glass bottle 
+  with a silver cap resting on a polished black circular plate. 
+  A large, dark, mysterious shadow of a hand holding a tool is 
+  cast on the plain white wall behind. Strong directional lighting 
+  from the left creating high contrast. Neutral grey textured 
+  fabric surface. 8K, ultra-realistic, clean and mysterious aesthetic.

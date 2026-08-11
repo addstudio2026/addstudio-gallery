@@ -1,0 +1,45 @@
+id: R105
+file: R105_skincare_custom_nature-reflective.jpg
+brand: Custom
+product_name: Facial Oil
+category: skincare
+subcategory: facial-oil
+container_type: dropper-bottle
+container_material: clear-glass
+label_style: black-sans-serif-on-white
+palette_product: ["#FFD700 translucent-yellow", "#CD853F amber", "#FFFFFF white-cap"]
+palette_scene: ["#ADD8E6 pale-blue", "#228B22 lush-green", "#FFFFFF reflections"]
+color_temperature: balanced (warm oils vs cool background)
+contrast: medium
+saturation: medium
+accent_color: #FFD700
+placement: staggered-diagonal-line
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on bottles-and-labels
+props: [lush-green-leaves, delicate-white-flowers, reflective-blue-surface]
+lighting:
+  type: natural-bright-sunlight
+  source: top-diffused
+  effect: clear-mirror-reflections-and-transparent-oil-glow
+background:
+  type: nature-studio-hybrid
+  elements: [green-foliage-framing, reflective-blue-surface]
+  color: #ADD8E6
+composition:
+  style: organic-reflective-harmony
+  framing: high-angle-diagonal
+  dynamic: fresh-and-luminous
+typography:
+  style: bold-black-sans-serif
+  layout: centered-minimal
+style: Nature-Reflective-Harmony
+reuse: Ideal for organic oils, botanical serums, or any product emphasizing nature, purity, and luminosity.
+prompt_seed: >
+  A high-angle professional shot of three clear glass dropper bottles 
+  containing translucent yellow and amber oils, arranged in a staggered 
+  diagonal line on a reflective pale-blue surface. The scene is framed 
+  at the top by lush green leaves and delicate white flowers. Bright 
+  natural lighting creating crisp mirror reflections beneath the bottles. 
+  Vibrant contrast between cool blue and warm amber tones. 8K, 
+  hyper-realistic, fresh and luminous beauty aesthetic.

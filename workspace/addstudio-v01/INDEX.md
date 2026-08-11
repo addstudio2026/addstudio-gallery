@@ -92,3 +92,27 @@
 | R091 | Dr.Eiffel+ | Relax Purify Foam Cleanser | skincare | tube | diagonal-held-by-hand | Surreal-DualTone-Interactivity | ⭕ |
 | R092 | glow stars | Mixed Skincare Range | skincare | mixed | clustered-center | Dreamy-Orange-Lifestyle | ☁️ |
 | R093 | Qginese | Anti-Wrinkle Revitalizing Essence | skincare | bottle | elevated-on-pedestals | Futuristic-Clockwork-Luxury | ⏳ |
+| R094 | MIXIT | Water Bomb Face Serum | skincare | bottle | resting-on-skin | Skin-Contact-Sensuality | 🧴 |
+| R095 | L'Oréal Professionnel | Absolut Repair Shampoo | haircare | bottle | center-on-reflective-surface | Sculptural-Foam-Contrast | 🫧 |
+
+| R096 | Scent of Jarte | After Shower Mist | beauty | bottle | held-by-hand-diagonal | High-Key-Pureness | 🧴 |
+| R097 | ForderM | Vit-C 20 Serum | skincare | bottle | centered-floating-effect | Ethereal-Motion-Blur | ✨ |
+| R098 | naali | Anti-Stress Vitamin C | beauty | container | inside-leather-bag | Lifestyle-Context-Dynamic | 👜 |
+| R099 | Natural Cosmetic | Natural Shampoo | haircare | bottle | held-by-person | Euphoric-Wet-Commercial | 🫧 |
+| R100 | Natural Cosmetic | Shampoo & Balm Duo | haircare | bottle | symmetrical-side-of-face | Symmetrical-Dewy-Portrait | 🧴 |
+| R101 | unknown | unknown | skincare | bottle | centered-on-black-plate | Shadow-Play-Mystery | 🌑 |
+| R102 | ILIA | The Base Face Milk | beauty | bottle | held-by-hand | Textured-Luxury-Monochrome | 💍 |
+| R103 | unknown | Amber Set | skincare | set | scattered-on-textured-surface | Hard-Sun-Amber-Neutral | ☀️ |
+| R104 | CLOZ | Enzyme Powder | skincare | bottle | overlapping-L-shape-arrangement | Minimalist-Cool-Tone | ❄️ |
+| R105 | Custom | Facial Oil | skincare | bottle | staggered-diagonal-line | Nature-Reflective-Harmony | 🌿 |
+
+| R106 | Shimwill | unknown | skincare | bottle | centered-composition | Clinical-Cyan-Hydrating | 🧪 |
+| R107 | GOCREED | unknown | skincare | bottle | centered-composition | Clinical-Cyan-Sterile | 🧪 |
+| R108 | d'Brauners | unknown | skincare | bottle | centered-composition | Sterile-White-Architectural | 🧪 |
+| R109 | SkinCeuticals | unknown | skincare | bottle | centered-composition | Clinical-White-Human-Touch | 🧪 |
+| R110 | The Ordinary | unknown | skincare | bottle | centered-composition | Technical-Complexity-Blue | 🧪 |
+| R111 | Juve Look | unknown | skincare | bottle | centered-composition | Medical-Grade-High-Tech | 🧪 |
+| R112 | Dr. ALVA | unknown | skincare | bottle | centered-composition | Clinical-Cyan-Dynamic | 🧪 |
+| R113 | Focus&Femme | unknown | skincare | bottle | centered-composition | Sterile-White-Scientific | 🧪 |
+| R114 | Generic Lab | unknown | skincare | bottle | centered-composition | Minimalist-Glassware-Symmetry | 🧪 |
+| R115 | GLASSLIKE | unknown | skincare | bottle | centered-composition | Sterile-White-Lab-Coat | 🧪 |

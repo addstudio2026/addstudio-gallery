@@ -1,0 +1,43 @@
+id: R099
+file: R099_haircare_natural_euphoric-wet.jpg
+brand: Natural Cosmetic
+product_name: Natural Cosmetic Shampoo
+category: haircare
+subcategory: shampoo
+container_type: ergonomic-plastic-bottle
+container_material: light-green-opaque-plastic
+label_style: dark-green-sans-serif-on-white
+palette_product: ["#C1E1C1 light-green", "#006400 dark-green", "#FFFFFF white"]
+palette_scene: ["#FFFFFF white-foam", "#FADADD skin-tone", "#FFFFFF background"]
+color_temperature: neutral-bright
+contrast: medium
+saturation: medium
+accent_color: #C1E1C1
+placement: held-by-person
+camera_angle: close-up-portrait
+depth_of_field: shallow
+focus: sharp on product-label-and-facial-expression
+props: [thick-white-shampoo-lather, water-droplets-on-skin]
+lighting:
+  type: soft-commercial-studio
+  source: front-diffused
+  effect: glistening-wet-skin-and-bright-highlights
+background:
+  type: solid-white
+  elements: [white-void]
+  color: #FFFFFF
+composition:
+  style: wet-euphoria-commercial
+  framing: close-up-portrait
+  dynamic: joyful-and-sensory
+typography:
+  style: dark-green-sans-serif
+  layout: structured-commercial
+style: Euphoric-Wet-Commercial
+reuse: Ideal for shampoos, shower gels, or skincare emphasizing "refreshment", "joy", and "deep cleaning".
+prompt_seed: >
+  A professional beauty portrait of a joyful woman with closed eyes, 
+  her hair covered in thick white frothy shampoo lather. Her skin 
+  is glistening with water droplets. She is holding a light green 
+  plastic shampoo bottle. Bright soft studio lighting, seamless 
+  white background, clean commercial aesthetic, 8K, ultra-realistic.

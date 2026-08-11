@@ -14,6 +14,6 @@ User explicitly abandoned password system (2026-08-09). Do NOT ask for passwords
 §
 User requires strict adherence to the 11-section standard for reference tagging; shortened YAMLs are unacceptable. Quality always takes priority over speed.
 §
-User requires a recurring 24h automated memory/disk status report.
+User prefers 24h automated disk reports & TMA gallery via Vercel/manifest.json (luxury minimalist UI).
 §
 User has zero tolerance for repeated references; once rejected, do NOT propose again in session. Every reference proposal MUST include the image in the same message.

@@ -32,7 +32,7 @@ Load `references/poster-library.json`. Calculate score $S \\in [0,1]$ based on:
 Fill exactly these slots in order:
 1. [SHOT TYPE] | 2. [SUBJECT] | 3. [PLACEMENT] | 4. [CAMERA] | 5. [LIGHTING] | 6. [BACKGROUND & SURFACE] | 7. [COMPOSITION & LAYOUT] | 8. [COPY & TYPOGRAPHY ZONES] | 9. [COLOR GRADE] | 10. [MOOD] | 11. [TECHNICAL / RENDER] | 12. [NEGATIVE]
 
-Flatten 1-11 into one dense English paragraph ($\le 220$ words).
+Flatten 1-11 into one dense English paragraph (optimized for quality and structure, length is variable based on scene complexity).
 
 ## 4. Hard Rules
 - **Identity Lock**: NEVER describe physical product details (colors, text, materials) in the prompt. Use "the product".
