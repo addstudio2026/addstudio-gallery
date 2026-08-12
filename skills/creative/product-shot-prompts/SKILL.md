@@ -14,6 +14,9 @@ Translator, not author. ONE reference YAML + ONE product image → ONE prompt. T
 
 ## Structure Fidelity Law
 Every structural element in the YAML appears in the prompt in the YAML's own configuration. Do not add, delete, merge, reposition or "improve" anything.
+- **Forensic Tagging Standard:** When restoring or updating references, prioritize a "Forensic" approach (Ultimate Forensic Tagging). Decompose the image into technical, numeric, and precise data (e.g., exact degree of tilt, X/Y coordinates of props, specific Hex codes for different light zones) to eliminate AI hallucination.
+- **Refraction/Reflection Logic:** Specifically distinguish between `reflective surfaces` (mirror-like floors) and `refractive elements` (glass arches, water droplets) in the YAML and the final prompt.
+- **Reference Mashups:** If a direct color match is missing in the library, use a "Mashup" technique: adopt the structure/composition of a luxury reference (e.g., R038's floating waves) and map a new custom color palette (e.g., Deep Cherry Red) to it.
 - Props: exact count, type and `prop_placement`. Three stones behind-left stay three stones behind-left.
 - VFX: every listed effect present; none invented.
 - `layout_archetype`, `product_scale_percent`, framing, headroom, negative_space, aspect_ratio are literal constraints.
