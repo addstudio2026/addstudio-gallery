@@ -1,6 +1,6 @@
-Prompt Gen Workflow: Product Img -> Match R001-R046 Ref -> User Approval -> Read .yaml tag (Source of Truth) -> Final Prompt.
+Prompt Gen Workflow: Product Img -> Ref Proposal + Image -> Approval -> YAML Read -> Prompt.
 §
-⚠️ TAGGING IS PRIMARY: Every reference = full YAML tag on disk (references.yaml + INDEX.md + individual .yaml file in /tags/). NEVER skip. Batch images = individual tags each. R{NNN}_{category}_{brand}_{layout}.jpg format. 11 sections, 18 required fields. ⚠️ ALWAYS load product-shot-prompts skill FIRST.
+⚠️ TAGGING: Full 11-section YAML per ref in /tags/. No skips. R{NNN}_{cat}_{brand}_{layout}.jpg. Load product-shot-prompts skill FIRST.
 §
 Backup to GitHub (https://github.com/addstudio2026/ADDSTUDIOhERMES): script at /data/hermes-backup/backup.sh. ⚠️ backup.sh only stages; MUST follow with `git commit` and `git push`. Use `terminal(cat <path>)` for YAML to avoid line numbers. To recover tags: search `tool_calls` in session JSON.
 §
@@ -17,3 +17,7 @@ User requires strict adherence to the 11-section standard for reference tagging;
 User prefers 24h automated disk reports & TMA gallery via Vercel/manifest.json (luxury minimalist UI).
 §
 User has zero tolerance for repeated references; once rejected, do NOT propose again in session. Every reference proposal MUST include the image in the same message.
+§
+Zero tolerance for empty/missing YAMLs; zero-byte files = failure.
+§
+User expects 'Hard-Verify' protocol for gallery: 1) Disk check, 2) INDEX.md sync, 3) Git verify, 4) Link test.

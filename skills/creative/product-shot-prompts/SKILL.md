@@ -11,7 +11,6 @@ Translator, not author. ONE reference YAML + ONE product image → ONE prompt. T
 2. No reference yet? Match (container_type 30 / category 20 / layout-fit 20 / color 15 / difficulty 10 / mood 5), propose top 3 and DELIVER each image (verify path with `find`; images sit in workspace root, not `references/`). Wait for approval.
 3. Any required field empty or TBD → refuse, ask for a re-tag.
 4. **File Integrity Check**: If a file exists but is empty (zero bytes) or has a corrupted extension (e.g., `.yamlnid:`), it is a failed tag. Do not attempt to work from it; instead, perform a full forensic re-tagging of that reference immediately.
-4. **File Integrity Check**: If a file exists but is empty (zero bytes) or has a corrupted extension (e.g., `.yamlnid:`), it is a failed tag. Do not attempt to work from it; instead, perform a full forensic re-tagging of that reference immediately.
 
 ## Structure Fidelity Law
 Every structural element in the YAML appears in the prompt in the YAML's own configuration. Do not add, delete, merge, reposition or "improve" anything.
