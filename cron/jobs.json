@@ -22,17 +22,17 @@
       "schedule_display": "0 0 * * *",
       "repeat": {
         "times": null,
-        "completed": 3
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-08-10T04:59:10.724532+00:00",
-      "next_run_at": "2026-08-13T00:00:00+00:00",
-      "last_run_at": "2026-08-12T04:22:10.606623+00:00",
+      "next_run_at": "2026-08-14T00:00:00+00:00",
+      "last_run_at": "2026-08-13T00:00:19.665180+00:00",
       "last_status": "error",
-      "last_error": "RuntimeError: No Anthropic credentials found. Set ANTHROPIC_TOKEN or ANTHROPIC_API_KEY, run 'claude setup-token', or authenticate with 'claude /login'.",
+      "last_error": "Script not found: /data/.hermes/scripts/df -h /data | tail -n 1 | awk '{print \"Disk Usage for /data: \" $3 \"/\" $2 \" (\" $5 \")\"}'",
       "last_delivery_error": null,
       "deliver": "origin",
       "origin": {
@@ -47,5 +47,5 @@
       "fire_claim": null
     }
   ],
-  "updated_at": "2026-08-12T04:22:15.519447+00:00"
+  "updated_at": "2026-08-13T00:00:19.665546+00:00"
 }

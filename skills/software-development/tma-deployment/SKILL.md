@@ -31,8 +31,13 @@ This skill governs the process of deploying a visual gallery and a Mini App for 
 
 ## Pitfalls & Lessons
 
-- **Private Repo Visibility**: GitHub Pages on private repos is restricted. Use Vercel/Netlify to keep the source private but the endpoint public.
+- **UI Update Safety (Crucial):** When making "small" changes to `index.html` (e.g., adding a button, changing a style), avoid partial patches. In single-file HTML/JS apps, a single missing closing tag or syntax error in a script block can crash the entire render loop, resulting in a blank screen/no images. 
+  - **FIX:** Prefer rewriting the entire file with the change integrated over using `patch` for critical JS logic.
+  - **Verification:** After any UI change, you MUST verify that the core functionality (e.g., "do the images still load?") is intact before reporting success. If the grid disappears, immediately rollback to the last known-good version.
+- **Private Repo Visibility:** GitHub Pages on private repos is restricted. Use Vercel/Netlify to keep the source private but the endpoint public.
 - **Git Identity**: When initializing new repositories for deployment, ensure `git config user.email` and `user.name` are set locally to avoid authentication errors during the first push.
+- **The `push -f` Danger Zone**: Never use `git push -f` unless you have a verified local backup of the `.git` directory or a separate backup branch. Force-pushing rewrites remote history and destroys the ability to perform a `git reset --hard` to a known-good state on the server.
+- **Connectivity Probe (The 'Ping File')**: When debugging deployment, upload a simple text file (e.g., `ping.txt`) to the root. If `domain.com/ping.txt` is inaccessible, the issue is Vercel-to-Git connectivity or a wrong branch, not the app's internal logic.
 - **The Vercel Root Trap**: If the Vercel `Root Directory` is set to a specific folder (e.g., `/tma`), Vercel will NOT deploy any files located outside that folder.
   - **FIX:** Move the `images/` directory INSIDE the root directory specified in Vercel (e.g., `/tma/images/`).
 - **Path Resolution**: When images are co-located in the root folder with `index.html`, use relative paths (e.g., `images/ref.jpg`). Avoid absolute paths if the app is deployed as a sub-project on a shared domain.

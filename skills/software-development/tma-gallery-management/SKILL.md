@@ -1,6 +1,6 @@
 ---
 name: tma-gallery-management
-description: Use when managing the ADDSTUDIO Reference Gallery TMA.
+description: Use when managing the ADDSTUDIO Gallery TMA. Syncs images, manifests, and UI.
 ---
 
 # TMA Gallery Management
@@ -21,13 +21,26 @@ This skill governs the maintenance and deployment of the ADDSTUDIO Reference Gal
 ## UX Standards
 
 - **Silent Copy**: Copying an ID must be a silent operation. No `alert()` or confirmation dialogs.
-- **Toast Feedback**: Use a temporary, self-vanishing toast notification for copy confirmation.
+- **Toast Feedback**: Use a temporary, self-vanishing toast notification (e.g., centered bottom, fade-out) for copy confirmation.
+- **Button Aesthetics**: 
+    - "Copy ID" buttons must be `width: fit-content` and centered to avoid a "blocky" look.
+    - Implement subtle hover effects to provide tactile feedback.
 - **Bot Integration**: Use direct deep-links (`https://t.me/addstudiobot?start=ID`) for the 'Send to Bot' functionality.
 - **Filtering**: Prioritize Style/Look clusters over product categories.
 
-## Pitfalls & Troubleshooting
+## Pitfalls & Recovery
 
-- **Vercel Cache**: Changes to `manifest.json` or images often require a manual **Redeploy** in the Vercel dashboard to take effect.
-- **Bot Start Parameter**: The `?start=` parameter only works for users who haven't started the bot before. For existing users, a 'Copy ID' button is the only reliable flow.
-- **Git Auth**: When deploying to the public gallery repo, ensure the correct Personal Access Token (PAT) is used in the remote URL to avoid `fatal: could not read Username` errors.
-- **Path Mismatches**: Always verify the exact location of the `tma/` folder relative to the git root before running `git add`.
+- **Recovery from State Loss**: If the local `tma/` folder is corrupted or missing:
+    1. Sync all `Rxxx.jpg` from project root and cache.
+    2. Regenerate `manifest_v3.json` by parsing `INDEX.md`.
+    3. Restore `index.html` from the latest stable template.
+- **Git Auth**: To avoid `fatal: unable to auto-detect email address`, always set local identity:
+  `git config user.email "you@example.com" && git config user.name "Your Name"`
+- **Vercel Cache**: Changes to `manifest.json` or images often require a manual **Redeploy** in the Vercel dashboard.
+- **Bot Start Parameter**: The `?start=` parameter only works for users who haven't started the bot before. For existing users, "Copy ID" is the only reliable flow.
+
+## Verification (Hard-Verify)
+1. **Physical Check**: `ls tma/images/` to ensure images exist.
+2. **Sync Check**: Verify `manifest_v3.json` matches `INDEX.md`.
+3. **Git Verify**: Check `git log` to confirm the commit landed.
+4. **Link Test**: Verify the deployed Vercel URL.
