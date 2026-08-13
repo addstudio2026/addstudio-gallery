@@ -1,7 +1,7 @@
 [
   {
     "id": "R001",
-    "url": "https://picsum.photos/seed/R001/600/750",
+    "url": "img/R001.jpg",
     "brand": "MIIXIT",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -9,7 +9,7 @@
   },
   {
     "id": "R002",
-    "url": "https://picsum.photos/seed/R002/600/600",
+    "url": "img/R002.jpg",
     "brand": "O'GULIA",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -17,7 +17,7 @@
   },
   {
     "id": "R003",
-    "url": "https://picsum.photos/seed/R003/600/750",
+    "url": "img/R003.jpg",
     "brand": "unknown",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -25,7 +25,7 @@
   },
   {
     "id": "R004",
-    "url": "https://picsum.photos/seed/R004/600/600",
+    "url": "img/R004.jpg",
     "brand": "O'GULIA",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -33,7 +33,7 @@
   },
   {
     "id": "R005",
-    "url": "https://picsum.photos/seed/R005/600/750",
+    "url": "img/R005.jpg",
     "brand": "SKIN1004",
     "category": "skincare",
     "mood": "natural-botanical",
@@ -41,7 +41,7 @@
   },
   {
     "id": "R006",
-    "url": "https://picsum.photos/seed/R006/600/600",
+    "url": "img/R006.jpg",
     "brand": "unknown",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -49,7 +49,7 @@
   },
   {
     "id": "R007",
-    "url": "https://picsum.photos/seed/R007/600/750",
+    "url": "img/R007.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -57,7 +57,7 @@
   },
   {
     "id": "R008",
-    "url": "https://picsum.photos/seed/R008/600/600",
+    "url": "img/R008.jpg",
     "brand": "more&core",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -65,7 +65,7 @@
   },
   {
     "id": "R009",
-    "url": "https://picsum.photos/seed/R009/600/750",
+    "url": "img/R009.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -73,7 +73,7 @@
   },
   {
     "id": "R010",
-    "url": "https://picsum.photos/seed/R010/600/600",
+    "url": "img/R010.jpg",
     "brand": "Ole Henriksen",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -81,7 +81,7 @@
   },
   {
     "id": "R011",
-    "url": "https://picsum.photos/seed/R011/600/750",
+    "url": "img/R011.jpg",
     "brand": "SKIN1004",
     "category": "skincare",
     "mood": "moody-dramatic",
@@ -89,7 +89,7 @@
   },
   {
     "id": "R012",
-    "url": "https://picsum.photos/seed/R012/600/600",
+    "url": "img/R012.jpg",
     "brand": "La Roche-Posay",
     "category": "skincare",
     "mood": "unknown",
@@ -97,7 +97,7 @@
   },
   {
     "id": "R013",
-    "url": "https://picsum.photos/seed/R013/600/750",
+    "url": "img/R013.jpg",
     "brand": "Clarins",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -105,7 +105,7 @@
   },
   {
     "id": "R014",
-    "url": "https://picsum.photos/seed/R014/600/600",
+    "url": "img/R014.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -113,7 +113,7 @@
   },
   {
     "id": "R015",
-    "url": "https://picsum.photos/seed/R015/600/750",
+    "url": "img/R015.jpg",
     "brand": "HIJI x NEKO.ART",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -121,7 +121,7 @@
   },
   {
     "id": "R016",
-    "url": "https://picsum.photos/seed/R016/600/600",
+    "url": "img/R016.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -129,7 +129,7 @@
   },
   {
     "id": "R017",
-    "url": "https://picsum.photos/seed/R017/600/750",
+    "url": "img/R017.jpg",
     "brand": "O'GULIA",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -137,7 +137,7 @@
   },
   {
     "id": "R018",
-    "url": "https://picsum.photos/seed/R018/600/600",
+    "url": "img/R018.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -145,7 +145,7 @@
   },
   {
     "id": "R019",
-    "url": "https://picsum.photos/seed/R019/600/750",
+    "url": "img/R019.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -153,7 +153,7 @@
   },
   {
     "id": "R020",
-    "url": "https://picsum.photos/seed/R020/600/600",
+    "url": "img/R020.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -161,7 +161,7 @@
   },
   {
     "id": "R021",
-    "url": "https://picsum.photos/seed/R021/600/750",
+    "url": "img/R021.jpg",
     "brand": "HSYSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -169,47 +169,47 @@
   },
   {
     "id": "R022",
-    "url": "https://picsum.photos/seed/R022/600/600",
-    "brand": "Lá farrer",
+    "url": "img/R022.jpg",
+    "brand": "L\u00e1 farrer",
     "category": "skincare",
     "mood": "energetic-bold",
     "style": "Sunscreen"
   },
   {
     "id": "R023",
-    "url": "https://picsum.photos/seed/R023/600/750",
-    "brand": "Lá farrer",
+    "url": "img/R023.jpg",
+    "brand": "L\u00e1 farrer",
     "category": "skincare",
     "mood": "luxury-premium",
     "style": "Sunscreen"
   },
   {
     "id": "R024",
-    "url": "https://picsum.photos/seed/R024/600/600",
-    "brand": "Lá farrer",
+    "url": "img/R024.jpg",
+    "brand": "L\u00e1 farrer",
     "category": "skincare",
     "mood": "warm-intimate",
     "style": "Anti Aging + SPF30 + Brightening Line"
   },
   {
     "id": "R025",
-    "url": "https://picsum.photos/seed/R025/600/750",
-    "brand": "Lá fanerri",
+    "url": "img/R025.jpg",
+    "brand": "L\u00e1 fanerri",
     "category": "skincare",
     "mood": "clinical-fresh",
     "style": "Anti Spot Sunscreen SPF40+ Tinted Bronze"
   },
   {
     "id": "R026",
-    "url": "https://picsum.photos/seed/R026/600/600",
+    "url": "img/R026.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acnes Gel‑Cleanser"
+    "style": "Acnes Gel\u2011Cleanser"
   },
   {
     "id": "R027",
-    "url": "https://picsum.photos/seed/R027/600/750",
+    "url": "img/R027.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -217,7 +217,7 @@
   },
   {
     "id": "R028",
-    "url": "https://picsum.photos/seed/R028/600/600",
+    "url": "img/R028.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -225,7 +225,7 @@
   },
   {
     "id": "R029",
-    "url": "https://picsum.photos/seed/R029/600/750",
+    "url": "img/R029.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -233,7 +233,7 @@
   },
   {
     "id": "R030",
-    "url": "https://picsum.photos/seed/R030/600/600",
+    "url": "img/R030.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -241,39 +241,39 @@
   },
   {
     "id": "R031",
-    "url": "https://picsum.photos/seed/R031/600/750",
+    "url": "img/R031.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acnes Gel‑Cream"
+    "style": "Acnes Gel\u2011Cream"
   },
   {
     "id": "R032",
-    "url": "https://picsum.photos/seed/R032/600/600",
+    "url": "img/R032.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acnes Gel‑Cream"
+    "style": "Acnes Gel\u2011Cream"
   },
   {
     "id": "R033",
-    "url": "https://picsum.photos/seed/R033/600/750",
+    "url": "img/R033.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acnes Gel‑Cream"
+    "style": "Acnes Gel\u2011Cream"
   },
   {
     "id": "R034",
-    "url": "https://picsum.photos/seed/R034/600/600",
+    "url": "img/R034.jpg",
     "brand": "SYNSKIN",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acnes Gel‑Cream"
+    "style": "Acnes Gel\u2011Cream"
   },
   {
     "id": "R035",
-    "url": "https://picsum.photos/seed/R035/600/750",
+    "url": "img/R035.jpg",
     "brand": "ONE POSE",
     "category": "skincare",
     "mood": "warm-intimate",
@@ -281,7 +281,7 @@
   },
   {
     "id": "R036",
-    "url": "https://picsum.photos/seed/R036/600/600",
+    "url": "img/R036.jpg",
     "brand": "Venus",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -289,23 +289,23 @@
   },
   {
     "id": "R037",
-    "url": "https://picsum.photos/seed/R037/600/750",
-    "brand": "Lá farrerr",
+    "url": "img/R037.jpg",
+    "brand": "L\u00e1 farrerr",
     "category": "skincare",
     "mood": "warm-intimate",
     "style": "R037"
   },
   {
     "id": "R038",
-    "url": "https://picsum.photos/seed/R038/600/600",
-    "brand": "Lá farrerr",
+    "url": "img/R038.jpg",
+    "brand": "L\u00e1 farrerr",
     "category": "skincare",
     "mood": "natural-botanical",
     "style": "Daily Defense Cream (Shades 01-06)"
   },
   {
     "id": "R039",
-    "url": "https://picsum.photos/seed/R039/600/750",
+    "url": "img/R039.jpg",
     "brand": "HIJI-12 x NEKO.ART",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -313,7 +313,7 @@
   },
   {
     "id": "R040",
-    "url": "https://picsum.photos/seed/R040/600/600",
+    "url": "img/R040.jpg",
     "brand": "Herborist",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -321,15 +321,15 @@
   },
   {
     "id": "R041",
-    "url": "https://picsum.photos/seed/R041/600/750",
-    "brand": "Spēs",
+    "url": "img/R041.jpg",
+    "brand": "Sp\u0113s",
     "category": "skincare",
     "mood": "clinical-fresh",
     "style": "R041"
   },
   {
     "id": "R042",
-    "url": "https://picsum.photos/seed/R042/600/600",
+    "url": "img/R042.jpg",
     "brand": "Dr. ALVA",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -337,7 +337,7 @@
   },
   {
     "id": "R043",
-    "url": "https://picsum.photos/seed/R043/600/750",
+    "url": "img/R043.jpg",
     "brand": "AHC",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -345,7 +345,7 @@
   },
   {
     "id": "R044",
-    "url": "https://picsum.photos/seed/R044/600/600",
+    "url": "img/R044.jpg",
     "brand": "anua",
     "category": "skincare",
     "mood": "natural-botanical",
@@ -353,7 +353,7 @@
   },
   {
     "id": "R045",
-    "url": "https://picsum.photos/seed/R045/600/750",
+    "url": "img/R045.jpg",
     "brand": "Dr. Jart+",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -361,7 +361,7 @@
   },
   {
     "id": "R046",
-    "url": "https://picsum.photos/seed/R046/600/600",
+    "url": "img/R046.jpg",
     "brand": "One leaf",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -369,7 +369,7 @@
   },
   {
     "id": "R047",
-    "url": "https://picsum.photos/seed/R047/600/750",
+    "url": "img/R047.jpg",
     "brand": "VIRA",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -377,7 +377,7 @@
   },
   {
     "id": "R049",
-    "url": "https://picsum.photos/seed/R049/600/750",
+    "url": "img/R049.jpg",
     "brand": "Torriden",
     "category": "skincare",
     "mood": "playful-fun",
@@ -385,7 +385,7 @@
   },
   {
     "id": "R050",
-    "url": "https://picsum.photos/seed/R050/600/600",
+    "url": "img/R050.jpg",
     "brand": "LA ROCHE-POSAY",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -393,7 +393,7 @@
   },
   {
     "id": "R052",
-    "url": "https://picsum.photos/seed/R052/600/600",
+    "url": "img/R052.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -401,7 +401,7 @@
   },
   {
     "id": "R058",
-    "url": "https://picsum.photos/seed/R058/600/600",
+    "url": "img/R058.jpg",
     "brand": "Unknown",
     "category": "beauty",
     "mood": "clinical-fresh",
@@ -409,7 +409,7 @@
   },
   {
     "id": "R059",
-    "url": "https://picsum.photos/seed/R059/600/750",
+    "url": "img/R059.jpg",
     "brand": "Unknown",
     "category": "beauty",
     "mood": "luxury-premium",
@@ -417,7 +417,7 @@
   },
   {
     "id": "R060",
-    "url": "https://picsum.photos/seed/R060/600/600",
+    "url": "img/R060.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -425,7 +425,7 @@
   },
   {
     "id": "R061",
-    "url": "https://picsum.photos/seed/R061/600/750",
+    "url": "img/R061.jpg",
     "brand": "Unknown",
     "category": "beauty",
     "mood": "clinical-fresh",
@@ -433,7 +433,7 @@
   },
   {
     "id": "R062",
-    "url": "https://picsum.photos/seed/R062/600/600",
+    "url": "img/R062.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "playful-fun",
@@ -441,7 +441,7 @@
   },
   {
     "id": "R067",
-    "url": "https://picsum.photos/seed/R067/600/750",
+    "url": "img/R067.jpg",
     "brand": "Unknown",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -449,15 +449,15 @@
   },
   {
     "id": "R068",
-    "url": "https://picsum.photos/seed/R068/600/600",
+    "url": "img/R068.jpg",
     "brand": "SKINTIFIC",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Acne Control Clay Cleanser — 2% Salicylic Acid, 2 IN 1 Cleanser & Mask"
+    "style": "Acne Control Clay Cleanser \u2014 2% Salicylic Acid, 2 IN 1 Cleanser & Mask"
   },
   {
     "id": "R072",
-    "url": "https://picsum.photos/seed/R072/600/600",
+    "url": "img/R072.jpg",
     "brand": "The Ordinary",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -465,7 +465,7 @@
   },
   {
     "id": "R073",
-    "url": "https://picsum.photos/seed/R073/600/750",
+    "url": "img/R073.jpg",
     "brand": "DOORDERMA",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -473,7 +473,7 @@
   },
   {
     "id": "R074",
-    "url": "https://picsum.photos/seed/R074/600/600",
+    "url": "img/R074.jpg",
     "brand": "Wild",
     "category": "beauty",
     "mood": "energetic-bold",
@@ -481,7 +481,7 @@
   },
   {
     "id": "R075",
-    "url": "https://picsum.photos/seed/R075/600/750",
+    "url": "img/R075.jpg",
     "brand": "Dame bb",
     "category": "beauty",
     "mood": "unknown",
@@ -489,7 +489,7 @@
   },
   {
     "id": "R076",
-    "url": "https://picsum.photos/seed/R076/600/600",
+    "url": "img/R076.jpg",
     "brand": "SOULMAN",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -497,7 +497,7 @@
   },
   {
     "id": "R077",
-    "url": "https://picsum.photos/seed/R077/600/750",
+    "url": "img/R077.jpg",
     "brand": "NYLAH",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -505,7 +505,7 @@
   },
   {
     "id": "R078",
-    "url": "https://picsum.photos/seed/R078/600/600",
+    "url": "img/R078.jpg",
     "brand": "HYDRA-LUXE",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -513,7 +513,7 @@
   },
   {
     "id": "R079",
-    "url": "https://picsum.photos/seed/R079/600/750",
+    "url": "img/R079.jpg",
     "brand": "TRTR",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -521,7 +521,7 @@
   },
   {
     "id": "R080",
-    "url": "https://picsum.photos/seed/R080/600/600",
+    "url": "img/R080.jpg",
     "brand": "Sunsilk",
     "category": "beauty",
     "mood": "energetic-bold",
@@ -529,7 +529,7 @@
   },
   {
     "id": "R081",
-    "url": "https://picsum.photos/seed/R081/600/750",
+    "url": "img/R081.jpg",
     "brand": "fwee",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -537,7 +537,7 @@
   },
   {
     "id": "R082",
-    "url": "https://picsum.photos/seed/R082/600/600",
+    "url": "img/R082.jpg",
     "brand": "LACOSTE",
     "category": "beauty",
     "mood": "luxury-premium",
@@ -545,7 +545,7 @@
   },
   {
     "id": "R083",
-    "url": "https://picsum.photos/seed/R083/600/750",
+    "url": "img/R083.jpg",
     "brand": "KORFF",
     "category": "skincare",
     "mood": "energetic-bold",
@@ -553,23 +553,23 @@
   },
   {
     "id": "R084",
-    "url": "https://picsum.photos/seed/R084/600/600",
+    "url": "img/R084.jpg",
     "brand": "VICHY",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Minéral 89 Probiotic Fractions"
+    "style": "Min\u00e9ral 89 Probiotic Fractions"
   },
   {
     "id": "R085",
-    "url": "https://picsum.photos/seed/R085/600/750",
+    "url": "img/R085.jpg",
     "brand": "VICHY",
     "category": "skincare",
     "mood": "clinical-fresh",
-    "style": "Minéral 89 Probiotic Fractions"
+    "style": "Min\u00e9ral 89 Probiotic Fractions"
   },
   {
     "id": "R086",
-    "url": "https://picsum.photos/seed/R086/600/600",
+    "url": "img/R086.jpg",
     "brand": "Innfree",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -577,7 +577,7 @@
   },
   {
     "id": "R087",
-    "url": "https://picsum.photos/seed/R087/600/750",
+    "url": "img/R087.jpg",
     "brand": "peach slices",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -585,7 +585,7 @@
   },
   {
     "id": "R088",
-    "url": "https://picsum.photos/seed/R088/600/600",
+    "url": "img/R088.jpg",
     "brand": "glow stars",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -593,7 +593,7 @@
   },
   {
     "id": "R089",
-    "url": "https://picsum.photos/seed/R089/600/750",
+    "url": "img/R089.jpg",
     "brand": "Qginese",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -601,7 +601,7 @@
   },
   {
     "id": "R090",
-    "url": "https://picsum.photos/seed/R090/600/600",
+    "url": "img/R090.jpg",
     "brand": "EMEISUO",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -609,7 +609,7 @@
   },
   {
     "id": "R091",
-    "url": "https://picsum.photos/seed/R091/600/750",
+    "url": "img/R091.jpg",
     "brand": "Dr.Eiffel+",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -617,7 +617,7 @@
   },
   {
     "id": "R092",
-    "url": "https://picsum.photos/seed/R092/600/600",
+    "url": "img/R092.jpg",
     "brand": "glow stars",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -625,7 +625,7 @@
   },
   {
     "id": "R093",
-    "url": "https://picsum.photos/seed/R093/600/750",
+    "url": "img/R093.jpg",
     "brand": "Qginese",
     "category": "skincare",
     "mood": "luxury-premium",
@@ -633,7 +633,7 @@
   },
   {
     "id": "R094",
-    "url": "https://picsum.photos/seed/R094/600/600",
+    "url": "img/R094.jpg",
     "brand": "MIXIT",
     "category": "skincare",
     "mood": "natural-botanical",
@@ -641,15 +641,15 @@
   },
   {
     "id": "R095",
-    "url": "https://picsum.photos/seed/R095/600/750",
-    "brand": "L'Oréal Professionnel",
+    "url": "img/R095.jpg",
+    "brand": "L'Or\u00e9al Professionnel",
     "category": "haircare",
     "mood": "unknown",
     "style": "Absolut Repair Shampoo"
   },
   {
     "id": "R096",
-    "url": "https://picsum.photos/seed/R096/600/600",
+    "url": "img/R096.jpg",
     "brand": "Scent of Jarte",
     "category": "beauty",
     "mood": "luxury-premium",
@@ -657,7 +657,7 @@
   },
   {
     "id": "R097",
-    "url": "https://picsum.photos/seed/R097/600/750",
+    "url": "img/R097.jpg",
     "brand": "ForderM",
     "category": "skincare",
     "mood": "dreamy-ethereal",
@@ -665,7 +665,7 @@
   },
   {
     "id": "R098",
-    "url": "https://picsum.photos/seed/R098/600/600",
+    "url": "img/R098.jpg",
     "brand": "naali",
     "category": "beauty",
     "mood": "energetic-bold",
@@ -673,7 +673,7 @@
   },
   {
     "id": "R099",
-    "url": "https://picsum.photos/seed/R099/600/750",
+    "url": "img/R099.jpg",
     "brand": "Natural Cosmetic",
     "category": "haircare",
     "mood": "energetic-bold",
@@ -681,7 +681,7 @@
   },
   {
     "id": "R100",
-    "url": "https://picsum.photos/seed/R100/600/600",
+    "url": "img/R100.jpg",
     "brand": "Natural Cosmetic",
     "category": "haircare",
     "mood": "unknown",
@@ -689,7 +689,7 @@
   },
   {
     "id": "R101",
-    "url": "https://picsum.photos/seed/R101/600/750",
+    "url": "img/R101.jpg",
     "brand": "unknown",
     "category": "skincare",
     "mood": "moody-dramatic",
@@ -697,7 +697,7 @@
   },
   {
     "id": "R102",
-    "url": "https://picsum.photos/seed/R102/600/600",
+    "url": "img/R102.jpg",
     "brand": "ILIA",
     "category": "beauty",
     "mood": "luxury-premium",
@@ -705,7 +705,7 @@
   },
   {
     "id": "R103",
-    "url": "https://picsum.photos/seed/R103/600/750",
+    "url": "img/R103.jpg",
     "brand": "unknown",
     "category": "skincare",
     "mood": "unknown",
@@ -713,7 +713,7 @@
   },
   {
     "id": "R104",
-    "url": "https://picsum.photos/seed/R104/600/600",
+    "url": "img/R104.jpg",
     "brand": "CLOZ",
     "category": "skincare",
     "mood": "clinical-fresh",
@@ -721,7 +721,7 @@
   },
   {
     "id": "R105",
-    "url": "https://picsum.photos/seed/R105/600/750",
+    "url": "img/R105.jpg",
     "brand": "Custom",
     "category": "skincare",
     "mood": "natural-botanical",
