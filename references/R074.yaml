@@ -1,0 +1,57 @@
+id: R074
+file: R074_beauty_wild_gradient-motion.jpg
+
+brand: Wild
+product_name: Refillable Deodorant
+category: beauty
+subcategory: deodorant
+container_type: cylindrical_stick
+container_material: plastic
+label_style: minimalist_white_sans-serif
+
+palette_product: ["#FFC0CB pink", "#FFD700 gold", "#FFFFFF white"]
+palette_scene: ["#000080 navy-blue", "#00FFFF electric-cyan", "#DA70D6 orchid-purple"]
+color_temperature: cool-vibrant
+contrast: high
+saturation: vivid
+accent_color: #FFD700
+
+placement: lower-right-quadrant
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on product-container
+
+props:
+  - human-hand-with-neon-pink-nails (reaching gesture)
+  - translucent-blue-acrylic-platform
+  - detached-gold-cap (lying flat)
+
+lighting:
+  type: soft-diffused-studio
+  source: front-and-sides
+  effect: clean-specular-highlights-on-acrylic
+
+background:
+  type: seamless-gradient
+  elements: [navy-to-cyan-to-purple-transition]
+  color: #000080
+
+composition:
+  style: gradient-dynamic-motion
+  framing: diagonal-leading-line
+  dynamic: active-reaching
+
+typography:
+  style: clean-white-sans-serif
+  layout: minimalist-bottom-placement
+
+style: Modern-Vibrant-Gradient
+reuse: Ideal for products targeting a young, tech-savvy audience, or campaigns emphasizing versatility and energy.
+
+prompt_seed: >
+  A vertical studio shot of a refillable deodorant stick with a pink-gold-pink 
+  gradient body, standing on a translucent blue acrylic block. A hand with 
+  neon-pink nails reaches down from the top-right toward the product. 
+  The background is a stunning seamless gradient transitioning from deep 
+  navy blue to electric cyan and soft purple. Soft diffused lighting, 
+  vibrant colors, 8K, hyper-realistic, modern commercial aesthetic.

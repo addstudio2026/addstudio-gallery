@@ -1,0 +1,44 @@
+id: R098
+file: R098_beauty_naali_lifestyle-bag.jpg
+brand: naali
+product_name: Anti-Stress Vitamin C
+category: beauty
+subcategory: stress-relief-cream
+container_type: rectangular-plastic-container
+container_material: orange-plastic
+label_style: white-text-on-orange
+palette_product: ["#FF8C00 orange", "#FFFFFF white"]
+palette_scene: ["#C19A6B tan-leather", "#87CEEB sky-blue", "#FF0000 red-phone"]
+color_temperature: warm
+contrast: high
+saturation: high
+accent_color: #FF8C0C
+placement: inside-leather-bag
+camera_angle: high-angle-close-up
+depth_of_field: medium
+focus: sharp on product-label
+props: [tan-leather-bag, red-smartphone, sunglasses, human-hand]
+lighting:
+  type: golden-hour-natural
+  source: direct-sunlight
+  effect: warm-glow-and-vibrant-colors
+background:
+  type: outdoor-lifestyle
+  elements: [clear-blue-sky]
+  color: #87CEEB
+composition:
+  style: dynamic-everyday-luxury
+  framing: close-up-POV
+  dynamic: active-and-lifestyle
+typography:
+  style: lowercase-white-sans-serif
+  layout: centered-minimal
+style: Lifestyle-Context-Dynamic
+reuse: Ideal for "on-the-go" products, travel-sized cosmetics, or any brand emphasizing a modern, active lifestyle.
+prompt_seed: >
+  A high-angle close-up shot of a hand retrieving a vibrant orange 
+  plastic cosmetic container from inside a luxury tan leather bag. 
+  In the background, a clear bright blue sky is visible. A red 
+  smartphone and sunglasses are lying at the bottom of the bag. 
+  Warm golden hour natural lighting, vibrant colors, 8K, 
+  ultra-realistic, lifestyle product photography.

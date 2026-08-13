@@ -1,0 +1,59 @@
+id: R095
+file: R095_haircare_loreal_sculptural-foam.jpg
+
+brand: L'Oréal Professionnel
+product_name: Absolut Repair Shampoo
+category: haircare
+subcategory: repair-shampoo
+container_type: tall_slender_bottle
+container_material: matte-beige-plastic
+label_style: clean-modern-white-label
+
+palette_product: ["#F5F5DC beige", "#000000 black", "#FFFFFF white"]
+palette_scene: ["#FFFFFF white-foam", "#D3D3D3 soft-grey", "#000000 polished-black"]
+color_temperature: neutral
+contrast: high (matte bottle vs glossy marble)
+saturation: low
+accent_color: #C6A568 gold-line
+
+placement: center-on-reflective-surface
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on product-label
+
+props:
+  - sculptural-mass-of-white-iridescent-foam (porous texture)
+  - fluted-ribbed-glass-panel (creating vertical distortions)
+  - polished-black-marble-surface (with white veining and high reflection)
+
+lighting:
+  type: soft-diffused-studio
+  source: side-lighting
+  effect: gentle-highlights-on-curves-and-shimmering-foam
+
+background:
+  type: neutral-studio
+  elements: [soft-grey-void, ribbed-glass-reflections]
+  color: #D3D3D3
+
+composition:
+  style: material-contrast-architecture
+  framing: symmetrical-balance
+  dynamic: stable-and-sophisticated
+
+typography:
+  style: modern-sans-serif-black
+  layout: structured-commercial
+
+style: Sculptural-Foam-Contrast
+reuse: Ideal for professional hair care, luxury shampoos, or any product wanting to emphasize "scientific purity" and "material luxury".
+
+prompt_seed: >
+  A professional studio shot of a tall slender beige matte bottle 
+  resting on a polished black marble surface with white veining. 
+  To the left of the bottle is a large, organic, sculptural mass 
+  of glistening white iridescent foam. A ribbed glass panel in 
+  the background creates soft vertical reflections. Soft diffused 
+  side-lighting, neutral grey background. High contrast between 
+  the matte bottle and the mirror-like marble. 8K, hyper-realistic, 
+  sophisticated and architectural aesthetic.

@@ -1,0 +1,56 @@
+id: R079
+file: R079_skincare_trtr_pink-spheres.jpg
+
+brand: TRTR
+product_name: Pink Toning Serum
+category: skincare
+subcategory: serum
+container_type: frosted_glass_bottle
+container_material: frosted-pink-glass
+label_style: clean-magenta-typography
+
+palette_product: ["#FADADD pale-pink", "#FF00FF magenta"]
+palette_scene: ["#FFF0F5 lavender-blush", "#FFB6C1 light-pink", "#FF69B4 hot-pink"]
+color_temperature: warm-soft
+contrast: low
+saturation: medium-high
+accent_color: #C0C0C0 (silver-cap)
+
+placement: floating-diagonal
+camera_angle: eye-level
+depth_of_field: shallow (soft blur spheres)
+focus: sharp on product-label
+
+props:
+  - large-matte-pink-spheres (organic-blob-shapes)
+  - tiny-iridescent-bubbles (floating)
+
+lighting:
+  type: soft-diffused-studio
+  source: upper-left
+  effect: velvet-like-soft-highlights
+
+background:
+  type: seamless-gradient
+  elements: [soft-pink-void]
+  color: #FFF0F5
+
+composition:
+  style: soft-surrealism-monochrome
+  framing: organic-blob-framing
+  dynamic: weightless-floating
+
+typography:
+  style: clean-sans-serif-magenta
+  layout: structured-minimalist
+
+style: Dreamy-Pink-Surrealism
+reuse: Ideal for brightening serums, anti-aging creams, or any product wanting to convey femininity, softness, and "cloud-like" luxury.
+
+prompt_seed: >
+  A vertical studio shot of a frosted pale pink glass serum bottle 
+  floating diagonally among large, smooth, matte-finished pink spheres 
+  and organic blob-like shapes. Tiny iridescent bubbles float in the 
+  air. Seamless monochromatic pink gradient background. Soft diffused 
+  lighting creating velvet-like highlights. 8K, hyper-realistic, 
+  dreamy and feminine aesthetic.

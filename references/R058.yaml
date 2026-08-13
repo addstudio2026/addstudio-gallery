@@ -1,0 +1,19 @@
+category: beauty
+container_type: cylindrical_stick
+palette_product: ["#FFFFFF white", "#0000FF royal-blue", "#F5F5DC beige"]
+palette_scene: ["#87CEEB sky-blue", "#CCFF00 neon-yellow", "#FFFFFF white"]
+color_temperature: neutral-bright
+placement: floating-cluster, centered-diagonal
+camera_angle: high-angle, looking down at the cluster
+product_scale: 35% of frame height
+props: [human-hand-with-white-sweatband, neon-yellow-tennis-balls, deodorant-refill-case, deodorant-cap]
+lighting_quality: bright-even-daylight, diffused-overhead
+key_direction: overhead, soft-diffused
+shadow_type: soft-shadows providing 3D volume, low contrast
+background_type: clear-sky with wispy-white-clouds
+surface: none (floating environment)
+layout_archetype: weightless-dynamic
+negative_space: 45% sky background
+mood: energetic, weightless, fresh, youthful, active
+concept_idea: An energetic "motion-capture" shot conveying absolute freshness and movement, where the product and tennis elements float weightlessly against a summer sky.
+prompt_seed: A high-angle commercial shot of a human hand reaching upward, surrounded by floating deodorant sticks and neon-yellow tennis balls in mid-air. The scene is set against a vivid, clear blue sky with soft wispy clouds. Bright, even daylight lighting creating a sense of weightlessness and energy.

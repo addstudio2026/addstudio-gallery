@@ -1,0 +1,44 @@
+id: R103
+file: R103_skincare_unknown_hard-sun-amber.jpg
+brand: unknown
+product_name: Amber Set
+category: skincare
+subcategory: set
+container_type: mixed (jar, tube, bottle)
+container_material: amber-glass-and-matte-plastic
+label_style: minimalist-white-caps
+palette_product: ["#B87333 amber", "#FFFFFF white", "#F5F5DC beige"]
+palette_scene: ["#C19A6B tan-linen", "#D2B48C beige", "#FFFFFF highlights"]
+color_temperature: warm
+contrast: high
+saturation: medium
+accent_color: #B87333
+placement: scattered-on-textured-surface
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on the amber glass
+props: [linen-fabric-folds, textured-beige-surface]
+lighting:
+  type: hard-directional-sunlight
+  source: top-left
+  effect: sharp-diagonal-shadows-and-high-brightness
+background:
+  type: textured-neutral
+  elements: [beige-linen-void]
+  color: #C19A6B
+composition:
+  style: hard-sun-monochromatic
+  framing: top-down-dynamic
+  dynamic: organic-and-modern
+typography:
+  style: minimal-white-sans-serif
+  layout: clean-structured
+style: Hard-Sun-Amber-Neutral
+reuse: Ideal for organic, natural, or apothecary-style products emphasizing sunlight, raw textures, and warm tones.
+prompt_seed: >
+  A high-angle studio shot of an amber glass jar, a beige matte tube, 
+  and an amber dropper bottle scattered on a textured beige linen 
+  surface. Strong, hard directional sunlight from the top-left creates 
+  sharp diagonal shadows. A piece of cream linen fabric is draped 
+  softly on the side. Warm neutral palette, 8K, ultra-realistic, 
+  modern apothecary aesthetic.

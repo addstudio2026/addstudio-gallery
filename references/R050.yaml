@@ -1,0 +1,57 @@
+id: R050
+file: R050_skincare_larocheposay_botanical-hydration.jpg
+
+brand: LA ROCHE-POSAY
+product_name: Hyalu B5 Eye Serum
+category: skincare
+subcategory: eye-serum
+container_type: glass_bottle_with_dropper
+container_material: translucent_blue_glass
+label_style: clinical_white_minimalist
+
+palette_product: ["#ADD8E6 light-blue", "#FFFFFF white", "#FFD700 orange-gold"]
+palette_scene: ["#E0F7FA pale-cyan", "#F5F5F5 off-white", "#B0C4DE light-steel-blue"]
+color_temperature: cool
+contrast: low-medium
+saturation: medium
+accent_color: orange-gold
+
+placement: upright-center
+camera_angle: eye-level
+depth_of_field: shallow (strong bokeh)
+focus: sharp on label
+
+props:
+  - light-blue-hydrangea-flowers (surrounding the product)
+  - clear-water-droplets (on the glass surface)
+
+lighting:
+  type: diffused-studio-lighting
+  source: top-left-leading-beam
+  effect: soft-specular-highlights-on-glass
+
+background:
+  type: soft-gradient
+  elements: [airy-atmosphere, ethereal-glow]
+  color: light-blue-to-white
+
+composition:
+  style: botanical-clinical
+  framing: organic-floral-framing
+  dynamic: serene-and-balanced
+
+typography:
+  style: professional-sans-serif
+  layout: structured-pharmaceutical
+
+style: Clinical-Botanical-Luxury
+reuse: Ideal for hydrating serums, pharmacy-grade skincare, or products that want to blend medical efficacy with natural gentleness.
+
+prompt_seed: >
+  A professional macro product shot of the product centered and slightly angled, 
+  surrounded by soft, ethereal light-blue hydrangea flowers with a strong bokeh 
+  effect in the foreground and background. The translucent blue glass bottle 
+  is covered in tiny, crystal-clear water droplets. Soft, diffused studio 
+  lighting with a leading beam from the top-left creating delicate highlights. 
+  The background is a seamless, bright, airy gradient of light blue and white. 
+  Hyper-realistic, 8K, clinical yet natural aesthetic, sharp focus on the label.

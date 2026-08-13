@@ -1,0 +1,80 @@
+id: R033
+file: R033_skincare_synskin_hero-center-reflect.jpg
+
+# --- 1. PRODUCT IDENTITY ---
+brand: SYNSKIN
+product_name: Acnes Gel‑Cream
+category: skincare
+subcategory: gel_cream
+container_type: tube
+container_material: matte_plastic
+label_style: blue_gold_typographic
+
+# --- 2. COLOR ---
+palette_product: ["#FFFFFF white", "#C9A84C gold", "#00BFFF light_cyan"]
+palette_scene: ["#B0E0E6 sky_blue", "#E0F7FA light_sky"]
+color_temperature: cool
+contrast: medium
+saturation: vivid
+accent_color: cyan
+
+# --- 3. PLACEMENT & CAMERA ---
+placement: hero_center_reflect
+camera_angle: eye_level
+product_scale: medium
+depth_of_field: shallow
+product_count: 1
+
+# --- 4. PROPS & VFX ---
+props: [none]
+prop_placement: n/a
+vfx: [none]
+human_presence: none
+
+# --- 5. LIGHTING ---
+lighting_quality: soft_diffused
+key_direction: front
+rim_light: none
+fill: high
+shadow_type: soft_short
+light_temperature_k: 5500
+
+# --- 6. BACKGROUND & SURFACE ---
+background_type: solid
+background_color: light_sky_blue
+gradient_direction: n/a
+surface: glossy_reflective
+reflection: mirror
+
+# --- 7. COMPOSITION & LAYOUT ---
+layout_archetype: hero_center_reflect
+crop: medium
+negative_space: top
+symmetry: symmetrical
+aspect_ratio: "4:5"
+
+# --- 8. TYPOGRAPHY & COPY ---
+has_text: false
+text_zones: []
+script_direction: n/a
+
+# --- 9. STYLE & MOOD ---
+render_style: photoreal_studio
+post_processing: clean
+mood: "fresh, clinical, reflective"
+season_occasion: none
+
+# --- 10. REUSE / RETRIEVAL ---
+concept_idea: "Reflective surface doubles the product, emphasizing purity."
+fits_product_types: [gel_cream, moisturizer, cleanser]
+fits_container: [tube]
+swap_difficulty: easy
+strength: "mirror reflection + cool palette"
+avoid_if: "warm‑toned brands"
+
+# --- 11. PROMPT SEED ---
+prompt_seed: "Studio product photograph of {PRODUCT} centered on a glossy reflective surface, white matte tube with gold logo, soft sky‑blue backdrop, soft diffused front lighting, high fill, shallow depth of field. Fresh clinical reflective energy, cool 5500K, 4:5 vertical."
+negative_prompt: "harsh shadows, warm tones, dark mood, text, watermark"
+
+emoji: 🪞
+notes_fa: "سطح بازتابی محصول را دو برابر می‌کند — پاکیزگی را تقویت می‌کند."

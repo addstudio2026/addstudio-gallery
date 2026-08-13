@@ -1,0 +1,17 @@
+id: R012
+file: R012_skincare_laroche-posay_hero-center-ribbon.jpg
+
+brand: La Roche-Posay
+product_name: Vitamin C12 Serum
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: amber_glass
+label_style: clinical_white_typographic
+
+palette_product: ["#D4782B amber orange", "#FFFFFF white cap", "#1A1A1A black text"]
+palette_scene: ["#F5A623 golden orange", "#E8873A deep orange"]
+color_temperature: warm
+contrast: medium
+saturation: vivid
+accent_color: vibrant_orange

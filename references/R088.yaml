@@ -1,0 +1,59 @@
+id: R088
+file: R088_skincare_glowstars_orange-tiled-dream.jpg
+
+brand: glow stars
+product_name: Mixed Skincare Range
+category: skincare
+subcategory: glow-care
+container_type: mixed (bottles, tubes, jars)
+container_material: clear-and-opaque-plastic
+label_style: minimalist-orange-white
+
+palette_product: ["#FFFFFF white", "#FF8C00 orange", "#FFD700 gold"]
+palette_scene: ["#FF8C00 vivid-orange", "#FFFACD lemon-chiffon", "#FFFFFF white"]
+color_temperature: warm
+contrast: medium
+saturation: high
+accent_color: #FFD700
+
+placement: clustered-center
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on central-products
+
+props:
+  - glossy-orange-square-tiles (with white grout)
+  - ethereal-white-and-yellow-clouds (background)
+  - circular-silver-mirror (reflecting products)
+  - glass-dropper (with golden liquid drop)
+
+lighting:
+  type: bright-diffused-studio
+  source: overhead
+  effect: high-specular-highlights-on-glossy-tiles
+
+background:
+  type: surreal-hybrid (tiled-wall and cloudy-sky)
+  elements: [orange-ceramic-tiles, ethereal-sky]
+  color: #FF8C00
+
+composition:
+  style: monochromatic-surreal-lifestyle
+  framing: asymmetrical-cluster
+  dynamic: stable-but-dreamy
+
+typography:
+  style: clean-sans-serif-orange
+  layout: minimalist-branded
+
+style: Dreamy-Orange-Lifestyle
+reuse: Ideal for "glow" products, tanning oils, or branding that wants to combine a realistic bathroom feel with a heavenly/ethereal vibe.
+
+prompt_seed: >
+  A high-angle studio shot of a collection of orange and white skincare 
+  products arranged on a surface of glossy orange square tiles. The 
+  background transitions from an orange tiled wall on the left to a 
+  surreal scene of soft white and yellow clouds against a pale orange 
+  sky on the right. A small circular mirror reflects the products. 
+  Bright diffused lighting, vibrant warm colors, 8K, hyper-realistic, 
+  ethereal and luxurious aesthetic.

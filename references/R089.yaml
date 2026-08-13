@@ -1,0 +1,59 @@
+id: R089
+file: R089_skincare_qginese_clockwork-luxury.jpg
+
+brand: Qginese
+product_name: Anti-Wrinkle Revitalizing Essence
+category: skincare
+subcategory: essence
+container_type: mixed (opaque and clear bottles)
+container_material: glass-and-plastic
+label_style: clean-white-minimalist
+
+palette_product: ["#FFFFFF white", "#FF8C00 orange", "#F5F5DC cream"]
+palette_scene: ["#FFFFFF white", "#FF8C00 orange", "#F0F8FF pale-blue"]
+color_temperature: warm-bright
+contrast: high
+saturation: medium-high
+accent_color: #FF8C00
+
+placement: elevated-on-pedestals
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on products
+
+props:
+  - large-translucent-glass-clock-face (with orange roman numerals)
+  - tiered-white-architectural-structure (base)
+  - orange-tinted-transparent-acrylic-squares (pedestals)
+  - clear-transparent-acrylic-squares (pedestals)
+
+lighting:
+  type: bright-directional-studio
+  source: overhead
+  effect: sharp-specular-reflections-on-glass-and-acrylic
+
+background:
+  type: minimalist-white
+  elements: [architectural-void]
+  color: #FFFFFF
+
+composition:
+  style: surreal-glass-architectural
+  framing: circular-clock-framing
+  dynamic: stable-and-elevated
+
+typography:
+  style: clean-sans-serif-black-orange
+  layout: structured-promotional
+
+style: Futuristic-Clockwork-Luxury
+reuse: Ideal for anti-aging products, time-reversing serums, or branding emphasizing precision and high-end technology.
+
+prompt_seed: >
+  A vertical studio shot of two skincare bottles perched on tiered 
+  white architectural platforms. One bottle is white opaque, the other 
+  contains golden-orange liquid. They sit on transparent acrylic 
+  pedestals (one orange-tinted, one clear). In the background, a large, 
+  translucent glass clock face with orange Roman numerals frames the 
+  scene. Bright directional lighting, high-contrast reflections, 
+  white background. 8K, hyper-realistic, surreal and luxurious.

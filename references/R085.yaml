@@ -1,0 +1,57 @@
+id: R085
+file: R085_skincare_vichy_lab-minimalism.jpg
+
+brand: VICHY
+product_name: Minéral 89 Probiotic Fractions
+category: skincare
+subcategory: concentrate
+container_type: conical_glass_bottle
+container_material: translucent-blue-glass
+label_style: clinical-white-typography
+
+palette_product: ["#0000FF royal-blue", "#FFFFFF white", "#C0C0C0 silver"]
+palette_scene: ["#ADD8E6 light-blue", "#F0F8FF alice-blue"]
+color_temperature: cool
+contrast: medium
+saturation: medium
+accent_color: #FFFFFF
+
+placement: upright-center
+camera_angle: eye-level
+depth_of_field: shallow (strong bokeh on glassware)
+focus: sharp on product-label
+
+props:
+  - various-clear-glassware (beakers, flasks, test-tubes)
+  - light-blue-liquid (inside glassware)
+  - small-air-bubbles (suspended in liquid)
+
+lighting:
+  type: bright-soft-studio
+  source: overhead
+  effect: clean-specular-highlights-on-metallic-cap
+
+background:
+  type: seamless-gradient
+  elements: [soft-blue-gradient-void]
+  color: #ADD8E6
+
+composition:
+  style: minimal-clinical-focus
+  framing: centered-with-bokeh-border
+  dynamic: stable-and-isolated
+
+typography:
+  style: bold-sans-serif-white-blue
+  layout: centered-structured
+
+style: Minimal-Clinical-Blue
+reuse: Ideal for professional skincare, dermatology-focused ads, or any item needing a "scientific but accessible" feeling.
+
+prompt_seed: >
+  A professional minimalist studio shot of a deep blue translucent glass 
+  dropper bottle centered in the frame. The bottle is surrounded by a 
+  blurred arrangement of clear laboratory glassware filled with light 
+  blue liquid and tiny rising bubbles. Soft blue gradient background. 
+  Bright, clean studio lighting with a shallow depth of field, keeping 
+  the focus sharply on the product. 8K, hyper-realistic, medical style.

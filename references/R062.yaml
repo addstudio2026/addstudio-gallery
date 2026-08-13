@@ -1,0 +1,19 @@
+category: skincare
+container_type: squeeze_tube
+palette_product: ["#FF00FF magenta", "#FFFFFF white"]
+palette_scene: ["#FFB6C1 pastel-pink", "#FF69B4 hot-pink"]
+color_temperature: warm
+placement: centered-upright, standing on reflective surface
+camera_angle: eye-level, straight-on
+product_scale: 40% of frame height
+props: [miniature-pink-bucket-hat, miniature-iridescent-mesh-jacket, miniature-translucent-handbag, water-droplets]
+lighting_quality: soft-diffused-studio, glistening-water-textures
+key_direction: front-and-sides, diffused
+shadow_type: soft contact shadow on reflective surface, low contrast
+background_type: seamless-gradient, monochromatic-void, soft-vignette
+surface: reflective-pink-surface covered in water droplets
+layout_archetype: anthropomorphic-character
+negative_space: 50% monochromatic pink background
+mood: playful, monochromatic, surreal, cute, fashion-forward, Gen-Z
+concept_idea: An anthropomorphic "character" product shot where the tube is dressed in miniature high-fashion accessories, combining surrealism with a high-end beauty aesthetic.
+prompt_seed: A surreal studio shot of a vibrant magenta skincare tube anthropomorphized as a character, wearing a miniature pink terry-cloth bucket hat with a small daisy and a tiny iridescent mesh jacket with a miniature handbag. The tube is covered in glistening water droplets and stands on a reflective pink surface also covered in droplets. Solid monochromatic pink gradient background, soft diffused lighting.

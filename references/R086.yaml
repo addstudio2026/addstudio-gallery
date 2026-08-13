@@ -1,0 +1,57 @@
+id: R086
+file: R086_skincare_innfree_floating-hearts.jpg
+
+brand: Innfree
+product_name: Ultra-Low Molecular Hyaluronic Acid Range
+category: skincare
+subcategory: hydration
+container_type: mixed (bottle and dropper)
+container_material: clear-plastic-and-glass
+label_style: gradient-blue-white-minimalist
+
+palette_product: ["#ADD8E6 light-blue", "#FFFFFF white", "#0000FF royal-blue"]
+palette_scene: ["#E0FFFF pale-cyan", "#B0E0E6 powder-blue", "#FFFFFF white"]
+color_temperature: cool
+contrast: low
+saturation: medium
+accent_color: #FFFFFF
+
+placement: floating-centered
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on product-labels
+
+props:
+  - large-transparent-glass-star (top-left)
+  - large-transparent-glass-heart (bottom-right)
+  - tiny-floating-glass-heart-fragments
+
+lighting:
+  type: bright-diffused-studio
+  source: overhead
+  effect: clean-specular-highlights-on-glass
+
+background:
+  type: seamless-gradient
+  elements: [pale-to-sky-blue-transition]
+  color: #E0FFFF
+
+composition:
+  style: airy-hydration-surrealism
+  framing: decentralized-floating-frame
+  dynamic: weightless-and-fresh
+
+typography:
+  style: stylized-blue-cursive-and-sans-serif
+  layout: structured-minimalist
+
+style: Airy-Hydration-Surrealism
+reuse: Ideal for hyaluronic acid products, lightweight moisturizers, or branding that wants to convey a "pure, loving, and hydrating" experience.
+
+prompt_seed: >
+  A high-angle studio shot of a tall light-blue toner bottle and a smaller 
+  serum bottle floating against a soft sky-blue gradient background. 
+  Surrounded by large, transparent crystalline objects, including a 
+  stylized star and a large glass heart. Bright, diffused lighting 
+  creating a fresh, hydrating, and clinical feel with soft highlights 
+  on the glass. 8K, hyper-realistic, ethereal and clean aesthetic.

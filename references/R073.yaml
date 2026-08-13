@@ -1,0 +1,58 @@
+id: R073
+file: R073_skincare_doorderma_orange-monochrome.jpg
+
+brand: DOORDERMA
+product_name: Barrier Repair Cream
+category: skincare
+subcategory: barrier-repair
+container_type: squeeze_tube
+container_material: plastic
+label_style: clinic-formulated-minimalist
+
+palette_product: ["#FFFFFF white", "#000000 black", "#0000FF royal-blue"]
+palette_scene: ["#FF8C00 dark-orange", "#FFA500 orange", "#FFD700 golden-yellow"]
+color_temperature: warm
+contrast: low-medium
+saturation: vivid
+accent_color: #FF8C00
+
+placement: triangular-formation
+camera_angle: medium-shot
+depth_of_field: medium (model in background blurred)
+focus: sharp on product-tubes
+
+props:
+  - reflective-orange-surface
+  - female-model-in-orange-blazer
+  - iridescent-sunglasses
+  - geometric-orange-shapes (background)
+
+lighting:
+  type: bright-even-studio
+  source: diffused-overhead
+  effect: mirror-reflections-on-floor
+
+background:
+  type: solid-color-with-shapes
+  elements: [monochromatic-orange-void, light-orange-geometry]
+  color: #FF8C00
+
+composition:
+  style: color-blocking-monochrome
+  framing: centered-triangular
+  dynamic: stable-and-warm
+
+typography:
+  style: clean-sans-serif-black-blue
+  layout: structured-clinical
+
+style: Warm-Monochromatic-Commercial
+reuse: Ideal for energetic summer products, vitamin-C lines, or branding that wants to convey warmth and vitality.
+
+prompt_seed: >
+  A medium studio shot of three white skincare tubes arranged in a triangular 
+  formation on a highly reflective orange surface. In the blurred background, 
+  a woman in an orange blazer and iridescent sunglasses is visible. 
+  The entire scene is a monochromatic orange palette with bright, even 
+  lighting creating a mirror reflection of the products. 8K, hyper-realistic, 
+  vibrant and energetic aesthetic.

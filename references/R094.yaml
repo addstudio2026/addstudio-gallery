@@ -1,0 +1,57 @@
+id: R094
+file: R094_skincare_mixit_skin-contact.jpg
+
+brand: MIXIT
+product_name: Water Bomb Face Serum
+category: skincare
+subcategory: serum
+container_type: cylindrical_glass_bottle
+container_material: clear-glass
+label_style: white-minimalist-with-pastel-stripe
+
+palette_product: ["#FFFFFF white", "#B2C2B2 sage-green", "#000000 black"]
+palette_scene: ["#F5F5DC beige", "#E8D3B9 skin-tone", "#FFFFFF highlights"]
+color_temperature: warm
+contrast: low-medium
+saturation: low
+accent_color: #B2C2B2
+
+placement: resting-on-skin (collarbone/neck)
+camera_angle: close-up-vertical
+depth_of_field: shallow (focus on product and skin texture)
+focus: sharp on label and skin highlights
+
+props:
+  - human-skin (neck and collarbone area)
+  - glowing-hydrated-skin-texture
+
+lighting:
+  type: soft-warm-natural
+  source: side-diffused
+  effect: dewy-skin-glow-and-subtle-glass-highlights
+
+background:
+  type: solid-minimal
+  elements: [neutral-beige-void]
+  color: #F5F5DC
+
+composition:
+  style: skin-fusion-luxury
+  framing: anatomical-close-up
+  dynamic: sensual-and-static
+
+typography:
+  style: bold-black-sans-serif
+  layout: centered-structured
+
+style: Skin-Contact-Sensuality
+reuse: Ideal for hydrating serums, body oils, or any product emphasizing "skin-feel", purity, and high-end dermatological elegance.
+
+prompt_seed: >
+  A professional high-end beauty shot of a clear glass serum bottle 
+  with a sage-green dropper cap resting elegantly on a woman's 
+  collarbone and neck. The skin is luminous, dewy, and highly 
+  hydrated with soft highlights. Warm natural lighting, soft 
+  shadows defining the body contours. Soft beige minimal 
+  background. 8K, ultra-realistic, sensual and premium 
+  skincare aesthetic.

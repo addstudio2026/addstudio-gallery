@@ -1,0 +1,55 @@
+id: R046
+file: R046_skincare_oneleaf_mirror-sky.jpg
+
+brand: One leaf
+product_name: unknown
+category: skincare
+subcategory: unknown
+container_type: cylindrical-bottle
+container_material: unknown
+label_style: minimalist
+
+palette_product: ["#FFFFFF white", "#000000 black"]
+palette_scene: ["#87CEEB sky-blue", "#FFFFFF cloud-white", "#E0E0E0 mirror-silver"]
+color_temperature: cool-bright
+contrast: medium
+saturation: medium-low
+accent_color: #87CEEB
+
+placement: standing-on-mirror-surface
+camera_angle: low-angle-slight-tilt
+depth_of_field: medium
+focus: sharp on product and mirror-edge
+
+props: [polished-mirror-plate, reflective-surface]
+
+lighting:
+  type: bright-ethereal-daylight
+  source: top-diffused
+  effect: crystal-clear-reflections-and-soft-ambient-glow
+
+background:
+  type: surreal-sky
+  elements: [bright-blue-sky, fluffy-white-clouds, mirrored-reflection]
+  color: #87CEEB
+
+composition:
+  style: mirror-sky-surrealism
+  framing: centered-symmetry
+  dynamic: floating-and-infinite
+
+typography:
+  style: clean-minimalist
+  layout: centered
+
+style: Mirror-Sky-Surrealism
+reuse: Ideal for products emphasizing lightness, purity, "cloud-like" textures, or a sense of infinite freshness and airiness.
+
+prompt_seed: >
+  A professional surreal beauty shot of a skincare bottle standing 
+  perfectly on a polished mirror surface. The mirror reflects a 
+  crystal-clear bright blue sky with fluffy white clouds, creating 
+  an illusion that the product is floating between two skies. 
+  Bright ethereal daylight, soft ambient glow. Symmetrical 
+  composition, low angle. 8K, ultra-realistic, serene and infinite 
+  minimalist aesthetic.

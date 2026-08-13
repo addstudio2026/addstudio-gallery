@@ -1,0 +1,58 @@
+id: R090
+file: R090_skincare_emeisuo_geometric-white.jpg
+
+brand: EMEISUO
+product_name: Skin Management Range
+category: skincare
+subcategory: brightening-nourishing
+container_type: mixed (bottles, jars, boxes)
+container_material: clear-and-opaque-glass-plastic
+label_style: minimalist-white-with-red-accents
+
+palette_product: ["#FFFFFF white", "#FF0000 red", "#000000 black"]
+palette_scene: ["#F5F5F5 light-grey", "#FFFFFF white"]
+color_temperature: cool-neutral
+contrast: low-medium
+saturation: low
+accent_color: #FF0000
+
+placement: staggered-on-platforms
+camera_angle: high-angle
+depth_of_field: deep
+focus: sharp across all products
+
+props:
+  - white-geometric-stepped-platforms (matte finish)
+  - clear-glass-jars-and-bottles
+  - white-rectangular-packaging-boxes
+
+lighting:
+  type: bright-even-studio
+  source: diffused-overhead
+  effect: soft-ambient-shadows
+
+background:
+  type: seamless-gradient
+  elements: [light-grey-void]
+  color: #F5F5F5
+
+composition:
+  style: minimalist-geometric-staggered
+  framing: architectural-grid-framing
+  dynamic: stable-and-organized
+
+typography:
+  style: thin-grey-sans-serif-and-red-bold
+  layout: structured-top-aligned
+
+style: Minimalist-Geometric-White
+reuse: Ideal for "step-by-step" skincare kits, clinical beauty brands, or any product emphasizing organization and purity.
+
+prompt_seed: >
+  A high-angle studio shot of a collection of white and clear skincare 
+  products (bottles, jars, and boxes) arranged on a series of white, 
+  geometric stepped platforms. Light grey seamless background. 
+  Bright and even diffused lighting creating soft shadows. 
+  The color palette is dominated by white and grey with sharp red 
+  accents on the labels. 8K, hyper-realistic, organized and sterile 
+  minimalist aesthetic.

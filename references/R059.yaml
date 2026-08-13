@@ -1,0 +1,19 @@
+category: beauty
+container_type: rectangular_bottle
+palette_product: ["#000000 matte-black", "#FFFFFF white"]
+palette_scene: ["#B22222 clay-red", "#FFA500 orange-accent", "#FFFFFF white-lines"]
+color_temperature: warm
+placement: upright-center
+camera_angle: high-angle, looking down at the surface
+product_scale: 35% of frame height
+props: [black-orange-padel-racket, yellow-tennis-ball, red-clay-court-surface]
+lighting_quality: bright-direct-sunlight, high-contrast
+key_direction: top-left, direct
+shadow_type: soft-directional-shadows, high contrast, warm brown
+background_type: sports-surface with red clay texture and white court lines
+surface: red clay court with granular texture
+layout_archetype: luxurious-contrast (diagonal framing)
+negative_space: 40% red clay surface
+mood: luxurious, athletic, contrasting, sophisticated, premium
+concept_idea: A "Luxury-Athletic" juxtaposition where a matte black high-end perfume is placed on a raw red clay tennis court, combining sport and high-fashion sophistication.
+prompt_seed: A high-angle professional product shot of a rectangular black perfume bottle resting on a red clay tennis court surface. A black and orange padel racket is positioned diagonally across the frame, framing the bottle. A single yellow tennis ball sits nearby. Bright sunlight from the top-left creating soft shadows. High contrast between the matte black bottle and the rich red clay.

@@ -1,0 +1,44 @@
+id: R097
+file: R097_skincare_forderm_ethereal-motion.jpg
+brand: ForderM
+product_name: Vit-C 20 Intensive Serum
+category: skincare
+subcategory: serum
+container_type: amber_glass_bottle
+container_material: amber-glass
+label_style: gold-typography-on-amber
+palette_product: ["#B87333 amber", "#D4AF37 gold", "#FFFFFF white-dropper"]
+palette_scene: ["#FFFFFF ethereal-white", "#E8D3B9 muted-skin-tones"]
+color_temperature: neutral
+contrast: medium
+saturation: medium-low
+accent_color: #D4AF37
+placement: centered-floating-effect
+camera_angle: eye-level
+depth_of_field: shallow
+focus: sharp on product-label
+props: [blurred-ghostly-hands]
+lighting:
+  type: high-key-ethereal
+  source: diffused-all-around
+  effect: glowing-white-atmosphere-and-golden-highlights
+background:
+  type: soft-lit-void
+  elements: [white-ethereal-space]
+  color: #FFFFFF
+composition:
+  style: ethereal-motion-blur
+  framing: centered-symmetry
+  dynamic: ghostly-and-dynamic
+typography:
+  style: bold-gold-sans-serif
+  layout: left-aligned-structured
+style: Ethereal-Motion-Blur
+reuse: Ideal for serums or high-tech cosmetics emphasizing energy, rapid absorption, and "magical" efficacy.
+prompt_seed: >
+  A professional high-key beauty shot of an amber glass serum bottle 
+  with a gold metallic cap, centered against a bright, ethereal 
+  white background. Two blurred, translucent ghostly hands hover 
+  around the bottle, creating a sense of motion. Soft diffused 
+  lighting, glowing atmosphere, gold typography. 8K, hyper-realistic, 
+  premium cosmeceuticals aesthetic.

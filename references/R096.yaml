@@ -1,0 +1,44 @@
+id: R096
+file: R096_beauty_scent-of-jarte_high-key.jpg
+brand: Scent of Jarte
+product_name: After Shower Hair & Body Mist
+category: beauty
+subcategory: body-mist
+container_type: frosted_glass_bottle
+container_material: frosted-glass
+label_style: minimalist-grey-typography
+palette_product: ["#E0E0E0 frosted-white", "#808080 matte-grey", "#FFFFFF white"]
+palette_scene: ["#FFFFFF pure-white", "#FADADD pale-skin"]
+color_temperature: neutral-cool
+contrast: low
+saturation: very-low
+accent_color: #808080
+placement: held-by-hand-diagonal
+camera_angle: close-up
+depth_of_field: shallow
+focus: sharp on bottle-text
+props: [human-hand, bare-shoulder]
+lighting:
+  type: high-key-diffused
+  source: top-right
+  effect: glowing-frosted-glass-and-soft-skin-gradients
+background:
+  type: seamless-white
+  elements: [white-void]
+  color: #FFFFFF
+composition:
+  style: minimalist-pureness
+  framing: close-up-diagonal
+  dynamic: serene-and-static
+typography:
+  style: clean-sans-serif-grey
+  layout: curved-and-centered
+style: High-Key-Pureness
+reuse: Ideal for mists, perfumes, or clinical skincare emphasizing purity, lightness, and freshness.
+prompt_seed: >
+  A professional high-end beauty shot of a frosted glass spray bottle 
+  held diagonally by a pale hand. The background is a seamless, 
+  bright white void. Soft diffused lighting creates a glowing 
+  effect through the frosted glass and gentle highlights on the 
+  skin of the shoulder. Minimalist, clean, serene, ultra-realistic, 
+  8k, high-end editorial beauty photography.

@@ -1,0 +1,19 @@
+category: skincare
+container_type: tube
+palette_product: ["#FFD700 golden-yellow", "#FFFFFF white"]
+palette_scene: ["#00BFFF deep-sky-blue", "#FFA500 orange"]
+color_temperature: warm
+placement: upright-center
+camera_angle: eye-level
+product_scale: 40% of frame height
+props: [orange-pingpong-paddle, yellow-pingpong-balls, grid-surface]
+lighting_quality: high-contrast-outdoor, direct-sun, bright-lens-flare
+key_direction: direct sunlight, high-angle
+shadow_type: hard-edged, high contrast
+background_type: sky-horizon with blue-sky and wispy-clouds
+surface: beige surface with orange grid lines
+layout_archetype: dynamic-symmetry
+negative_space: 40% active space
+mood: high-energy, active, vivid, summer-vibe, energetic
+concept_idea: High-energy sports beauty shot combining clinical sun-protection with a dynamic ping-pong aesthetic under a bright summer sky.
+prompt_seed: A dynamic shot of two yellow-orange product tubes standing on a beige surface with orange grid lines. An orange ping-pong paddle enters diagonally from the top, with yellow balls floating around. Vivid blue sky background with a bright lens flare. High contrast, energetic summer vibe.

@@ -1,0 +1,56 @@
+id: R072
+file: R072_skincare_theordinary_clinical-glassware.jpg
+
+brand: The Ordinary
+product_name: Hyaluronic Acid 2% + B5
+category: skincare
+subcategory: serum
+container_type: frosted_glass_bottle
+container_material: frosted-glass
+label_style: clinical_white_minimalist
+
+palette_product: ["#FFFFFF white", "#000000 black"]
+palette_scene: ["#E0F7FA pale-blue", "#FFFFFF white", "#FFBF00 amber-liquid"]
+color_temperature: cool
+contrast: medium
+saturation: low
+accent_color: #FFBF00
+
+placement: upright-center
+camera_angle: high-angle
+depth_of_field: medium
+focus: sharp on label
+
+props:
+  - complex-glass-tubing (spiral coils, connectors)
+  - Erlenmeyer-flasks (with clear liquid and bubbles)
+  - cylindrical-glass-vessel (with layered amber liquid)
+
+lighting:
+  type: bright-diffused-studio
+  source: overhead
+  effect: crisp-specular-highlights-on-glass
+
+background:
+  type: seamless-gradient
+  elements: [sterile-environment]
+  color: #E0F7FA
+
+composition:
+  style: clinical-science-framing
+  framing: organic-glassware-border
+  dynamic: stable-and-precise
+
+typography:
+  style: bold-serif-and-sans-serif-black
+  layout: structured-pharmaceutical
+
+style: Clinical-Science-Luxury
+reuse: Ideal for "science-backed" skincare, pharmacy-grade products, or any item wanting to emphasize purity and formulation integrity.
+
+prompt_seed: >
+  A high-angle studio shot of a frosted white glass bottle centered among 
+  complex clear glass laboratory equipment, including spiral condensers, 
+  beakers, and flasks. The glassware contains clear liquids with tiny air 
+  bubbles. Soft, light blue background. Bright diffused lighting creating 
+  clean reflections on the glass. 8K, hyper-realistic, sterile clinical aesthetic.

@@ -1,0 +1,86 @@
+id: R005
+file: R005_skincare_skin1004_hero-center-botanical.jpg
+
+# --- 1. PRODUCT IDENTITY ---
+brand: SKIN1004
+product_name: Madagascar Centella Ampoule
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: amber_glass
+label_style: minimal_white_typographic
+
+# --- 2. COLOR ---
+palette_product: ["#C68A4B amber glass", "#E8C86A golden serum", "#FFFFFF white label"]
+palette_scene: ["#F3E6C8 warm cream", "#D4A050 golden yellow"]
+color_temperature: warm
+contrast: low
+saturation: medium
+accent_color: leaf_green
+
+# --- 3. PLACEMENT & CAMERA ---
+placement: upright_centered
+camera_angle: low_angle
+product_scale: closeup
+depth_of_field: shallow
+product_count: 1
+
+# --- 4. PROPS & VFX ---
+props: [centella_leaf]
+prop_placement: "single leaf lower-left, curving toward bottle"
+vfx: [dew_droplets]
+human_presence: none
+
+# --- 5. LIGHTING ---
+lighting_quality: soft_diffused
+key_direction: front_left_45
+rim_light: subtle_warm
+fill: high
+shadow_type: soft_short
+light_temperature_k: 4000
+
+# --- 6. BACKGROUND & SURFACE ---
+background_type: seamless_gradient
+background_color: warm_cream_to_gold
+gradient_direction: top_light_to_bottom_dark
+surface: glossy_reflective
+reflection: soft_mirror
+
+# --- 7. COMPOSITION & LAYOUT ---
+layout_archetype: hero_center_pedestal
+crop: medium_tight
+negative_space: top
+symmetry: symmetrical
+aspect_ratio: "4:5"
+
+# --- 8. TYPOGRAPHY & COPY ---
+has_text: false
+text_zones: []
+script_direction: n/a
+
+# --- 9. STYLE & MOOD ---
+render_style: photoreal_studio
+post_processing: clean
+mood: "botanical, clinical-calm, natural luxury"
+season_occasion: none
+
+# --- 10. REUSE / RETRIEVAL ---
+concept_idea: "Ingredient placed physically beside bottle — proving natural origin, centella as hero."
+fits_product_types: [serum, ampoule, oil, essence]
+fits_container: [dropper_bottle, glass_bottle]
+swap_difficulty: easy
+strength: "ingredient storytelling + premium simplicity"
+avoid_if: "opaque plastic, busy multi-color packaging"
+
+# --- 11. PROMPT SEED ---
+prompt_seed: >
+  Studio product photograph of {PRODUCT} standing upright, centered, low-angle,
+  on a curved reflective amber surface with soft mirror reflection.
+  Fresh centella leaf at lower-left base curving toward the bottle.
+  Seamless warm cream-to-gold gradient background, soft diffused key from
+  upper-left 45°, subtle warm rim on bottle edge, shallow depth of field
+  with bokeh highlights. Clean glossy commercial retouching, photoreal, 4:5.
+negative_prompt: "harsh shadows, cluttered props, cool tones, text, watermark, distorted label"
+
+emoji: 🌿
+notes_fa: "برگ سنتلا کنار بطری کهربایی — اثبات منشأ طبیعی."

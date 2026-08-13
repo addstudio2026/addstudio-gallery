@@ -1,0 +1,173 @@
+# ==========================================================
+# FORENSIC PRODUCT PHOTOGRAPHY TAGGER — REFERENCE BREAKDOWN
+# ==========================================================
+
+product_identity:
+  id: R068
+  file: skintific_acne_clay_cleanser_lab_scene.jpg
+  brand: SKINTIFIC
+  product_name: "Acne Control Clay Cleanser — 2% Salicylic Acid, 2 IN 1 Cleanser & Mask"
+  category: skincare
+  subcategory: face_cleanser_clay_mask_hybrid
+  container_type: squeeze_tube_flat_oval_stand_up_cap
+  container_material: matte_soft_touch_plastic_with_metallic_silver_upper_panel
+  label_style: >
+    Bi-tonal vertical split label: brushed-silver/chrome gradient upper 55% carrying
+    the brand wordmark in condensed geometric sans (uppercase, wide letter-spacing,
+    dark charcoal), descriptor line in light-weight sans below; lower 45% is pale
+    mint-green flat panel. A pill-shaped mint capsule badge holds "2% Salicylic Acid"
+    in green. Thin hairline rules divide info blocks. Bottom third shows three
+    circular monoline pictogram icons in thin-stroke green with micro-caption
+    labels beneath. Clinical-pharma aesthetic, high whitespace, no gloss varnish.
+
+color:
+  palette_product:
+    - ["#C9CFCB", "brushed_silver_grey"]
+    - ["#E4EDE2", "pale_mint_white"]
+    - ["#A8D5A2", "soft_leaf_green"]
+    - ["#4E8B4A", "deep_botanical_green"]
+    - ["#3A3F3C", "charcoal_type_grey"]
+    - ["#7FBF7A", "cap_mint_green"]
+  palette_scene:
+    - ["#EAF3EA", "diffused_lab_white_green"]
+    - ["#43B03B", "vivid_liquid_chlorophyll_green"]
+    - ["#8FD98A", "translucent_glass_green"]
+    - ["#C3D4C6", "cool_glass_edge_grey"]
+    - ["#F4F9F3", "highlight_blown_white"]
+    - ["#9EA9A3", "chrome_riser_grey"]
+  color_temperature: cool_neutral_5600K
+  contrast: medium
+  saturation: medium_high_selective_green
+  accent_color: "#43B03B vivid chlorophyll green (liquid in glassware)"
+
+placement_camera:
+  placement: upright_center_elevated_on_chrome_pedestal_slight_left_lean_2deg
+  camera_angle: eye_level_with_marginal_low_tilt_5deg_upward
+  product_scale: "38% of frame height (y≈285px–715px of 1104px)"
+  depth_of_field: shallow_to_medium_f2.8_equiv_product_plane_sharp_foreground_glass_heavily_defocused
+  product_count: 1
+
+props_vfx:
+  props:
+    - polished_chrome_cube_pedestal
+    - three_erlenmeyer_flasks_with_green_liquid
+    - two_slim_test_tubes_in_wire_rack_with_green_liquid
+    - tall_graduated_measuring_cylinder_with_printed_scale
+    - overhead_angled_glass_pipette_tube_top_left
+    - chrome_wire_rack_frame_right
+    - beaker_partially_cropped_left_mid
+  prop_placement:
+    top_left: "angled glass pipette/tube entering frame at -35deg, defocused, green fill"
+    upper_right: "graduated cylinder with '4b' scale markings, vertical, partially cropped, mid-blur"
+    right_mid: "two test tubes in chrome wire rack, tops at product mid-height, behind product plane"
+    left_mid: "cropped erlenmeyer flask and beaker rim at product base level, defocused"
+    foreground_bottom_left: "large erlenmeyer flask, heavy bokeh, occupies lower-left 30%"
+    foreground_bottom_right: "second large erlenmeyer flask + cylinder, heavy bokeh, occupies lower-right 30%"
+    center_base: "chrome cube pedestal, top face at y≈730px, sharp specular edges"
+  vfx:
+    - refraction_distortion_through_glassware
+    - specular_chrome_highlights_on_pedestal_edges
+    - foreground_bokeh_frame_vignette
+    - subtle_atmospheric_haze_upper_background
+    - liquid_meniscus_curves
+    - no_particles_no_splash
+  human_presence: none
+
+lighting:
+  lighting_quality: soft_diffused_studio_large_source_scientific_clean
+  key_direction: upper_front_left_approx_40deg_elevation_25deg_azimuth
+  rim_light: "cool white edge along tube right contour and cap shoulder; bright specular strip down chrome pedestal vertical edge"
+  fill: high_fill_ratio_1_to_1.5_broad_white_bounce_from_front_and_right_minimal_shadow_density
+  shadow_type: soft_short_contact_shadow_under_tube_on_chrome_plus_soft_gradient_falloff_no_hard_edges
+  light_temperature_k: 5600K
+  background_light: single hotspot flagged to upper-left creating radial falloff
+
+background_surface:
+  background_type: seamless_gradient_soft_studio_void_with_out_of_focus_lab_glass
+  background_color: "#EAF3EA"
+  gradient_direction: radial_center_bright_falling_to_soft_green_grey_at_corners
+  surface: polished_chrome_mirror_cube_top_face
+  reflection: sharp_mirror_on_chrome_pedestal_edges_with_soft_diffused_underside_reflection_of_tube
+
+composition_layout:
+  layout_archetype: hero_center_pedestal_lab_bokeh_frame
+  crop: medium_vertical_full_product_with_environmental_context
+  negative_space: upper_third_open_clean_gradient_for_headline_copy
+  symmetry: near_symmetrical_center_axis_with_asymmetrical_prop_weighting
+  aspect_ratio: "2:3 (736x1104)"
+
+typography_copy:
+  has_text: true
+  text_zones:
+    - "product_label_upper: brand wordmark 'SKINTIFIC' centered on silver panel"
+    - "product_label_upper_sub: 'Acne control Clay Cleanser' beneath wordmark"
+    - "product_label_mid: mint pill badge '2% Salicylic Acid' + micro line 'Mugwort, Centella, Ceramides'"
+    - "product_label_lower: '2 IN 1 Cleanser & Mask' / 'Product Efficacy' with rule lines"
+    - "product_label_bottom: three icon captions in 4pt-equivalent micro type"
+    - "prop_text: graduated cylinder scale numerals and '4b' marking, upper right"
+    - "scene_watermark: faint mark top-left corner"
+  script_direction: left-to-right
+
+style_mood:
+  render_style: photoreal_3d_visualization_studio_hybrid
+  post_processing: clean_editorial_high_key_slight_green_grade_lifted_blacks
+  mood: [clinical, fresh, scientific, pure, botanical]
+  season_occasion: year_round_derma_science_campaign
+
+reuse_retrieval:
+  concept_idea: >
+    A dermatological cleanser is presented as a laboratory specimen — elevated on a
+    polished chrome plinth inside a bright glassware lab where chlorophyll-green
+    solutions bokeh around it, framing efficacy as proven science.
+  fits_product_types:
+    - acne_serums
+    - ampoules
+    - clinical_toners
+    - derma_moisturizers
+    - scalp_tonics
+    - vitamin_c_boosters
+  fits_container:
+    - squeeze_tube
+    - dropper_bottle
+    - slim_cylindrical_bottle
+    - airless_pump
+    - small_jar_on_pedestal
+  swap_difficulty: medium
+  strength: "Foreground glassware bokeh frame + chrome pedestal creating a credible lab-science stage without clutter"
+  avoid_if: >
+    Product is warm-toned, indulgent/luxury-fragrance, natural-organic-rustic, or
+    requires texture-swatch storytelling; green cast will contaminate neutral packaging.
+
+prompt_seed:
+  prompt_seed: >
+    Photoreal studio product visualization of the product standing upright and perfectly
+    centered on a polished chrome mirror cube pedestal inside a bright, high-key laboratory
+    set, camera at eye level with a marginal 5-degree upward tilt, product occupying roughly
+    38 percent of the frame height in a 2:3 vertical crop. The environment is a seamless
+    radial gradient of pale lab white-green (#EAF3EA) brightening behind the product and
+    falling to cool green-grey at the corners. Surround the hero with scientific glassware:
+    two large erlenmeyer flasks filled with vivid chlorophyll-green liquid (#43B03B) sitting
+    heavily out of focus in the lower-left and lower-right foreground to form a bokeh frame,
+    two slim test tubes of green solution in a chrome wire rack at mid-right just behind the
+    product plane, a tall graduated measuring cylinder with printed scale numerals cropped at
+    upper right, and an angled glass pipette entering the frame from the top left at minus
+    35 degrees, all softly defocused. Lighting is soft diffused studio from a large source at
+    upper-front-left, roughly 40 degrees elevation and 25 degrees azimuth, at 5600K, with a
+    high 1:1.5 fill ratio from broad white bounce, cool white rim light tracing the right
+    contour of the product and a crisp specular strip down the vertical chrome edge of the
+    pedestal, and only a short soft contact shadow beneath the product with a soft mirrored
+    underside reflection on the chrome top face. Depth of field is shallow-to-medium at an
+    f/2.8 equivalent, with the product label razor sharp and all glassware rendered in creamy
+    refractive bokeh. Palette is restrained cool neutral: brushed silver, pale mint white,
+    soft leaf green and deep botanical green on the product against selective vivid green
+    accents in the liquids. Keep the upper third as clean negative space for headline copy.
+    Post-processing is clean editorial with lifted blacks, a subtle green grade, medium
+    contrast and no heavy vignette. Mood: clinical, fresh, scientific, pure, botanical.
+  negative_prompt: >
+    warm tungsten cast, orange or amber tones, harsh direct sun, hard-edged black shadows,
+    dark or moody background, wooden or stone surfaces, fabric drapery, flowers, leaves,
+    water splashes, cream swatches, glitter or particles, human hands or skin, cluttered
+    props, multiple duplicate products, tilted dutch angle, heavy vignette, film grain,
+    lens flare, text overlays or graphic badges added to the background, low resolution,
+    plastic-looking CGI artifacts, distorted or unreadable label typography, fisheye
+    distortion, oversaturated neon, HDR halos.

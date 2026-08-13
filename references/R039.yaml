@@ -1,0 +1,72 @@
+id: R039
+file: R039_packing_design_neo-minimalism.jpg
+
+brand: HIJI-12 x NEKO.ART
+product_name: Moisturizing & Soothing Serum
+category: skincare
+subcategory: serum
+container_type: dropper_bottle
+container_material: frosted_glass_gradient
+
+palette_product: ["#FF8C00 bright orange", "#F5F5DC cream"]
+palette_scene: ["#F5F5DC beige", "#FFFFFF white", "#FF4500 saturated orange"]
+color_temperature: warm
+contrast: medium
+saturation: vivid
+accent_color: orange
+
+placement: centered_on_geometric_stairs
+camera_angle: slightly_high_angle
+product_scale: medium
+depth_of_field: medium
+product_count: 1
+
+props: [geometric_stairs, circular_disc, stylized_orange_leaves]
+prop_placement: "product on top step, large disc behind, leaves to the left"
+vfx: [caustic_reflections_on_floor, soft_glow]
+human_presence: none
+
+lighting_quality: soft_diffused
+key_direction: upper_left
+rim_light: subtle_warm
+fill: high
+shadow_type: soft_ambient
+light_temperature_k: 4000
+
+background_type: architectural_minimalist
+background_color: beige_monochrome
+gradient_direction: radial_soft
+surface: matte_beige
+reflection: subtle_caustics
+
+layout_archetype: architectural_pedestal
+crop: medium
+negative_space: balanced
+symmetry: asymmetrical
+aspect_ratio: "4:5"
+
+has_text: true
+text_zones: ["top_left_headline", "top_right_branding"]
+
+render_style: 3d_product_visualization
+post_processing: clean_editorial
+mood: "modern, sophisticated, stable, high-design"
+season_occasion: professional_showcase
+
+concept_idea: "Neo-minimalism using architectural geometric elements and a warm monochromatic palette to present the product as a piece of modern art."
+fits_product_types: [serum, essence, luxury_oil]
+fits_container: [dropper_bottle, cylindrical_bottle]
+swap_difficulty: easy
+strength: "geometric stairs + circular halo + warm monochromatic palette"
+avoid_if: "dark moody tones, organic chaotic backgrounds, low-contrast lighting"
+
+prompt_seed: >
+  3D render of {PRODUCT} resting on a set of white minimalist geometric stairs. 
+  Large cream-colored circular disc backdrop, saturated orange stylized leaves to the side. 
+  Beige monochromatic environment, soft diffused lighting from upper-left, 
+  subtle caustic reflections on floor. Neo-minimalist architectural composition, 
+  4k, high-end product visualization, 4:5 vertical.
+negative_prompt: "cluttered, dark tones, organic chaos, harsh shadows, blurry, watermark"
+
+emoji: 🏛️
+notes_fa: "نئو-مینیمالیسم با المان‌های معماری و پالت گرم تک‌رنگ — محصول به عنوان یک اثر هنری مدرن."

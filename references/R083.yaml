@@ -1,0 +1,56 @@
+id: R083
+file: R083_skincare_korff_orange-geometric.jpg
+
+brand: KORFF
+product_name: Sun Science Range
+category: skincare
+subcategory: sun-protection
+container_type: mixed (bottles and tubes)
+container_material: glass-and-plastic
+label_style: clean-white-minimalist
+
+palette_product: ["#FFFFFF white", "#FF8C00 orange", "#000000 black"]
+palette_scene: ["#FF8C00 matte-orange", "#FFD700 translucent-orange"]
+color_temperature: warm
+contrast: high (due to sharp shadows)
+saturation: vivid
+accent_color: #FFFFFF
+
+placement: scattered-layered
+camera_angle: high-angle
+depth_of_field: deep (all products in focus)
+focus: sharp across the group
+
+props:
+  - circular-translucent-orange-glass-plates (varying sizes)
+  - orange-glass-bowl
+
+lighting:
+  type: strong-directional-studio
+  source: upper-left
+  effect: sharp-diagonal-shadows
+
+background:
+  type: solid-matte
+  elements: [monochromatic-orange-void]
+  color: #FF8C00
+
+composition:
+  style: layered-monochromatic-geometry
+  framing: non-linear-balanced
+  dynamic: architectural-and-static
+
+typography:
+  style: bold-black-sans-serif
+  layout: structured-commercial
+
+style: Vibrant-Orange-Geometric
+reuse: Ideal for sun-care lines, summer-themed campaigns, or any product wanting to convey energy and modern structure.
+
+prompt_seed: >
+  A high-angle studio shot of multiple skincare products (bottles and tubes) 
+  arranged on a bright orange matte background. The products are placed 
+  on various circular translucent orange glass discs of different sizes, 
+  creating a layered effect. Strong directional lighting from the upper-left 
+  casting sharp diagonal shadows. Monochromatic orange palette. 
+  8K, hyper-realistic, architectural and vibrant aesthetic.

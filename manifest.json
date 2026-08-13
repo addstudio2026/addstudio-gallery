@@ -1,0 +1,730 @@
+[
+  {
+    "id": "R001",
+    "url": "https://picsum.photos/seed/R001/600/750",
+    "brand": "MIIXIT",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Water Bomb Face Serum"
+  },
+  {
+    "id": "R002",
+    "url": "https://picsum.photos/seed/R002/600/600",
+    "brand": "O'GULIA",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Amino Acid Skincare Line"
+  },
+  {
+    "id": "R003",
+    "url": "https://picsum.photos/seed/R003/600/750",
+    "brand": "unknown",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Hand Cream Glowing Amber"
+  },
+  {
+    "id": "R004",
+    "url": "https://picsum.photos/seed/R004/600/600",
+    "brand": "O'GULIA",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Amino Acid Purifying Facial Cleanser"
+  },
+  {
+    "id": "R005",
+    "url": "https://picsum.photos/seed/R005/600/750",
+    "brand": "SKIN1004",
+    "category": "skincare",
+    "mood": "natural-botanical",
+    "style": "Madagascar Centella Ampoule"
+  },
+  {
+    "id": "R006",
+    "url": "https://picsum.photos/seed/R006/600/600",
+    "brand": "unknown",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Hand Cream Glow Me"
+  },
+  {
+    "id": "R007",
+    "url": "https://picsum.photos/seed/R007/600/750",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "R007"
+  },
+  {
+    "id": "R008",
+    "url": "https://picsum.photos/seed/R008/600/600",
+    "brand": "more&core",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "SPF50+ Sunstick + Serum"
+  },
+  {
+    "id": "R009",
+    "url": "https://picsum.photos/seed/R009/600/750",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "R009"
+  },
+  {
+    "id": "R010",
+    "url": "https://picsum.photos/seed/R010/600/600",
+    "brand": "Ole Henriksen",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "Banana Bright+ Eye Creme"
+  },
+  {
+    "id": "R011",
+    "url": "https://picsum.photos/seed/R011/600/750",
+    "brand": "SKIN1004",
+    "category": "skincare",
+    "mood": "moody-dramatic",
+    "style": "Madagascar Centella Ampoule"
+  },
+  {
+    "id": "R012",
+    "url": "https://picsum.photos/seed/R012/600/600",
+    "brand": "La Roche-Posay",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "Vitamin C12 Serum"
+  },
+  {
+    "id": "R013",
+    "url": "https://picsum.photos/seed/R013/600/750",
+    "brand": "Clarins",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "SPF30 Youth-protecting Sunscreen"
+  },
+  {
+    "id": "R014",
+    "url": "https://picsum.photos/seed/R014/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "R014"
+  },
+  {
+    "id": "R015",
+    "url": "https://picsum.photos/seed/R015/600/750",
+    "brand": "HIJI x NEKO.ART",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Amino Acid Cleansing + Essence + Serum Line"
+  },
+  {
+    "id": "R016",
+    "url": "https://picsum.photos/seed/R016/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "R016"
+  },
+  {
+    "id": "R017",
+    "url": "https://picsum.photos/seed/R017/600/750",
+    "brand": "O'GULIA",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Clarifying & Softened Facial Cleanser"
+  },
+  {
+    "id": "R018",
+    "url": "https://picsum.photos/seed/R018/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "R018"
+  },
+  {
+    "id": "R019",
+    "url": "https://picsum.photos/seed/R019/600/750",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel-Cleanser"
+  },
+  {
+    "id": "R020",
+    "url": "https://picsum.photos/seed/R020/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Toner Seboregulating"
+  },
+  {
+    "id": "R021",
+    "url": "https://picsum.photos/seed/R021/600/750",
+    "brand": "HSYSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel-Cream"
+  },
+  {
+    "id": "R022",
+    "url": "https://picsum.photos/seed/R022/600/600",
+    "brand": "Lá farrer",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "Sunscreen"
+  },
+  {
+    "id": "R023",
+    "url": "https://picsum.photos/seed/R023/600/750",
+    "brand": "Lá farrer",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Sunscreen"
+  },
+  {
+    "id": "R024",
+    "url": "https://picsum.photos/seed/R024/600/600",
+    "brand": "Lá farrer",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Anti Aging + SPF30 + Brightening Line"
+  },
+  {
+    "id": "R025",
+    "url": "https://picsum.photos/seed/R025/600/750",
+    "brand": "Lá fanerri",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Anti Spot Sunscreen SPF40+ Tinted Bronze"
+  },
+  {
+    "id": "R026",
+    "url": "https://picsum.photos/seed/R026/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel‑Cleanser"
+  },
+  {
+    "id": "R027",
+    "url": "https://picsum.photos/seed/R027/600/750",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Moisturizer"
+  },
+  {
+    "id": "R028",
+    "url": "https://picsum.photos/seed/R028/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Acnes 0% Oil Gel-Cream Moisturizer"
+  },
+  {
+    "id": "R029",
+    "url": "https://picsum.photos/seed/R029/600/750",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel-Cream"
+  },
+  {
+    "id": "R030",
+    "url": "https://picsum.photos/seed/R030/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel-Cream"
+  },
+  {
+    "id": "R031",
+    "url": "https://picsum.photos/seed/R031/600/750",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel‑Cream"
+  },
+  {
+    "id": "R032",
+    "url": "https://picsum.photos/seed/R032/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel‑Cream"
+  },
+  {
+    "id": "R033",
+    "url": "https://picsum.photos/seed/R033/600/750",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel‑Cream"
+  },
+  {
+    "id": "R034",
+    "url": "https://picsum.photos/seed/R034/600/600",
+    "brand": "SYNSKIN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acnes Gel‑Cream"
+  },
+  {
+    "id": "R035",
+    "url": "https://picsum.photos/seed/R035/600/750",
+    "brand": "ONE POSE",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "Ultra Smart Pro-Collagen Evening Eye Cream"
+  },
+  {
+    "id": "R036",
+    "url": "https://picsum.photos/seed/R036/600/600",
+    "brand": "Venus",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Aqua24 Deep Moisturizing Cream"
+  },
+  {
+    "id": "R037",
+    "url": "https://picsum.photos/seed/R037/600/750",
+    "brand": "Lá farrerr",
+    "category": "skincare",
+    "mood": "warm-intimate",
+    "style": "R037"
+  },
+  {
+    "id": "R038",
+    "url": "https://picsum.photos/seed/R038/600/600",
+    "brand": "Lá farrerr",
+    "category": "skincare",
+    "mood": "natural-botanical",
+    "style": "Daily Defense Cream (Shades 01-06)"
+  },
+  {
+    "id": "R039",
+    "url": "https://picsum.photos/seed/R039/600/750",
+    "brand": "HIJI-12 x NEKO.ART",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Moisturizing & Soothing Serum"
+  },
+  {
+    "id": "R040",
+    "url": "https://picsum.photos/seed/R040/600/600",
+    "brand": "Herborist",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R040"
+  },
+  {
+    "id": "R041",
+    "url": "https://picsum.photos/seed/R041/600/750",
+    "brand": "Spēs",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R041"
+  },
+  {
+    "id": "R042",
+    "url": "https://picsum.photos/seed/R042/600/600",
+    "brand": "Dr. ALVA",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R042"
+  },
+  {
+    "id": "R043",
+    "url": "https://picsum.photos/seed/R043/600/750",
+    "brand": "AHC",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R043"
+  },
+  {
+    "id": "R044",
+    "url": "https://picsum.photos/seed/R044/600/600",
+    "brand": "anua",
+    "category": "skincare",
+    "mood": "natural-botanical",
+    "style": "R044"
+  },
+  {
+    "id": "R045",
+    "url": "https://picsum.photos/seed/R045/600/750",
+    "brand": "Dr. Jart+",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R045"
+  },
+  {
+    "id": "R046",
+    "url": "https://picsum.photos/seed/R046/600/600",
+    "brand": "One leaf",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "unknown"
+  },
+  {
+    "id": "R047",
+    "url": "https://picsum.photos/seed/R047/600/750",
+    "brand": "VIRA",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "Sunscreen Cream"
+  },
+  {
+    "id": "R049",
+    "url": "https://picsum.photos/seed/R049/600/750",
+    "brand": "Torriden",
+    "category": "skincare",
+    "mood": "playful-fun",
+    "style": "Dive In Serum"
+  },
+  {
+    "id": "R050",
+    "url": "https://picsum.photos/seed/R050/600/600",
+    "brand": "LA ROCHE-POSAY",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Hyalu B5 Eye Serum"
+  },
+  {
+    "id": "R052",
+    "url": "https://picsum.photos/seed/R052/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "R052"
+  },
+  {
+    "id": "R058",
+    "url": "https://picsum.photos/seed/R058/600/600",
+    "brand": "Unknown",
+    "category": "beauty",
+    "mood": "clinical-fresh",
+    "style": "R058"
+  },
+  {
+    "id": "R059",
+    "url": "https://picsum.photos/seed/R059/600/750",
+    "brand": "Unknown",
+    "category": "beauty",
+    "mood": "luxury-premium",
+    "style": "R059"
+  },
+  {
+    "id": "R060",
+    "url": "https://picsum.photos/seed/R060/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R060"
+  },
+  {
+    "id": "R061",
+    "url": "https://picsum.photos/seed/R061/600/750",
+    "brand": "Unknown",
+    "category": "beauty",
+    "mood": "clinical-fresh",
+    "style": "R061"
+  },
+  {
+    "id": "R062",
+    "url": "https://picsum.photos/seed/R062/600/600",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "playful-fun",
+    "style": "R062"
+  },
+  {
+    "id": "R067",
+    "url": "https://picsum.photos/seed/R067/600/750",
+    "brand": "Unknown",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "R067"
+  },
+  {
+    "id": "R068",
+    "url": "https://picsum.photos/seed/R068/600/600",
+    "brand": "SKINTIFIC",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Acne Control Clay Cleanser — 2% Salicylic Acid, 2 IN 1 Cleanser & Mask"
+  },
+  {
+    "id": "R072",
+    "url": "https://picsum.photos/seed/R072/600/600",
+    "brand": "The Ordinary",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Hyaluronic Acid 2% + B5"
+  },
+  {
+    "id": "R073",
+    "url": "https://picsum.photos/seed/R073/600/750",
+    "brand": "DOORDERMA",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "Barrier Repair Cream"
+  },
+  {
+    "id": "R074",
+    "url": "https://picsum.photos/seed/R074/600/600",
+    "brand": "Wild",
+    "category": "beauty",
+    "mood": "energetic-bold",
+    "style": "Refillable Deodorant"
+  },
+  {
+    "id": "R075",
+    "url": "https://picsum.photos/seed/R075/600/750",
+    "brand": "Dame bb",
+    "category": "beauty",
+    "mood": "unknown",
+    "style": "Baby's Multi-Care Nourishing Face Cream"
+  },
+  {
+    "id": "R076",
+    "url": "https://picsum.photos/seed/R076/600/600",
+    "brand": "SOULMAN",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Lactobionic Acid Pore-Reducing Essence"
+  },
+  {
+    "id": "R077",
+    "url": "https://picsum.photos/seed/R077/600/750",
+    "brand": "NYLAH",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Thrive Triple Action Hair Growth Serum"
+  },
+  {
+    "id": "R078",
+    "url": "https://picsum.photos/seed/R078/600/600",
+    "brand": "HYDRA-LUXE",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Hydrating Serum"
+  },
+  {
+    "id": "R079",
+    "url": "https://picsum.photos/seed/R079/600/750",
+    "brand": "TRTR",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Pink Toning Serum"
+  },
+  {
+    "id": "R080",
+    "url": "https://picsum.photos/seed/R080/600/600",
+    "brand": "Sunsilk",
+    "category": "beauty",
+    "mood": "energetic-bold",
+    "style": "Hair Care Range"
+  },
+  {
+    "id": "R081",
+    "url": "https://picsum.photos/seed/R081/600/750",
+    "brand": "fwee",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Spa Glowing Tone Up Base"
+  },
+  {
+    "id": "R082",
+    "url": "https://picsum.photos/seed/R082/600/600",
+    "brand": "LACOSTE",
+    "category": "beauty",
+    "mood": "luxury-premium",
+    "style": "Luxury Sport Fragrance"
+  },
+  {
+    "id": "R083",
+    "url": "https://picsum.photos/seed/R083/600/750",
+    "brand": "KORFF",
+    "category": "skincare",
+    "mood": "energetic-bold",
+    "style": "Sun Science Range"
+  },
+  {
+    "id": "R084",
+    "url": "https://picsum.photos/seed/R084/600/600",
+    "brand": "VICHY",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Minéral 89 Probiotic Fractions"
+  },
+  {
+    "id": "R085",
+    "url": "https://picsum.photos/seed/R085/600/750",
+    "brand": "VICHY",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Minéral 89 Probiotic Fractions"
+  },
+  {
+    "id": "R086",
+    "url": "https://picsum.photos/seed/R086/600/600",
+    "brand": "Innfree",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Ultra-Low Molecular Hyaluronic Acid Range"
+  },
+  {
+    "id": "R087",
+    "url": "https://picsum.photos/seed/R087/600/750",
+    "brand": "peach slices",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Smoothing Solution Ingrown Hair Treatment"
+  },
+  {
+    "id": "R088",
+    "url": "https://picsum.photos/seed/R088/600/600",
+    "brand": "glow stars",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Mixed Skincare Range"
+  },
+  {
+    "id": "R089",
+    "url": "https://picsum.photos/seed/R089/600/750",
+    "brand": "Qginese",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Anti-Wrinkle Revitalizing Essence"
+  },
+  {
+    "id": "R090",
+    "url": "https://picsum.photos/seed/R090/600/600",
+    "brand": "EMEISUO",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Skin Management Range"
+  },
+  {
+    "id": "R091",
+    "url": "https://picsum.photos/seed/R091/600/750",
+    "brand": "Dr.Eiffel+",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Relax Purify Foam Cleanser"
+  },
+  {
+    "id": "R092",
+    "url": "https://picsum.photos/seed/R092/600/600",
+    "brand": "glow stars",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Mixed Skincare Range"
+  },
+  {
+    "id": "R093",
+    "url": "https://picsum.photos/seed/R093/600/750",
+    "brand": "Qginese",
+    "category": "skincare",
+    "mood": "luxury-premium",
+    "style": "Anti-Wrinkle Revitalizing Essence"
+  },
+  {
+    "id": "R094",
+    "url": "https://picsum.photos/seed/R094/600/600",
+    "brand": "MIXIT",
+    "category": "skincare",
+    "mood": "natural-botanical",
+    "style": "Water Bomb Face Serum"
+  },
+  {
+    "id": "R095",
+    "url": "https://picsum.photos/seed/R095/600/750",
+    "brand": "L'Oréal Professionnel",
+    "category": "haircare",
+    "mood": "unknown",
+    "style": "Absolut Repair Shampoo"
+  },
+  {
+    "id": "R096",
+    "url": "https://picsum.photos/seed/R096/600/600",
+    "brand": "Scent of Jarte",
+    "category": "beauty",
+    "mood": "luxury-premium",
+    "style": "After Shower Hair & Body Mist"
+  },
+  {
+    "id": "R097",
+    "url": "https://picsum.photos/seed/R097/600/750",
+    "brand": "ForderM",
+    "category": "skincare",
+    "mood": "dreamy-ethereal",
+    "style": "Vit-C 20 Intensive Serum"
+  },
+  {
+    "id": "R098",
+    "url": "https://picsum.photos/seed/R098/600/600",
+    "brand": "naali",
+    "category": "beauty",
+    "mood": "energetic-bold",
+    "style": "Anti-Stress Vitamin C"
+  },
+  {
+    "id": "R099",
+    "url": "https://picsum.photos/seed/R099/600/750",
+    "brand": "Natural Cosmetic",
+    "category": "haircare",
+    "mood": "energetic-bold",
+    "style": "Natural Cosmetic Shampoo"
+  },
+  {
+    "id": "R100",
+    "url": "https://picsum.photos/seed/R100/600/600",
+    "brand": "Natural Cosmetic",
+    "category": "haircare",
+    "mood": "unknown",
+    "style": "Shampoo & Balm Duo"
+  },
+  {
+    "id": "R101",
+    "url": "https://picsum.photos/seed/R101/600/750",
+    "brand": "unknown",
+    "category": "skincare",
+    "mood": "moody-dramatic",
+    "style": "unknown"
+  },
+  {
+    "id": "R102",
+    "url": "https://picsum.photos/seed/R102/600/600",
+    "brand": "ILIA",
+    "category": "beauty",
+    "mood": "luxury-premium",
+    "style": "The Base Face Milk"
+  },
+  {
+    "id": "R103",
+    "url": "https://picsum.photos/seed/R103/600/750",
+    "brand": "unknown",
+    "category": "skincare",
+    "mood": "unknown",
+    "style": "Amber Set"
+  },
+  {
+    "id": "R104",
+    "url": "https://picsum.photos/seed/R104/600/600",
+    "brand": "CLOZ",
+    "category": "skincare",
+    "mood": "clinical-fresh",
+    "style": "Enzyme Powder"
+  },
+  {
+    "id": "R105",
+    "url": "https://picsum.photos/seed/R105/600/750",
+    "brand": "Custom",
+    "category": "skincare",
+    "mood": "natural-botanical",
+    "style": "Facial Oil"
+  }
+]

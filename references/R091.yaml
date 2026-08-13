@@ -1,0 +1,59 @@
+id: R091
+file: R091_skincare_dreiffel_surreal-cutout.jpg
+
+brand: Dr.Eiffel+
+product_name: Relax Purify Foam Cleanser
+category: skincare
+subcategory: cleanser
+container_type: squeeze_tube
+container_material: white-plastic
+label_style: clean-black-sans-serif
+
+palette_product: ["#FFFFFF white", "#000000 black"]
+palette_scene: ["#FF8C00 vivid-orange", "#F5F5DC cream-beige", "#FFFFFF white"]
+color_temperature: warm-neutral
+contrast: high (dual-tone contrast)
+saturation: vivid
+accent_color: #FF8C00
+
+placement: diagonal-held-by-hand
+camera_angle: eye-level
+depth_of_field: medium
+focus: sharp on product-tube
+
+props:
+  - circular-background-cutouts (holes in the wall)
+  - human-hands (emerging from holes)
+  - fluffy-white-foam (in cupped hand)
+  - clear-glass-sphere-with-bubbles (bottom-left)
+
+lighting:
+  type: soft-diffused-studio
+  source: upper-left
+  effect: gentle-shadows-around-cutouts
+
+background:
+  type: dual-tone-split
+  elements: [orange-half, cream-half]
+  color: #FF8C00
+
+composition:
+  style: surreal-dual-tone-interactivity
+  framing: circular-cutout-framing
+  dynamic: active-and-creative
+
+typography:
+  style: clean-black-sans-serif
+  layout: centered-branded
+
+style: Surreal-DualTone-Interactivity
+reuse: Ideal for "experience-based" skincare, innovative cleansers, or any brand wanting to show a direct "human-to-product" connection in a creative way.
+
+prompt_seed: >
+  A surreal studio shot divided vertically into two color blocks: vibrant 
+  orange on the left and soft cream-beige on the right. Two human hands 
+  emerge from circular cut-out holes in the background; one hand holds 
+  a white skincare tube diagonally, and the other holds a dollop of 
+  thick white foam. A clear glass sphere with bubbles sits in the bottom 
+  left. Soft diffused lighting, high contrast between orange and cream. 
+  8K, hyper-realistic, creative and modern aesthetic.

@@ -1,0 +1,44 @@
+id: R100
+file: R100_haircare_natural_symmetrical-dewy.jpg
+brand: Natural Cosmetic
+product_name: Shampoo & Balm Duo
+category: haircare
+subcategory: hair-set
+container_type: ergonomic-plastic-bottle
+container_material: light-green-opaque-plastic
+label_style: black-sans-serif-on-white
+palette_product: ["#C1E1C1 light-green", "#000000 black", "#FFFFFF white"]
+palette_scene: ["#FFFFFF white-void", "#FADADD skin-tone"]
+color_temperature: neutral
+contrast: medium-low
+saturation: medium-low
+accent_color: #C1E1C1
+placement: symmetrical-side-of-face
+camera_angle: tight-crop-portrait
+depth_of_field: shallow
+focus: sharp on product-labels-and-eyes
+props: [wet-skin-texture, water-droplets]
+lighting:
+  type: soft-diffused-studio
+  source: front-lighting
+  effect: dewy-skin-glow-and-soft-plastic-highlights
+background:
+  type: solid-white
+  elements: [white-void]
+  color: #FFFFFF
+composition:
+  style: symmetrical-skin-glow
+  framing: tight-crop-symmetrical
+  dynamic: balanced-and-serene
+typography:
+  style: clean-black-sans-serif
+  layout: centered-minimal
+style: Symmetrical-Dewy-Portrait
+reuse: Ideal for product sets (duos/trios) emphasizing harmony, completeness, and professional dermatological care.
+prompt_seed: >
+  A tight symmetrical portrait of a woman with wet, glistening skin 
+  and slicked-back hair, holding two identical light-green plastic 
+  haircare bottles on either side of her face. Bright soft studio 
+  lighting, seamless white background, high-end skin texture with 
+  water droplets. 8K, hyper-realistic, balanced and serene 
+  beauty composition.

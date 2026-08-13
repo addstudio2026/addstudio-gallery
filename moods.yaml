@@ -1,0 +1,61 @@
+# moods.yaml — controlled vocabulary for the gallery's mood filter chips.
+# Closed set: do NOT add a new slug without updating this file first
+# (otherwise the build script + UI chips will get out of sync).
+version: 1
+
+moods:
+  - slug: luxury-premium
+    label_en: Luxury & Premium
+    label_fa: لوکس و پرمیوم
+    accent: "#DEC28E"
+    keywords: [luxurious, luxury, premium, elegant, sophisticated, refined, high-design, opulent]
+
+  - slug: moody-dramatic
+    label_en: Moody & Dramatic
+    label_fa: تیره و دراماتیک
+    accent: "#5B4C68"
+    keywords: [moody, mysterious, editorial, shadow-play, power, dramatic, futuristic, dark, architectural]
+
+  - slug: clinical-fresh
+    label_en: Clinical & Fresh
+    label_fa: بالینی و تازه
+    accent: "#7FA8C9"
+    keywords: [clinical, fresh, pure, sterile, scientific, dermatological, hydrating, cleansing, weightless]
+
+  - slug: natural-botanical
+    label_en: Natural & Botanical
+    label_fa: طبیعی و گیاهی
+    accent: "#7A9B6E"
+    keywords: [natural, botanical, organic, earthy, skin-inclusive, harmony]
+
+  - slug: dreamy-ethereal
+    label_en: Dreamy & Ethereal
+    label_fa: رویایی و اثیری
+    accent: "#C9B8E8"
+    keywords: [dreamy, ethereal, airy, cloud-like, surreal, floating]
+
+  - slug: energetic-bold
+    label_en: Energetic & Bold
+    label_fa: پرانرژی و جسور
+    accent: "#D14E3A"
+    keywords: [energetic, "high-energy", dynamic, sporty, active, vivid, uplifting, bright, solar]
+
+  - slug: playful-fun
+    label_en: Playful & Fun
+    label_fa: بازیگوش و سرگرم‌کننده
+    accent: "#F2C94C"
+    keywords: [playful, cute, fun, "gen-z", "fashion-forward", "pop-art", tactile, "pop-art"]
+
+  - slug: warm-intimate
+    label_en: Warm & Intimate
+    label_fa: گرم و صمیمی
+    accent: "#C6A568"
+    keywords: [warm, intimate, calm, calming, gentle, cozy, ritual, soft, tender, serene, hydrating]
+
+  - slug: unknown
+    label_en: Unsorted
+    label_fa: نامشخص
+    accent: "#6A6770"
+    keywords: []     # never matched by keyword scoring — this is the honest fallback,
+                      # not a guess. Used when confidence would otherwise be too low.
+    default: true     # assigned when no keyword matches anything else (score = 0 for all)
